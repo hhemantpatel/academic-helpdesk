@@ -1,0 +1,340 @@
+name,department,email,courses
+(A Batch),Computer Science and Engineering,a.batch@iitj-dummy.ac.in,CSL1010
+(AIDE),School of Artificial Intelligence and Data Science,aide@iitj-dummy.ac.in,"AIL7320, AIL7310, AIL4070"
+(AIDE) Abhinaba Lahiri,School of Artificial Intelligence and Data Science,aide.abhinaba.lahiri@iitj-dummy.ac.in,"AIL7380, AIL7280"
+(AIDE) Anil Kumar Tiwari,School of Artificial Intelligence and Data Science,aide.anil.kumar.tiwari@iitj-dummy.ac.in,"AIT8970, AIT7010, AIT8990, AID4110, AIT8010"
+(AIDE) Bhivraj Suthar,School of Artificial Intelligence and Data Science,aide.bhivraj.suthar@iitj-dummy.ac.in,AIL7110
+(AIDE) Bikash Santra,School of Artificial Intelligence and Data Science,aide.bikash.santra@iitj-dummy.ac.in,AIL7370
+(AIDE) Debasis Das,School of Artificial Intelligence and Data Science,aide.debasis.das@iitj-dummy.ac.in,AIL3010
+(AIDE) Deeksha Varshney Divya Saxena,School of Artificial Intelligence and Data Science,aide.deeksha.varshney.divya.saxena@iitj-dummy.ac.in,AIL7260
+(AIDE) Dipanjan Roy,School of Artificial Intelligence and Data Science,aide.dipanjan.roy@iitj-dummy.ac.in,AIL7510
+(AIDE) Manish Aggarwal,School of Artificial Intelligence and Data Science,aide.manish.aggarwal@iitj-dummy.ac.in,AIL7430
+(AIDE) Manu Kanchan,School of Artificial Intelligence and Data Science,aide.manu.kanchan@iitj-dummy.ac.in,OAL7010
+(AIDE) Rajendra Nagar,School of Artificial Intelligence and Data Science,aide.rajendra.nagar@iitj-dummy.ac.in,AID7642
+(AIDE) S. Srivatsa Srinivas,School of Artificial Intelligence and Data Science,aide.s.srivatsa.srinivas@iitj-dummy.ac.in,"AIL6110, AIL7160"
+(AIDE) Shilpa Dang,School of Artificial Intelligence and Data Science,aide.shilpa.dang@iitj-dummy.ac.in,AIL7290
+(AIDE) Sidharth Ranjan,School of Artificial Intelligence and Data Science,aide.sidharth.ranjan@iitj-dummy.ac.in,AIL4080
+(AIDE) Subhash Bhagat,School of Artificial Intelligence and Data Science,aide.subhash.bhagat@iitj-dummy.ac.in,AID7720
+(AIDE)Akanksha Choudhary,School of Artificial Intelligence and Data Science,aide.akanksha.choudhary@iitj-dummy.ac.in,AIL6010
+(AIDE)Pranjal Protim Borah,School of Artificial Intelligence and Data Science,aide.pranjal.protim.borah@iitj-dummy.ac.in,AIL7060
+(AIDE)Vignesh Muralidharan,School of Artificial Intelligence and Data Science,aide.vignesh.muralidharan@iitj-dummy.ac.in,AIL7240
+(AIDE)Vignesh Muralidharan Dipanjan Roy,School of Artificial Intelligence and Data Science,aide.vignesh.muralidharan.dipanjan.roy@iitj-dummy.ac.in,"AIL4230, AIP4010"
+Aashish Mathur,Electronics Engineering,aashish.mathur@iitj-dummy.ac.in,"ECL7008, EEL7008"
+Abhay Gupta,Materials Engineering 00155-Abir,abhay.gupta@iitj-dummy.ac.in,MTP2030
+Abhishek Sarkar,Mathematics,abhishek.sarkar@iitj-dummy.ac.in,MAL3060
+Abhishek Sharma,Electronics Engineering,abhishek.sharma@iitj-dummy.ac.in,"ECL71590, ECP71610"
+Abir Bhattacharyya,Materials Engineering,abir.bhattacharyya@iitj-dummy.ac.in,"MTL7530, MTL2010"
+Abir Bhattacharyya Anurag Sharma,Materials Engineering,abir.bhattacharyya.anurag.sharma@iitj-dummy.ac.in,MTL2050
+Ajay Agarwal,Electrical Engineering,ajay.agarwal@iitj-dummy.ac.in,EEL3050
+Akanksha Choudhary,School of Liberal Arts (SoLA),akanksha.choudhary@iitj-dummy.ac.in,LAL6320
+Akolekar Harshal Deepak,Mechanical Engineering,akolekar.harshal.deepak@iitj-dummy.ac.in,"MEL7400, MEL7700"
+Akshay,Electronics Engineering,akshay@iitj-dummy.ac.in,"ECL7030, ECL71580"
+Akshay Gupta,Civil and Infrastructure Engineering,akshay.gupta@iitj-dummy.ac.in,"CIL4360, CIT7010"
+Alok Ranjan,School of Liberal Arts (SoLA),alok.ranjan@iitj-dummy.ac.in,LAL4070
+Alok Ranjan Suman Dhaka,School of Liberal Arts (SoLA),alok.ranjan.suman.dhaka@iitj-dummy.ac.in,LAL6050
+Aman Pathak,School of Management and Entrepreneurship,aman.pathak@iitj-dummy.ac.in,MSL73540
+Amandeep Kaur,Electronics Engineering,amandeep.kaur@iitj-dummy.ac.in,"ECL7980, ECT8950"
+Ambesh Dixit,Physics,ambesh.dixit@iitj-dummy.ac.in,"PHL2010, PHL2110, PHL4110, MAL7110"
+Ambuj Kumar Gautam,Mechanical Engineering,ambuj.kumar.gautam@iitj-dummy.ac.in,MEL7260
+Amit Bhardwaj,Electrical Engineering,amit.bhardwaj@iitj-dummy.ac.in,"EEL2010, EEL7010"
+Amit Kumar Mishra,Bioscience and Bioengineering,amit.kumar.mishra@iitj-dummy.ac.in,BBL7450
+Amit Kumar Rathi,Civil and Infrastructure Engineering,amit.kumar.rathi@iitj-dummy.ac.in,CIL7860
+Amit Mukherjee,Physics,amit.mukherjee@iitj-dummy.ac.in,"QCL7080, PHN2030"
+Amit Sharma Debanjan Guha Roy,Civil and Infrastructure Engineering,amit.sharma.debanjan.guha.roy@iitj-dummy.ac.in,CIL4010
+Amitava Banerjee,Materials Engineering,amitava.banerjee@iitj-dummy.ac.in,"MTL2030, MTL7170, MTN3010, MTD4010, MTL2014"
+Amitava Banerjee Srijan Sengupta,Materials Engineering,amitava.banerjee.srijan.sengupta@iitj-dummy.ac.in,MTL7270
+Amreen Kaur Bains,Chemistry,amreen.kaur.bains@iitj-dummy.ac.in,"CYL3030, CYQ6010"
+Amrita Puri,Mechanical Engineering,amrita.puri@iitj-dummy.ac.in,"MEL7240, MEN2020"
+Anand Krishnan Plappally,"Anil Kumar, Mechanical Arun Kumar Engineering R, Ashish Pathak,",anand.krishnan.plappally@iitj-dummy.ac.in,MEP1000
+Anand Mishra,Computer Science and Engineering,anand.mishra@iitj-dummy.ac.in,CSL1010
+Ananya Debnath,Chemistry,ananya.debnath@iitj-dummy.ac.in,CYL2120
+Angan Sengupta,Chemical Engineering,angan.sengupta@iitj-dummy.ac.in,"CHL3010, CHN2040, CHN1010"
+Angshuman Paul,Computer Science and Engineering,angshuman.paul@iitj-dummy.ac.in,"CSL7860, CSD7090"
+Anil Kumar Tiwari,Medical Technology Center,anil.kumar.tiwari@iitj-dummy.ac.in,SHL7020
+Ankita Sharma,School of Liberal Arts (SoLA),ankita.sharma@iitj-dummy.ac.in,"LAL2220, LAL2180"
+Ankur Gupta,Mechanical Engineering,ankur.gupta@iitj-dummy.ac.in,"MEL7270, ESN3010, ESP4070"
+Anoop Jain,Electrical Engineering,anoop.jain@iitj-dummy.ac.in,EEL3040
+Anuj Kumar,Mathematics,anuj.kumar@iitj-dummy.ac.in,MAL6130
+Anuj Pal Kapoor,School of Management and Entrepreneurship,anuj.pal.kapoor@iitj-dummy.ac.in,MSL73510
+Anupama Mohan,School of Liberal Arts (SoLA),anupama.mohan@iitj-dummy.ac.in,LAL3020
+Anurag Sharma,Materials Engineering,anurag.sharma@iitj-dummy.ac.in,"MTL7570, MTP7050, SST8995"
+Anurag Sharma Ravi Prakash Srivastava,Materials Engineering,anurag.sharma.ravi.prakash.srivastava@iitj-dummy.ac.in,MTL7580
+Anusha S. B.,Civil and Infrastructure Engineering,anusha.s.b@iitj-dummy.ac.in,"CIL7690, CIP2010"
+Anushka Joshi,Computer Science and Engineering,anushka.joshi@iitj-dummy.ac.in,"CSL2130, CSP2130"
+Appala Naidu Gandi,Materials Engineering,appala.naidu.gandi@iitj-dummy.ac.in,"MTL2030, MTL7410"
+Arani Ali Khan,Electrical Engineering,arani.ali.khan@iitj-dummy.ac.in,"EEL3010, ECL71610"
+Arpit Arvind Khandelwal,Electrical Engineering,arpit.arvind.khandelwal@iitj-dummy.ac.in,EEL3320
+Arun Kumar R,Mechanical Engineering,arun.kumar.r@iitj-dummy.ac.in,MEL7950
+Arun Kumar Singh,Electronics Engineering,arun.kumar.singh@iitj-dummy.ac.in,ECL7020
+Ashish Pathak,Mechanical Engineering,ashish.pathak@iitj-dummy.ac.in,MEL4040
+Atul Kumar,Chemistry,atul.kumar@iitj-dummy.ac.in,"CYL3150, CYL4060"
+Atul Kumar Sharma,Mechanical Engineering,atul.kumar.sharma@iitj-dummy.ac.in,"MEL7220, MEL7280"
+Awathare Nitin Niranjan,Computer Science and Engineering,awathare.nitin.niranjan@iitj-dummy.ac.in,CSL3050
+Ayan Sadhukhan,Bioscience and Bioengineering,ayan.sadhukhan@iitj-dummy.ac.in,"BBL7080, BBD7030"
+B M Krishna Mariserla,Physics,b.m.krishna.mariserla@iitj-dummy.ac.in,PHL3030
+Babu Ranjan Thakur,Mechanical Engineering,babu.ranjan.thakur@iitj-dummy.ac.in,"MEL2050, MEP2000"
+Balakumaran Chandrasekar,Bioscience and Bioengineering,balakumaran.chandrasekar@iitj-dummy.ac.in,"BBL7650, BBL7640, BBL4300"
+Bandi Ravi Kumar,Electrical Engineering,bandi.ravi.kumar@iitj-dummy.ac.in,"EEL7340, EEN2020"
+Barun Pratiher,Mechanical Engineering,barun.pratiher@iitj-dummy.ac.in,MEL4220
+Bharat Singh Rajpurohit,Electrical Engineering,bharat.singh.rajpurohit@iitj-dummy.ac.in,"EEL2340, EET7950, EET8950"
+Bhargab Chattopadhyay,School of Management and Entrepreneurship,bhargab.chattopadhyay@iitj-dummy.ac.in,MSL73300
+Bhargab Chattopadhyay Aman Pathak,School of Management and Entrepreneurship,bhargab.chattopadhyay.aman.pathak@iitj-dummy.ac.in,MSL73550
+Bhargab Chattopadhyay Deepak Srivastav,School of Management and Entrepreneurship,bhargab.chattopadhyay.deepak.srivastav@iitj-dummy.ac.in,MSL73200
+Bhaskar Kumar Kakati,School of Liberal Arts (SoLA),bhaskar.kumar.kakati@iitj-dummy.ac.in,"LAL1020, LAL3030, LAT8970, LAL6210"
+Bhattacharyya,Materials Engineering 00155-Abir,bhattacharyya@iitj-dummy.ac.in,MTP2030
+Bhivraj Suthar,Robotics and Mobility Systems,bhivraj.suthar@iitj-dummy.ac.in,RML7110
+Bhupendra Reniwal,Electronics Engineering,bhupendra.reniwal@iitj-dummy.ac.in,"ECL7320, EEL7320"
+Bhupendra Singh,Civil and Infrastructure Engineering,bhupendra.singh@iitj-dummy.ac.in,"CIL3010, CIT8990, CIT8960, CIT8980"
+Bhupendra Singh Subham Jain,Civil and Infrastructure Engineering,bhupendra.singh.subham.jain@iitj-dummy.ac.in,CIL4330
+Bikash Santra,Computer Science and Engineering,bikash.santra@iitj-dummy.ac.in,CSL3040
+Bimal Mandal,Mathematics,bimal.mandal@iitj-dummy.ac.in,"MAL6080, MAT7210, MAT8110, MAD7060"
+Binod Kumar,Electrical Engineering,binod.kumar@iitj-dummy.ac.in,"EEP3020, EEL7770, EEL71570"
+Brahadeesh Sankarnarayanan,Mathematics,brahadeesh.sankarnarayanan@iitj-dummy.ac.in,"MAL3040, MAL6150, MAL7060"
+Chandan Pandey,Mechanical Engineering,chandan.pandey@iitj-dummy.ac.in,"MEL3030, MEP3020"
+Chandana N,Center for Emerging Technologies for Sustainable Development,chandana.n@iitj-dummy.ac.in,"ETL7130, ETL7060"
+Debanjan Guha Roy,Civil and Infrastructure Engineering,debanjan.guha.roy@iitj-dummy.ac.in,CIL7900
+Debasmita Dwibedi,Materials Engineering,debasmita.dwibedi@iitj-dummy.ac.in,"MTL2011, MTP7040"
+Debasmita Dwibedi Abhay Gupta,Materials Engineering,debasmita.dwibedi.abhay.gupta@iitj-dummy.ac.in,MTL7510
+Debasmita Dwibedi Nitin Kumar Sharma,Materials Engineering,debasmita.dwibedi.nitin.kumar.sharma@iitj-dummy.ac.in,"MTP3070, MTP3050"
+Debasmita Dwibedi Ravi Prakash Srivastava,Materials Engineering,debasmita.dwibedi.ravi.prakash.srivastava@iitj-dummy.ac.in,MTL7590
+Deeksha Varshney Pratik Mazumder,Computer Science and Engineering,deeksha.varshney.pratik.mazumder@iitj-dummy.ac.in,CSL7610
+Deepak Kumar Saxena,School of Management and Entrepreneurship,deepak.kumar.saxena@iitj-dummy.ac.in,"MSL71040, MSL7190, MSL4010"
+Deepak Mishra,Computer Science and Engineering,deepak.mishra@iitj-dummy.ac.in,CSL7360
+Deepak Srivastav,School of Management and Entrepreneurship,deepak.srivastav@iitj-dummy.ac.in,"MSL73580, OAN7010"
+Deepak Swami,Civil and Infrastructure Engineering,deepak.swami@iitj-dummy.ac.in,CIL2070
+Deepakkumar Maganlal Fulwani,Electrical Engineering,deepakkumar.maganlal.fulwani@iitj-dummy.ac.in,EEL7150
+Devendra Singh Negi,Materials Engineering,devendra.singh.negi@iitj-dummy.ac.in,"MTL3010, MTP2030"
+Devi Prasad Dash,School of Management and Entrepreneurship,devi.prasad.dash@iitj-dummy.ac.in,MSL73070
+Dibyendu Kumar Sasmal Pragati Pandey,Chemistry,dibyendu.kumar.sasmal.pragati.pandey@iitj-dummy.ac.in,CYL1010
+Dilpreet Kaur,Mathematics,dilpreet.kaur@iitj-dummy.ac.in,"MAL7520, EDL2040"
+Dinesh Kumar Ahirwar,Bioscience and Bioengineering,dinesh.kumar.ahirwar@iitj-dummy.ac.in,BBL4040
+Dinesh Mohan Joshi,School of Liberal Arts (SoLA),dinesh.mohan.joshi@iitj-dummy.ac.in,"LAL1140, MSL1010, LAL7960, LAN7020"
+Dip Sankar Banerjee,Computer Science and Engineering,dip.sankar.banerjee@iitj-dummy.ac.in,"CSL2120, CSL2020, CSP2030, ESN1010"
+Divya Saxena Hardik Jain,Computer Science and Engineering,divya.saxena.hardik.jain@iitj-dummy.ac.in,CSL2010
+Durgamadhab Mishra,Physics,durgamadhab.mishra@iitj-dummy.ac.in,"PHL2031, PHL1110"
+Dushyant Kumar,Physics,dushyant.kumar@iitj-dummy.ac.in,"PHL6170, PHP3020"
+Dweepobotee Brahma,School of Artificial Intelligence and Data Science,dweepobotee.brahma@iitj-dummy.ac.in,"AIL7320, AIL7310"
+Falak Vats,Civil and Infrastructure Engineering,falak.vats@iitj-dummy.ac.in,CIN1010
+Farhat Naz,School of Liberal Arts (SoLA),farhat.naz@iitj-dummy.ac.in,"LAL7420, LAL3060"
+Gagan Vikram Kewalramani,Mechanical Engineering,gagan.vikram.kewalramani@iitj-dummy.ac.in,"MEL2040, MEP1000"
+Gangawane Krunal Madhukar,Chemical Engineering,gangawane.krunal.madhukar@iitj-dummy.ac.in,"CHL7030, CHL7720"
+Gaurav Bhatnagar,Mathematics,gaurav.bhatnagar@iitj-dummy.ac.in,MAL2160
+Gaurav Harit,Computer Science and Engineering,gaurav.harit@iitj-dummy.ac.in,CSL7650
+Gaurav Vinodrao Vaidya,School of Design,gaurav.vinodrao.vaidya@iitj-dummy.ac.in,"DSL7520, DSL7560, DST8010"
+George K. J.,School of Liberal Arts (SoLA),george.k.j@iitj-dummy.ac.in,LAL6110
+Gopakumar K. U.,School of Liberal Arts (SoLA),gopakumar.k.u@iitj-dummy.ac.in,"LAL7490, LAL7620"
+Gopakumar K. U. Prasenjeet Tribhuvan,School of Liberal Arts (SoLA),gopakumar.k.u.prasenjeet.tribhuvan@iitj-dummy.ac.in,LAL6240
+Gopal Dnyanba Gote,Mechanical Engineering,gopal.dnyanba.gote@iitj-dummy.ac.in,"MEL3050, MET8970, MET8990"
+Gourhari Ghosh,Mechanical Engineering,gourhari.ghosh@iitj-dummy.ac.in,MEL3040
+Gurujegan M.,School of Management and Entrepreneurship,gurujegan.m@iitj-dummy.ac.in,MSN7030
+Gurujegan M. Sidharth Ranjan,School of Liberal Arts (SoLA),gurujegan.m.sidharth.ranjan@iitj-dummy.ac.in,LAL6220
+Hardik Jain,Computer Science and Engineering,hardik.jain@iitj-dummy.ac.in,"CST7010, CST8010"
+Hari Narayanan V.,Center for Education Technology (CET),hari.narayanan.v@iitj-dummy.ac.in,EDL7020
+Harshit Agarwal,Electrical Engineering,harshit.agarwal@iitj-dummy.ac.in,EEL7900
+Hema K.,Chemistry,hema.k@iitj-dummy.ac.in,CYL2130
+Himanshu Dave Gagan Vikram Kewalramani,Mechanical Engineering,himanshu.dave.gagan.vikram.kewalramani@iitj-dummy.ac.in,MEL7970
+Himanshu Kumar,Electrical Engineering,himanshu.kumar@iitj-dummy.ac.in,"EEL2010, EEN3010, EED4010, EEL71010"
+Hirshikesh,Mechanical Engineering,hirshikesh@iitj-dummy.ac.in,"MEL7290, MEL7230"
+Indranil Banerjee,Bioscience and Bioengineering,indranil.banerjee@iitj-dummy.ac.in,"BBL7380, BBT8990"
+Jai Narayan Tripathi,Electronics Engineering,jai.narayan.tripathi@iitj-dummy.ac.in,ECL7940
+Jaiveer Singh,Materials Engineering,jaiveer.singh@iitj-dummy.ac.in,"MTL7080, MTP3020"
+Jangam Bhushan Praveen,School of Management and Entrepreneurship,jangam.bhushan.praveen@iitj-dummy.ac.in,"MSL73600, MSL73620, ECOT8910"
+Jayant Kumar Mohanta Nidhi Sharma,Robotics and Mobility Systems,jayant.kumar.mohanta.nidhi.sharma@iitj-dummy.ac.in,RML7270
+Jayant Kumar Mohanta Riby Abraham Boby,Mechanical Engineering,jayant.kumar.mohanta.riby.abraham.boby@iitj-dummy.ac.in,MEL7960
+Jitendra Kumar,Physics,jitendra.kumar@iitj-dummy.ac.in,"PHL3020, PHN1010, PHN2020"
+Jitendra Kumar Prabhat Kumar Jaiswal,Physics,jitendra.kumar.prabhat.kumar.jaiswal@iitj-dummy.ac.in,"PHL7040, PHP1010"
+Jitesh Mohnot,School of Management and Entrepreneurship,jitesh.mohnot@iitj-dummy.ac.in,"MSL73220, MSL73630"
+Kanak Yadav,School of Liberal Arts (SoLA),kanak.yadav@iitj-dummy.ac.in,LAL6350
+Kanak Yadav Chandana N,School of Liberal Arts (SoLA),kanak.yadav.chandana.n@iitj-dummy.ac.in,LAN7010
+Kaushalkumar Ashokbhai Desai,Mechanical Engineering,kaushalkumar.ashokbhai.desai@iitj-dummy.ac.in,MEL6060
+Kedar Umesh Dicholkar,School of Design,kedar.umesh.dicholkar@iitj-dummy.ac.in,"DSL7220, DSL7360"
+Kiran Meena,Mathematics,kiran.meena@iitj-dummy.ac.in,"MAL2110, MAL6110, MAD7040"
+Kirankumar Rajshekhar Hiremath,Quantum Information and Computation,kirankumar.rajshekhar.hiremath@iitj-dummy.ac.in,"QCL7350, MAL7530"
+Kirti Sankhala,Center for Emerging Technologies for Sustainable Development,kirti.sankhala@iitj-dummy.ac.in,"ETL7140, ETL7050, ETT8970, ETT8960"
+Kothadia Hardikkumar Bhupendra,Mechanical Engineering,kothadia.hardikkumar.bhupendra@iitj-dummy.ac.in,"MEL7190, MEN3010, MED4010, SHT8990"
+Koushambi Mitra,Chemistry,koushambi.mitra@iitj-dummy.ac.in,CYL4020
+Kriti Goel,Mathematics,kriti.goel@iitj-dummy.ac.in,"MAL6140, MAL7450"
+Kunwar Aditya,Electrical Engineering,kunwar.aditya@iitj-dummy.ac.in,"EEL71720, EEL7220"
+Lalit,Materials Engineering,lalit@iitj-dummy.ac.in,"MTL7690, MTL7520, MTN1010"
+Lata Panwar,Physics,lata.panwar@iitj-dummy.ac.in,PHL7340
+Lata Panwar Sunita,Physics,lata.panwar.sunita@iitj-dummy.ac.in,PHL2100
+Lavi Tyagi,Electronics Engineering,lavi.tyagi@iitj-dummy.ac.in,ECL2010
+Magesh Nagarajan,School of Management and Entrepreneurship,magesh.nagarajan@iitj-dummy.ac.in,"MSL73310, MSL73560 Business"
+Manikandan Paranjothy,Chemistry,manikandan.paranjothy@iitj-dummy.ac.in,"CYL3160, CYL2140"
+Manish Narwaria,Electrical Engineering,manish.narwaria@iitj-dummy.ac.in,"EEL2010, EEL4330"
+Manisha Yadav,School of Management and Entrepreneurship,manisha.yadav@iitj-dummy.ac.in,"MSL73500, MSL73080, MSL73090"
+Manoj Gupta,Electrical Engineering,manoj.gupta@iitj-dummy.ac.in,"EEL4350, ECN2001"
+Manoj Kumar Jena,Chemical Engineering,manoj.kumar.jena@iitj-dummy.ac.in,CHL3030
+Manu Kanchan,School of Management and Entrepreneurship,manu.kanchan@iitj-dummy.ac.in,"MSL73210, MSL73490, MSL7060"
+Mayank Gupta,Chemistry,mayank.gupta@iitj-dummy.ac.in,CYL4010
+Mayank Gupta Atul Kumar,Chemistry,mayank.gupta.atul.kumar@iitj-dummy.ac.in,CYP1010
+Mayank Suman,Civil and Infrastructure Engineering,mayank.suman@iitj-dummy.ac.in,"CIL2060, CIL2010"
+Md Abu Talhamainuddin Ansary,Computer Science and Engineering,md.abu.talhamainuddin.ansary@iitj-dummy.ac.in,"CSL4010, MAL7110, MAL7560"
+Meenu Chhabra,Bioscience and Bioengineering,meenu.chhabra@iitj-dummy.ac.in,BBL7350
+Milan Kumar Hazra,Physics,milan.kumar.hazra@iitj-dummy.ac.in,PHP3030
+Milan Kumar Hazra Rahul Gera,Chemistry,milan.kumar.hazra.rahul.gera@iitj-dummy.ac.in,CYL3020
+Mitali Mukerji,Bioscience and Bioengineering,mitali.mukerji@iitj-dummy.ac.in,BBL3120
+Mohit Kumar Jangid,Computer Science and Engineering,mohit.kumar.jangid@iitj-dummy.ac.in,"CSN1020, CSL7130"
+Monika Dubey Trishikhi Raychaudhury,Civil and Infrastructure Engineering,monika.dubey.trishikhi.raychaudhury@iitj-dummy.ac.in,CIL3030
+Monika Gupta,Chemistry,monika.gupta@iitj-dummy.ac.in,CYL3010
+Monika Sinha,Physics,monika.sinha@iitj-dummy.ac.in,"PHL2150, PHL4120, PHL6020, PHT8990"
+Monika Tanwar,School of Management and Entrepreneurship,monika.tanwar@iitj-dummy.ac.in,"MSL73530, MSL73610"
+Moumita Mandal,Mathematics,moumita.mandal@iitj-dummy.ac.in,MAL3030
+Mrityunjay Rudrappa Doddamani,Mechanical Engineering,mrityunjay.rudrappa.doddamani@iitj-dummy.ac.in,MEL7620
+Natasa Thoudam,School of Liberal Arts (SoLA),natasa.thoudam@iitj-dummy.ac.in,"LAL6310, EDL7040"
+Navchetan Awasthi,Medical Technology Center,navchetan.awasthi@iitj-dummy.ac.in,"SHL7470, CSL7350"
+Naveen Kumar Tailor,Physics,naveen.kumar.tailor@iitj-dummy.ac.in,"PHL7360, PHL7020, PHN3010"
+Neha,School of Management and Entrepreneurship,neha@iitj-dummy.ac.in,"MSL73060, MSL73570"
+Neha Jain,Bioscience and Bioengineering,neha.jain@iitj-dummy.ac.in,"BBL2300, BBL2010, BBP2030"
+Nil Kamal Hazra,Mathematics,nil.kamal.hazra@iitj-dummy.ac.in,MAL7420
+Niladri Sekhar Tripathy,Electrical Engineering,niladri.sekhar.tripathy@iitj-dummy.ac.in,"EEL7080, EET8970, EET8990"
+Nipun Arora,"Anil Kumar, Mechanical Arun Kumar Engineering R, Ashish Pathak,",nipun.arora@iitj-dummy.ac.in,"MEP1000, MEN2010"
+Nirmal Kumar Rana,Chemistry,nirmal.kumar.rana@iitj-dummy.ac.in,CYL7440
+Nishant Kumar,Electrical Engineering,nishant.kumar@iitj-dummy.ac.in,EEL7700
+Nitesh Arora,Mechanical Engineering,nitesh.arora@iitj-dummy.ac.in,MEL7140
+Nitin Bhatia,Electronics Engineering,nitin.bhatia@iitj-dummy.ac.in,ECL71550
+Nitin Kumar Sharma,Materials Engineering,nitin.kumar.sharma@iitj-dummy.ac.in,"MTL3040, MTL3020, MTT7010, MTT8010, MTT7030"
+Palash Das,Computer Science and Engineering,palash.das@iitj-dummy.ac.in,"CSN2020, CSL3130"
+Pallavi Jain,Mathematics,pallavi.jain@iitj-dummy.ac.in,"MAL2190, CSD7030, CSD7060"
+Pankaj Sheshrao Chavan,Center for Education Technology (CET),pankaj.sheshrao.chavan@iitj-dummy.ac.in,"EDL2010, EDL7010"
+Pankaj Yadav,Bioscience and Bioengineering,pankaj.yadav@iitj-dummy.ac.in,BBL7580
+Parag Arvind Deshpande,Mathematics,parag.arvind.deshpande@iitj-dummy.ac.in,"MAL2020, MAL2210, CHL7020"
+Parichay Patra,School of Liberal Arts (SoLA),parichay.patra@iitj-dummy.ac.in,LAL6430
+Patnayakuni Ravi Prakash,Civil and Infrastructure Engineering,patnayakuni.ravi.prakash@iitj-dummy.ac.in,CIL7870
+Payal Vyankat Dahiwale,Electrical Engineering,payal.vyankat.dahiwale@iitj-dummy.ac.in,"EEL7580, EEN2010"
+Prabhat Kumar Jaiswal Jitendra Kumar,Physics,prabhat.kumar.jaiswal.jitendra.kumar@iitj-dummy.ac.in,PHL1010
+Pradeep Kumar Dammala,Civil and Infrastructure Engineering,pradeep.kumar.dammala@iitj-dummy.ac.in,CIL7660
+Pradip Kumar Tewari,Chemical Engineering,pradip.kumar.tewari@iitj-dummy.ac.in,CHL7070
+Pradip Sasmal,Mathematics,pradip.sasmal@iitj-dummy.ac.in,MAL1070
+Pradyumna Kumar Bishoyi,Electronics Engineering,pradyumna.kumar.bishoyi@iitj-dummy.ac.in,ECL7010
+Pragati Pandey,Chemistry,pragati.pandey@iitj-dummy.ac.in,"CYL6380, CYL7020"
+Pranay Ranjan,Materials Engineering,pranay.ranjan@iitj-dummy.ac.in,"MTL3010, MTL7540, OSN1010"
+Pranjal Protim Borah,School of Design,pranjal.protim.borah@iitj-dummy.ac.in,"DSL7370, DST8050, DST8060"
+Prasenjeet Tribhuvan,School of Liberal Arts (SoLA),prasenjeet.tribhuvan@iitj-dummy.ac.in,"LAL6190, LAL3040, LAN3010, ESN2010"
+Prashant Kumar Gupta,Chemical Engineering,prashant.kumar.gupta@iitj-dummy.ac.in,"CHL3040, CHL7370"
+Pratik Mazumder,Computer Science and Engineering,pratik.mazumder@iitj-dummy.ac.in,"CSL3090, CSL1010, CSD4020"
+Pratyaksh Karan,Mechanical Engineering,pratyaksh.karan@iitj-dummy.ac.in,"MEL4240, MEP1000"
+Pratyaksh Karan Anil Kumar,Mechanical Engineering,pratyaksh.karan.anil.kumar@iitj-dummy.ac.in,MEL2040
+Praveenkumar Sappidi,Chemical Engineering,praveenkumar.sappidi@iitj-dummy.ac.in,"CHL4030, CHL2060, CHL2010"
+Pritam Mahawar,Chemistry,pritam.mahawar@iitj-dummy.ac.in,"CYL2030, CYL1110"
+Priyabrata Rautray,School of Design,priyabrata.rautray@iitj-dummy.ac.in,"DSL7530, DSL7410, DST7710, DST8070"
+Priyanka Singh,Bioscience and Bioengineering,priyanka.singh@iitj-dummy.ac.in,"BBL7660, BBL7620, BBP7660"
+Prodyut Ranjan Chakraborty,Mechanical Engineering,prodyut.ranjan.chakraborty@iitj-dummy.ac.in,"MEL2020, MEP1000"
+Puneet Sharma,Mathematics,puneet.sharma@iitj-dummy.ac.in,"MAL1110, MAL7400, MAL7070"
+Puneet Sharma (A Batch),Mathematics,puneet.sharma.a.batch@iitj-dummy.ac.in,MAL1110
+Puneet Sharma (B Batch),Mathematics,puneet.sharma.b.batch@iitj-dummy.ac.in,MAL1110
+Rachel Philip,School of Liberal Arts (SoLA),rachel.philip@iitj-dummy.ac.in,"LAL3080, EDL3030"
+Rahul Chhibber,Mechanical Engineering,rahul.chhibber@iitj-dummy.ac.in,MEL7250
+Rahul Gera Koushambi Mitra,Chemistry,rahul.gera.koushambi.mitra@iitj-dummy.ac.in,CYL2060
+Rajat Gupta,Mathematics,rajat.gupta@iitj-dummy.ac.in,MAL2120
+Rajendra Nagar,Electrical Engineering,rajendra.nagar@iitj-dummy.ac.in,"EEL2010, EEL7009"
+Rajit Ranjan,Mechanical Engineering,rajit.ranjan@iitj-dummy.ac.in,"MEL2060, MEN1010"
+Rajlaxmi Chouhan,Center for Education Technology (CET),rajlaxmi.chouhan@iitj-dummy.ac.in,EDL3040
+Ram Prakash,Physics,ram.prakash@iitj-dummy.ac.in,"PHL3090, PHL2140, PHL4010, PHD6300"
+Ramesh Kashinath Metre,Chemistry,ramesh.kashinath.metre@iitj-dummy.ac.in,"CYL3130, CYL4040"
+Ranju Mohan,Civil and Infrastructure Engineering,ranju.mohan@iitj-dummy.ac.in,CIL7420
+Ravi Prakash Srivastava,Materials Engineering,ravi.prakash.srivastava@iitj-dummy.ac.in,"MTL3010, MTL7550, MTP7040, MTP3010"
+Ravi Yadav,School of Liberal Arts (SoLA),ravi.yadav@iitj-dummy.ac.in,"LAP6010, EEL7640, EEP7140"
+Ravindra Brammajyosula,Mechanical Engineering,ravindra.brammajyosula@iitj-dummy.ac.in,MEL1000
+Ravindra Brammajyosula (A Batch),Mechanical Engineering,ravindra.brammajyosula.a.batch@iitj-dummy.ac.in,MEL1000
+Ravindra Brammajyosula (B Batch),Mechanical Engineering,ravindra.brammajyosula.b.batch@iitj-dummy.ac.in,MEL1000
+Ravindra Krushnaji Raut,Chemistry,ravindra.krushnaji.raut@iitj-dummy.ac.in,CYL2060
+Ravindra Krushnaji Raut Amreen Kaur Bains,Chemistry,ravindra.krushnaji.raut.amreen.kaur.bains@iitj-dummy.ac.in,"CYL3140, CYL4050"
+Raviraj Vankayala,Bioscience and Bioengineering,raviraj.vankayala@iitj-dummy.ac.in,BBL7470
+Reetanjali Moharana,Physics,reetanjali.moharana@iitj-dummy.ac.in,PHL3010
+Riby Abraham Boby,Robotics and Mobility Systems,riby.abraham.boby@iitj-dummy.ac.in,"RML6010, MEL7080"
+Richa Singh,Computer Science and Engineering,richa.singh@iitj-dummy.ac.in,CSL7620
+Rohan Diliprao Erande,Chemistry,rohan.diliprao.erande@iitj-dummy.ac.in,"CYN4020, CYP2130, OSN1030, CYD3020, CYL7360"
+Romi Banerjee,Digital Humanities,romi.banerjee@iitj-dummy.ac.in,"DHP7010, CSL4030"
+Roshan Kumar Hota,Mechanical Engineering,roshan.kumar.hota@iitj-dummy.ac.in,"MEL3020, MET7010, MET8010"
+Saakshi Dhanekar,Medical Technology Center,saakshi.dhanekar@iitj-dummy.ac.in,"SHL7110, SHL7480"
+Sagar Kumar Verma,Physics,sagar.kumar.verma@iitj-dummy.ac.in,"PHL3120, PHL2030, PHP2110"
+Sahil Gehlawat,Mathematics,sahil.gehlawat@iitj-dummy.ac.in,"MAL6120, MAT7210, MAT8110"
+Samanwita Pal,Chemistry,samanwita.pal@iitj-dummy.ac.in,"CYL2070, CYL6370, CYL7550"
+Sandeep Kumar Yadav,Electrical Engineering,sandeep.kumar.yadav@iitj-dummy.ac.in,"EEL2030, EEL7007"
+Sandip Murarka,Chemistry,sandip.murarka@iitj-dummy.ac.in,CYL7340
+Sanhita Das,Civil and Infrastructure Engineering,sanhita.das@iitj-dummy.ac.in,CIL2030
+Sanhita Das Shuvajit Mukherjee,Civil and Infrastructure Engineering,sanhita.das.shuvajit.mukherjee@iitj-dummy.ac.in,CIL7840
+Santosh Mogurampelly,Physics,santosh.mogurampelly@iitj-dummy.ac.in,"PHL2020, PHQ6010, PHP6070"
+Saran Aadhar,Civil and Infrastructure Engineering,saran.aadhar@iitj-dummy.ac.in,CIL7920
+Sarath Chandra Reddy Nallala,Civil and Infrastructure Engineering,sarath.chandra.reddy.nallala@iitj-dummy.ac.in,"CIL3040, CIL4380"
+Satyajit Sahu,Physics,satyajit.sahu@iitj-dummy.ac.in,"PHL3110, PHP3010, PHP3070"
+Saurabh Sanjay Nene,Materials Engineering,saurabh.sanjay.nene@iitj-dummy.ac.in,"MTL7470, MTT8970, MTO8990, MTT8980, MTT8990"
+Saurabh Sanjay Nene Abhay Gupta,Materials Engineering,saurabh.sanjay.nene.abhay.gupta@iitj-dummy.ac.in,"MTL2040, MTL7260"
+Saurav Kumar,Electrical Engineering,saurav.kumar@iitj-dummy.ac.in,EEL71560
+Shahab Ahmad,Physics,shahab.ahmad@iitj-dummy.ac.in,"PHL3031, PHL4140, PHD6040"
+Shaik Abdul Gafoor,Electrical Engineering,shaik.abdul.gafoor@iitj-dummy.ac.in,"EEL3020, EEN1010"
+Shaily Verma,Mathematics,shaily.verma@iitj-dummy.ac.in,MAL3020
+Shankar Manoharan,Bioscience and Bioengineering,shankar.manoharan@iitj-dummy.ac.in,"BBP7650, BBL7460, BBN2010"
+Sherin Sabu,School of Liberal Arts (SoLA),sherin.sabu@iitj-dummy.ac.in,"LAL6150, LAL3090"
+Sherin Sabu Jai Narayan Tripathi,School of Liberal Arts (SoLA),sherin.sabu.jai.narayan.tripathi@iitj-dummy.ac.in,LAP6020
+Sheriya Sareen,Center for Education Technology (CET),sheriya.sareen@iitj-dummy.ac.in,"EDL3010 Content, EDL3020 Content"
+Shipra Bajpai,Materials Engineering,shipra.bajpai@iitj-dummy.ac.in,"MTL7260, MTL7530, MTL7570, MTP7050, MTP3070, MTP3050"
+Shipra Bajpai Debasmita Dwibedi,Materials Engineering,shipra.bajpai.debasmita.dwibedi@iitj-dummy.ac.in,MTL3040
+Shiv Kumar Verma,School of Design,shiv.kumar.verma@iitj-dummy.ac.in,DSL7680
+Shobhana Singh,Mechanical Engineering,shobhana.singh@iitj-dummy.ac.in,"MEL7060, EAP7010"
+Shrutidhara Sarma Tara Chand Kumawat,Mechanical Engineering,shrutidhara.sarma.tara.chand.kumawat@iitj-dummy.ac.in,"MEL3010, MEP3010"
+Shuvajit Mukherjee Saran Aadhar,Civil and Infrastructure Engineering,shuvajit.mukherjee.saran.aadhar@iitj-dummy.ac.in,CIL7830
+Shuvajit Mukherjee Susmita Panda,Civil and Infrastructure Engineering,shuvajit.mukherjee.susmita.panda@iitj-dummy.ac.in,CIL3020
+Shyam Kumar Banjare,Chemistry,shyam.kumar.banjare@iitj-dummy.ac.in,"CYL3110, CYP3010"
+Siddharth Srivastava,Medical Technology Center,siddharth.srivastava@iitj-dummy.ac.in,"SHL7050, SHL7030, SHL7040, SHL7060, SHD7020"
+Sidharth Sharma,Computer Science and Engineering,sidharth.sharma@iitj-dummy.ac.in,"CSL3030, CSL7810"
+Sk Md Hasan,Materials Engineering,sk.md.hasan@iitj-dummy.ac.in,"MTL7110, MTN2020"
+Sk Md Hasan Abhay Gupta,Materials Engineering,sk.md.hasan.abhay.gupta@iitj-dummy.ac.in,MTL3030
+Soni,Center for Education Technology (CET),soni@iitj-dummy.ac.in,"EDL1010, LAL7890, LAL3130"
+Souryabrata Mohapatra,School of Liberal Arts (SoLA),souryabrata.mohapatra@iitj-dummy.ac.in,"LAL4850, AIL4070"
+Sreedevi D.,School of Liberal Arts (SoLA),sreedevi.d@iitj-dummy.ac.in,LAL6360
+Sreedevi D. Gurujegan M.,School of Liberal Arts (SoLA),sreedevi.d.gurujegan.m@iitj-dummy.ac.in,LAL6340
+Sreejith Krishnan,Civil and Infrastructure Engineering,sreejith.krishnan@iitj-dummy.ac.in,CIL7910
+Sreejith Krishnan Bhupendra Singh,Civil and Infrastructure Engineering,sreejith.krishnan.bhupendra.singh@iitj-dummy.ac.in,CIL3050
+Srijan Sengupta,Rishabh Centre for Research and Innovation in Clean Energy,srijan.sengupta@iitj-dummy.ac.in,"RC8000, MTL7510, MTL7590, MTP3030, MTP7040"
+Srijan Sengupta Debasmita Dwibedi,Materials Engineering,srijan.sengupta.debasmita.dwibedi@iitj-dummy.ac.in,MTL7290
+Srijit Biswas,Energy and Automotive Engineering,srijit.biswas@iitj-dummy.ac.in,"EAL7010, EAL7310, MEP4010"
+Srivatsa N.S.,Quantum Information and Computation,srivatsa.n.s@iitj-dummy.ac.in,"QCL7070, QCT7020, QCT8990"
+Subham Jain,Civil and Infrastructure Engineering,subham.jain@iitj-dummy.ac.in,CIL4390
+Subhash Bhagat,Mathematics,subhash.bhagat@iitj-dummy.ac.in,"MAL2170, MAT8020, MAT8990, CSL7620"
+Subhashish Banerjee,Physics,subhashish.banerjee@iitj-dummy.ac.in,"PHL4130, PHL7010"
+Subrata Chakraborty,Chemistry,subrata.chakraborty@iitj-dummy.ac.in,CYL7420
+Sucharita Dey,Bioscience and Bioengineering,sucharita.dey@iitj-dummy.ac.in,"BBL2040, BBL3100, BBN3020, BBN1010, BBN2020"
+Suchetana Chakraborty,Computer Science and Engineering,suchetana.chakraborty@iitj-dummy.ac.in,"CSL1010, CSL7460"
+Sudipta Bhattacharyya,Bioscience and Bioengineering,sudipta.bhattacharyya@iitj-dummy.ac.in,"BBL4210, BBL7500, BBL7520, BBT7040"
+Sudipto Mukhopadhyay,Mechanical Engineering,sudipto.mukhopadhyay@iitj-dummy.ac.in,MEL7040
+Sukhendu Ghosh,Mathematics,sukhendu.ghosh@iitj-dummy.ac.in,"MAL7320, MAL7120"
+Suman Dhaka,School of Liberal Arts (SoLA),suman.dhaka@iitj-dummy.ac.in,LAL6230
+Sumana Som,School of Design,sumana.som@iitj-dummy.ac.in,"DSL3030, DSL7310, DSL7380, DST8030"
+Sumeet Rajesh Khanna,Materials Engineering,sumeet.rajesh.khanna@iitj-dummy.ac.in,"MTL2030, MTP2030"
+Sumeet Rajesh Khanna Appala Naidu Gandi,Materials Engineering,sumeet.rajesh.khanna.appala.naidu.gandi@iitj-dummy.ac.in,MTL7250
+Sumit Kalra,Computer Science and Engineering,sumit.kalra@iitj-dummy.ac.in,"CSL7090, EDT8900"
+Sumit Kamal,Chemical Engineering,sumit.kamal@iitj-dummy.ac.in,"CHL2040, CHT8970, CHT8990, CHT8980"
+Sumit Popat Parvate,Chemical Engineering,sumit.popat.parvate@iitj-dummy.ac.in,"CHL2050, CHL4370"
+Sunil Kumar Khijwania,Physics,sunil.kumar.khijwania@iitj-dummy.ac.in,PHL7030
+Sunil Kumar Lohar,School of Liberal Arts (SoLA),sunil.kumar.lohar@iitj-dummy.ac.in,"LAL1030, DHL7100, OSN1020"
+Sunita,Physics,sunita@iitj-dummy.ac.in,PHL4150
+Suraj Srivastava,Electrical Engineering,suraj.srivastava@iitj-dummy.ac.in,EEL3030
+Surajit Ghosh,Bioscience and Bioengineering,surajit.ghosh@iitj-dummy.ac.in,BBL7390
+Suresh Sarkar,Chemistry,suresh.sarkar@iitj-dummy.ac.in,"CYL7010, CYL7450, CYN3020, CYT8990"
+Suril Vijaykumar Shah,Robotics and Mobility Systems,suril.vijaykumar.shah@iitj-dummy.ac.in,"RMP7010, RML7050"
+Sushmita Jha,Bioscience and Bioengineering,sushmita.jha@iitj-dummy.ac.in,BBL3110 The
+Susil Kumar Mohanty,Computer Science and Engineering,susil.kumar.mohanty@iitj-dummy.ac.in,CSL7150
+Swati Jindal,Chemistry,swati.jindal@iitj-dummy.ac.in,"CYL1010, CYP6050"
+Swati Jindal Milan Kumar Hazra,Chemistry,swati.jindal.milan.kumar.hazra@iitj-dummy.ac.in,CYL7020
+Tanmay Nitin Inamdar,Computer Science and Engineering,tanmay.nitin.inamdar@iitj-dummy.ac.in,"CSL3010, CSN3020, CSD4030"
+Tara Chand Kumawat,Chemical Engineering,tara.chand.kumawat@iitj-dummy.ac.in,"CHL4320, CHT7010, CHD7020"
+Tekcham Gishan Singh,Civil and Infrastructure Engineering,tekcham.gishan.singh@iitj-dummy.ac.in,"CIN3010, CID4010"
+Tonisha Guin,School of Liberal Arts (SoLA),tonisha.guin@iitj-dummy.ac.in,"LAL7860, LAL6160, EDL7030, DHD7010, LAN7010"
+Trishikhi Raychaudhury,Civil and Infrastructure Engineering,trishikhi.raychaudhury@iitj-dummy.ac.in,"CIL7850, CIN2030"
+Trishikhi Raychaudhury Monika Dubey,Civil and Infrastructure Engineering,trishikhi.raychaudhury.monika.dubey@iitj-dummy.ac.in,CIP7310
+Tuhina Mukherjee,Mathematics,tuhina.mukherjee@iitj-dummy.ac.in,MAL7490
+V. Narayanan,Quantum Information and Computation,v.narayanan@iitj-dummy.ac.in,"QCL7320, QCP7030"
+Varanasi Santhosh Kumar,Chemical Engineering,varanasi.santhosh.kumar@iitj-dummy.ac.in,"CHL4380, CHL7310, CHN3010, CHD4010"
+Venkat Ram Reddy Ganuthula,School of Management and Entrepreneurship,venkat.ram.reddy.ganuthula@iitj-dummy.ac.in,"MSO8020, MSL73320, MSL73520, MSP7030, MSN7100, MST8060, MST8030, MST8050, MST8010, MST8040, MST8080, MST8020"
+Vikky Anand,Chemical Engineering,vikky.anand@iitj-dummy.ac.in,"CHL2030, CHL7710, CHN2010"
+Vikramsingh Rajendrasingh,Materials Engineering 00155-Abir,vikramsingh.rajendrasingh@iitj-dummy.ac.in,MTP2030
+Vikramsingh Rajendrasingh Thakur,Materials Engineering,vikramsingh.rajendrasingh.thakur@iitj-dummy.ac.in,"MTL7530, MTL7570, MTL7660, MTP7050"
+Vimal Raj Sharma,Computer Science and Engineering,vimal.raj.sharma@iitj-dummy.ac.in,"CSL7560, CST8990, CST8940"
+Vineeth V.,Electrical Engineering,vineeth.v@iitj-dummy.ac.in,"EEL4370, EEL7300"
+Vinod Vijay Kumar,School of Management and Entrepreneurship,vinod.vijay.kumar@iitj-dummy.ac.in,"MSL73590, OAN7010"
+Vivek Chandrakant Wakchaure,Chemistry,vivek.chandrakant.wakchaure@iitj-dummy.ac.in,"CYL4030, CYP1010, CYD6040"
+Vivek Chandrakant Wakchaure Nirmal Kumar Rana,Chemistry,vivek.chandrakant.wakchaure.nirmal.kumar.rana@iitj-dummy.ac.in,CYL3120
+Yashaswi Verma,Computer Science and Engineering,yashaswi.verma@iitj-dummy.ac.in,CSL1010
+Yogiraj Sargam,Civil and Infrastructure Engineering,yogiraj.sargam@iitj-dummy.ac.in,CIL2080

@@ -1,0 +1,627 @@
+code,title,ltp,credit,slot,raw_slot,dept,dept_code,level,is_hss,is_elective,instructor,co_instructor,registered,classroom,source_doc,page
+CSL3050,Database Systems,3-0-2,4,A,A,Computer Science and Engineering,CSL,300,0,0,Awathare Nitin Niranjan,,154,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MEL2060,Casting Welding Forming,3-0-0,3,A,A,Mechanical Engineering,MEL,200,0,0,Rajit Ranjan,,87,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL3040,Control Systems,3-0-3,4.5,A,A,Electrical Engineering,EEL,300,0,0,Anoop Jain,,82,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MSL73510,Consumer Behaviour,3-0-0,3,A,A,School of Management and Entrepreneurship,MSL,700,0,0,Anuj Pal Kapoor,,77,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MEL3050,Digital Fabrication,3-0-0,3,A,A,Mechanical Engineering,MEL,300,0,0,Gopal Dnyanba Gote,,64,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+AIL6110,Decision Sciences Applications,3-0-0,3,A,A,School of Artificial Intelligence and Data Science,AIL,600,0,0,(AIDE) S. Srivatsa Srinivas,,59,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CIL2030,Mechanics of Solids,3-1-0,4,A,A,Civil and Infrastructure Engineering,CIL,200,0,0,Sanhita Das,,59,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL2020,Scientific Computations,3-0-2,4,A,A,Mathematics,MAL,200,0,0,Parag Arvind Deshpande,,97,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL2030,Circuit Theory,3-0-0,3,A,A,Electrical Engineering,EEL,200,0,0,Sandeep Kumar Yadav,,48,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL2210,Scientific Computations,3-0-0,3,A,A,Mathematics,MAL,200,0,0,Parag Arvind Deshpande,,97,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CIL3020,Structural analysis,3-0-2,4,A,A,Civil and Infrastructure Engineering,CIL,300,0,0,Shuvajit Mukherjee Susmita Panda,,43,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+BBL3110 The,human machine for engineers Quantitative Physiology,3-0-0,3,A,A,Bioscience and Bioengineering,BBL,300,0,0,Sushmita Jha,,37,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MTL3010,Electronic Materials,3-0-0,3,A,A,Materials Engineering,MTL,300,0,0,Devendra Singh Negi,"Pranay Ranjan, Ravi Prakash Srivastava",34,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL2030,Fundamental Inorganic Chemistry,3-0-0,3,A,A,Chemistry,CYL,200,0,0,Pritam Mahawar,,21,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL2150,Classical Mechanics,3-1-0,4,A,A,Physics,PHL,200,0,0,Monika Sinha,,21,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL3010,Physical Organic Chemistry and Photochemistry,3-0-0,3,A,A,Chemistry,CYL,300,0,0,Monika Gupta,,14,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+AIL3010,Big Data Management,2-0-2,3,A,A,School of Artificial Intelligence and Data Science,AIL,300,0,0,(AIDE) Debasis Das,,13,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL4120,Classical Mechanics,3-1-0,4,A,A,Physics,PHL,400,0,0,Monika Sinha,,11,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+SHL7050,Anatomy,3-0-2,4,A,A,Medical Technology Center,SHL,700,0,0,Siddharth Srivastava,,6,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL6020,Classical Mechanics,3-0-0,3.00,A,A,Physics,PHL,600,0,0,Monika Sinha,,4,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CHL4030,Process Plant Design and Economics,3-0-3,4.5,A,A,Chemical Engineering,CHL,400,0,0,Praveenkumar Sappidi,,2,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+BBL2300,Microbiology,3-0-2,4,A,A,Bioscience and Bioengineering,BBL,200,0,0,Neha Jain,,1,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MSL73060,Fundamentals of Marketing,3-0-0,3,A,A,School of Management and Entrepreneurship,MSL,700,0,0,Neha,,7,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+RC8000,Thesis credit,0-0-16,16,A,"A, T",Rishabh Centre for Research and Innovation in Clean Energy,RC,800,0,0,Srijan Sengupta,,6,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL2020,Fundamentals of Thermodynamics,3-0-0,3,CA,CA,Physics,PHL,200,0,0,Santosh Mogurampelly,,21,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL2110,Real Analysis,3-1-0,4,CA,CA,Mathematics,MAL,200,0,0,Kiran Meena,,18,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL3020,Graph Theory,3-1-0,4,CA,CA,Mathematics,MAL,300,0,0,Shaily Verma,,15,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL2070,Molecular Structure and Spectroscopy,3-0-2,4,CA,CA,Chemistry,CYL,200,0,0,Samanwita Pal,,9,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL3140,Coordination and Organometallic Chemistry,3-0-0,3,CA,CA,Chemistry,CYL,300,0,0,Ravindra Krushnaji Raut Amreen Kaur Bains,,9,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL3090,Introduction to Plasma Physics,3-0-0,3,CA,CA,Physics,PHL,300,0,0,Ram Prakash,,4,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CSL3090,Artificial Intelligence,3-0-0,3,B,B,Computer Science and Engineering,CSL,300,0,0,Pratik Mazumder,,177,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL2010,Signals and Systems,3-1-0,4,B,B,Electrical Engineering,EEL,200,0,0,Himanshu Kumar,"Amit Bhardwaj, Manish Narwaria, Rajendra Nagar",176,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CSL3030,Operating Systems,3-0-2,4,B,B,Computer Science and Engineering,CSL,300,0,0,Sidharth Sharma,,157,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL3050,Biosensors,3-0-2,4,B,B,Electrical Engineering,EEL,300,0,0,Ajay Agarwal,,85,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MSL73310,Operations Research for Managers,3-0-0,3,B,B,School of Management and Entrepreneurship,MSL,700,0,0,Magesh Nagarajan,,85,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL3010,Analog Circuits,3-0-3,4.5,B,B,Electrical Engineering,EEL,300,0,0,Arani Ali Khan,,84,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CSL2130,Principles of Computer Systems - 1,3-0-0,3,B,B,Computer Science and Engineering,CSL,200,0,0,Anushka Joshi,,69,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MEL3040,Machining Science and Metrology,3-0-0,3,B,B,Mechanical Engineering,MEL,300,0,0,Gourhari Ghosh,,62,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CIL2070,Hydraulics Engineering,3-1-0,4,B,B,Civil and Infrastructure Engineering,CIL,200,0,0,Deepak Swami,,58,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CHL2050,Mechanical Unit Operations,3-0-0,3,B,B,Chemical Engineering,CHL,200,0,0,Sumit Popat Parvate,,49,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MTL2040,Materials Thermodynamics,3-0-0,3,B,B,Materials Engineering,MTL,200,0,0,Saurabh Sanjay Nene Abhay Gupta,,49,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MSL73500,Financial Derivatives and Risk Management,3-0-0,3,B,B,School of Management and Entrepreneurship,MSL,700,0,0,Manisha Yadav,,48,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+BBL2040,Bioinformatics,3-0-0,3,B,B,Bioscience and Bioengineering,BBL,200,0,0,Sucharita Dey,,43,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CIL3010,Transportation Engineering,3-0-0,3,B,B,Civil and Infrastructure Engineering,CIL,300,0,0,Bhupendra Singh,,42,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CHL3030,Chemical Reaction Engineering,3-0-3,4.5,B,B,Chemical Engineering,CHL,300,0,0,Manoj Kumar Jena,,36,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MTL3040,Materials Characterization,3-0-0,3,B,B,Materials Engineering,MTL,300,0,0,"Shipra Bajpai Debasmita Dwibedi, Nitin Kumar Sharma",,35,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+DSL7370,XR Design and Prototyping,2-0-2,3,B,B,School of Design,DSL,700,0,0,Pranjal Protim Borah,,33,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+AIL7320,Theoretical Foundations of Econometrics,3-0-0,3,B,B,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE),Dweepobotee Brahma,27,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL2100,Thermal Physics,3-0-0,3,B,B,Physics,PHL,200,0,0,Lata Panwar Sunita,,21,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL2130,Fundamental Organic Chemistry,3-0-0,3,B,B,Chemistry,CYL,200,0,0,Hema K.,,20,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+DHP7010,Social Media Application Development,1-0-2-0,2,B,B,Digital Humanities,DHP,700,1,1,Romi Banerjee,,18,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL3030,Coordination and Bioinorganic Chemistry,3-0-0,3,B,B,Chemistry,CYL,300,0,0,Amreen Kaur Bains,,14,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL3020,Electronics,3-0-0,3,B,B,Physics,PHL,300,0,0,Jitendra Kumar,,13,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL4010,Structural Chemistry,3-0-0,3,B,B,Chemistry,CYL,400,0,0,Mayank Gupta,,12,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+SHL7020,Biomedical Signals and Systems,3-0-2,4,B,B,Medical Technology Center,SHL,700,0,0,Anil Kumar Tiwari,,12,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+QCL7350,Quantum Inspired Optimization,2-0-2,3,B,B,Quantum Information and Computation,QCL,700,0,0,Kirankumar Rajshekhar Hiremath,,22,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+LAL1030,Art Education: Methods and Materials in Visual Art,1-0-2,2,CB,CB,School of Liberal Arts (SoLA),LAL,100,1,0,Sunil Kumar Lohar,,42,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL2120,Linear Algebra,3-1-0,4,CB,CB,Mathematics,MAL,200,0,0,Rajat Gupta,,26,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MAL3030,Introduction to Programming,3-1-0,4,CB,CB,Mathematics,MAL,300,0,0,Moumita Mandal,,17,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+PHL3120,Modern optics,3-0-0,3,CB,CB,Physics,PHL,300,0,0,Sagar Kumar Verma,,17,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+LAL1020,Art Education: Elements of Theatre-Making,1-0-2,2,CB,CB,School of Liberal Arts (SoLA),LAL,100,1,0,Bhaskar Kumar Kakati,,4,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL3120,Physical Organic Chemistry,3-0-0,3,CB,CB,Chemistry,CYL,300,0,0,Vivek Chandrakant Wakchaure Nirmal Kumar Rana,,1,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CYL3150,Numerical Methods and Group Theory,3-0-0,3,CB,CB,Chemistry,CYL,300,0,0,Atul Kumar,,1,,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CSL2120,Data Structures and Algorithms,3-0-0,3,C,C,Computer Science and Engineering,CSL,200,0,0,Dip Sankar Banerjee,,316,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+CSL3010,Design and Analysis of Algorithms,3-1-0-0,4,C,C,Computer Science and Engineering,CSL,300,0,0,Tanmay Nitin Inamdar,,213,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MEL2020,Thermodynamics,3-1-0-0,4,C,C,Mechanical Engineering,MEL,200,0,0,Prodyut Ranjan Chakraborty,,90,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MSL73070,Business Economics-I,3-0-0,3,C,C,School of Management and Entrepreneurship,MSL,700,0,0,Devi Prasad Dash,,87,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+AIL6010,Microeconomics I,3-0-0,3,C,C,School of Artificial Intelligence and Data Science,AIL,600,0,0,(AIDE)Akanksha Choudhary,,85,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+EEL3020,Electrical Machines,3-0-0,3,C,C,Electrical Engineering,EEL,300,0,0,Shaik Abdul Gafoor,,82,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+LAL7490,Indian Economic Development and Policy,3-0-0,3,C,C,School of Liberal Arts (SoLA),LAL,700,1,1,Gopakumar K. U.,,80,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.1",1
+MEL3030,Production and Operations Management,3-0-0,3,C,C,Mechanical Engineering,MEL,300,0,0,Chandan Pandey,,62,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CSL2020,Data Structures and Algorithms,3-0-2,4,C,C,Computer Science and Engineering,CSL,200,0,0,Dip Sankar Banerjee,,316,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CIL2080,Building Materials and Construction Technology,3-0-0,3,C,C,Civil and Infrastructure Engineering,CIL,200,0,0,Yogiraj Sargam,,58,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+DSL7680,Design Processes and Methods,2-0-2,3,C,C,School of Design,DSL,700,0,0,Shiv Kumar Verma,,58,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+AIL7380,Mathematics for Economics,3-0-0,3,C,C,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) Abhinaba Lahiri,,50,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MTL2030,Numerical Methods for Materials Engineering,3-0-0,3,C,C,Materials Engineering,MTL,200,0,0,"Amitava Banerjee, Appala Naidu Gandi, Sumeet Rajesh Khanna",,49,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CHL2040,Chemical Process Technology,3-0-0,3,C,C,Chemical Engineering,CHL,200,0,0,Sumit Kamal,,48,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL1140,Language 1 Hindi,3-0-0,3,CA,CA,School of Liberal Arts (SoLA),LAL,100,1,0,Dinesh Mohan Joshi,,46,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CIL3040,Geotechnical Engineering,3-1-0-0,4,C,C,Civil and Infrastructure Engineering,CIL,300,0,0,Sarath Chandra Reddy Nallala,,42,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CHL3010,Mass Transfer 1,3-0-3,4.5,C,C,Chemical Engineering,CHL,300,0,0,Angan Sengupta,,38,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+BBL3100,Computational and systems biology,3-0-2,4,C,C,Bioscience and Bioengineering,BBL,300,0,0,Sucharita Dey,,37,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MTL3020,Mechanical Behavior of Materials,3-0-0,3,C,C,Materials Engineering,MTL,300,0,0,Nitin Kumar Sharma,,35,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MSL73530,Project Management,3-0-0,3,C,C,School of Management and Entrepreneurship,MSL,700,0,0,Monika Tanwar,,30,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+SHL7030,Innovation and Entrepreneurship in Healthcare,3-0-0,3,C,C,Medical Technology Center,SHL,700,0,0,Siddharth Srivastava,,19,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CYL3020,Atomic and Molecular Structure,3-0-0,3,C,C,Chemistry,CYL,300,0,0,Milan Kumar Hazra Rahul Gera,,14,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL6340,Perspectives in Language and Literary Studies,3-0-0,3,C,C,School of Liberal Arts (SoLA),LAL,600,1,1,Sreedevi D. Gurujegan M.,,13,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+PHL3010,"Physics of Atoms, Molecules and Nuclei",3-0-0,3,C,C,Physics,PHL,300,0,0,Reetanjali Moharana,,13,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CHL4320,Introduction to Complex Fluids,3-0-0,3,C,C,Chemical Engineering,CHL,400,0,0,Tara Chand Kumawat,,9,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+AIL4080,Introduction to Cognitive Science,3-0-0,3,C,C,School of Artificial Intelligence and Data Science,AIL,400,0,0,(AIDE) Sidharth Ranjan,,7,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL6230,Social Science Research Methods,3-0-0,3,C,C,School of Liberal Arts (SoLA),LAL,600,1,1,Suman Dhaka,,7,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL7860,Research Methodologies for the Liberal Arts,3-0-0,3,C,C,School of Liberal Arts (SoLA),LAL,700,1,1,Tonisha Guin,,2,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+RMP7010,Experimental Robotics,0-1-2,2,C,C,Robotics and Mobility Systems,RMP,700,0,0,Suril Vijaykumar Shah,,2,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EEP3020,Digital Systems Lab,0-0-3,1.5,C,C,Electrical Engineering,EEP,300,0,0,Binod Kumar,,1,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MSL1010,Understanding India: Indian Ethos and Knowledge Systems 1,2-0-0,2,CC,CC,School of Management and Entrepreneurship,MSL,100,0,0,Dinesh Mohan Joshi,,46,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+PHL2010,Mathematical Methods in Physics,3-0-0,3,CC,CC,Physics,PHL,200,0,0,Ambesh Dixit,,21,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MAL2160,Probability Theory,3-1-0,4,CC,CC,Mathematics,MAL,200,0,0,Gaurav Bhatnagar,,19,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+PHL3110,Electronics I,3-0-0,3,CC,CC,Physics,PHL,300,0,0,Satyajit Sahu,,17,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MAL3060,Complex Analysis,3-1-0,4,CC,CC,Mathematics,MAL,300,0,0,Abhishek Sarkar,,11,LHC 306,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CYL2060,Basic Principles of Chemistry,3-0-2,4,CC,CC,Chemistry,CYL,200,0,0,"Rahul Gera Koushambi Mitra, Ravindra Krushnaji Raut",,9,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CYL3160,Quantum Chemistry and Applications,3-0-0,3,CC,CC,Chemistry,CYL,300,0,0,Manikandan Paranjothy,,5,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MAL2170,"Probability, Statistics and Stochastic Processes",3-1-0,4,D,D,Mathematics,MAL,200,0,0,Subhash Bhagat,,256,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EEL3030,Communication Systems,3-0-0,3,D,D,Electrical Engineering,EEL,300,0,0,Suraj Srivastava,,111,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CSL4010,Optimization for Machine Learning,3-0-3,4.5,D,D,Computer Science and Engineering,CSL,400,0,0,Md Abu Talhamainuddin Ansary,,92,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MEL2050,Kinematics and Dynamics of Machines,3-0-0,3,D,D,Mechanical Engineering,MEL,200,0,0,Babu Ranjan Thakur,,88,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MSL73300,Business Statistics,3-0-0,3,D,D,School of Management and Entrepreneurship,MSL,700,0,0,Bhargab Chattopadhyay,,85,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL4070,Health Economics,3-0-0,3,D,D,School of Liberal Arts (SoLA),LAL,400,1,1,Alok Ranjan,,80,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MEL3020,Kinematics and Dynamics of Machines,3-0-2,4,D,D,Mechanical Engineering,MEL,300,0,0,Roshan Kumar Hota,,62,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+AIL7160,Operations Research for Economics,3-0-0,3,D,D,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) S. Srivatsa Srinivas,,60,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EEL2340,Measurements and Instrumentation,3-0-0,3,D,D,Electrical Engineering,EEL,200,0,0,Bharat Singh Rajpurohit,,56,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MSL73570,B2B Marketing,3-0-0,3,D,D,School of Management and Entrepreneurship,MSL,700,0,0,Neha,,54,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MTL2050,Mechanics of Solids,3-1-0,4,D,D,Materials Engineering,MTL,200,0,0,Abir Bhattacharyya Anurag Sharma,,50,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CHL2030,Material and Energy Balance,3-0-0,3,D,D,Chemical Engineering,CHL,200,0,0,Vikky Anand,,48,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CIL3030,Environmental Engineering,3-0-2,4,D,D,Civil and Infrastructure Engineering,CIL,300,0,0,Monika Dubey Trishikhi Raychaudhury,,42,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL4850,Introduction to Climate Change Economics,3-0-0,3,D,D,School of Liberal Arts (SoLA),LAL,400,1,1,Souryabrata Mohapatra,,42,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+PHL7360,Introduction to Material Characterization,3-0-0,3,D,D,Physics,PHL,700,0,0,Naveen Kumar Tailor,,42,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CHL3040,Chemical Engineering Thermodynamics,3-0-0,3,D,D,Chemical Engineering,CHL,300,0,0,Prashant Kumar Gupta,,40,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MTL3030,Phase Transformations,3-0-0,3,D,D,Materials Engineering,MTL,300,0,0,Sk Md Hasan Abhay Gupta,,34,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+BBL3120,Genetics and Gene manipulation,3-0-2,4,D,D,Bioscience and Bioengineering,BBL,300,0,0,Mitali Mukerji,,33,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+DSL7530,Nature of Materials and Processes,2-0-2,3,D,D,School of Design,DSL,700,0,0,Priyabrata Rautray,,25,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+PHL2140,Electromagnetic Fields and Plasma,3-1-0,4,D,D,Physics,PHL,200,0,0,Ram Prakash,,22,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+CYL6370,Modern NMR Methods for Chemists,3-0-0,3.00,D,D,Chemistry,CYL,600,0,0,Samanwita Pal,,18,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL6310,Foundations of Digital Humanities,3-0-0,3,D,D,School of Liberal Arts (SoLA),LAL,600,1,1,Natasa Thoudam,,15,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+SHL7470,Foundation of Medical Informatics,3-0-2,4,D,D,Medical Technology Center,SHL,700,0,0,Navchetan Awasthi,,15,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL6190,Sociology of Digital Era,3-0-0,3,D,D,School of Liberal Arts (SoLA),LAL,600,1,1,Prasenjeet Tribhuvan,,13,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+ETL7130,Sustainability Assessment Techniques,3-0-0,3,D,D,Center for Emerging Technologies for Sustainable Development,ETL,700,0,0,Chandana N,,11,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+ECL71590,Advanced Electromagnetics,3-0-0,3,D,D,Electronics Engineering,ECL,700,0,0,Abhishek Sharma,,10,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+ECL7030,Semiconductor Device Characterization,3-0-0,3,D,D,Electronics Engineering,ECL,700,0,0,Akshay,,6,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+LAL6220,"Language, Society and Computation",3-0-0,3,D,D,School of Liberal Arts (SoLA),LAL,600,1,1,Gurujegan M. Sidharth Ranjan,,5,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EDL7020,Learning Sciences,3-0-0-0,3,D,D,Center for Education Technology (CET),EDL,700,0,0,Hari Narayanan V.,,3,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+RML7110,Planning and Decision Making for Robots,3-0-0,3,D,D,Robotics and Mobility Systems,RML,700,0,0,Bhivraj Suthar,,2,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MSO8020,Research Proposal,0-0-16,8,D2,D2,School of Management and Entrepreneurship,MSO,800,0,0,,Venkat Ram Reddy Ganuthula,2,,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EDL3040,ICT in Education,2-0-2,3,CD,CD,Center for Education Technology (CET),EDL,300,0,0,Rajlaxmi Chouhan,,49,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+EDL2010,Basics of Pedagogy at the Secondary Stage,3-0-2-0,4,CD,CD,Center for Education Technology (CET),EDL,200,0,0,Pankaj Sheshrao Chavan,,46,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MAL1070,Mathematics I,3-1-2000,4,CD,CD,Mathematics,MAL,100,0,0,Pradip Sasmal,,46,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+OAE1010,Engineering Design I,0-0-2,1,D,D (Wed),,OAE,100,0,0,,,0,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.2",2
+MAL2190,Discrete Mathematics,3-1-0,4,E,E,Mathematics,MAL,200,0,0,Pallavi Jain,,152,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CSL3040,Principles of Programming Languages,3-0-0,3,E,E,Computer Science and Engineering,CSL,300,0,0,Bikash Santra,,135,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MSL73320,Human Behavior and Organization Dynamics,3-0-0,3,E,E,School of Management and Entrepreneurship,MSL,700,0,0,,Venkat Ram Reddy Ganuthula,132,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CSL7650,Autonomous Systems,3-0-0,3,E,E,Computer Science and Engineering,CSL,700,0,0,Gaurav Harit,,125,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CSL4030,Data Engineering,3-0-3,4.5,E,E,Computer Science and Engineering,CSL,400,0,1,Romi Banerjee,,98,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL3010,Heat Transfer,3-0-0,3,E,E,Mechanical Engineering,MEL,300,0,0,Shrutidhara Sarma Tara Chand Kumawat,,98,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL2040,Fluid Mechanics,3-1-0-0,4,E,E,Mechanical Engineering,MEL,200,0,0,"Pratyaksh Karan Anil Kumar, Gagan Vikram Kewalramani",,89,LHC 2 103,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL2010,Biochemistry,3-0-0,3,E,E,Bioscience and Bioengineering,BBL,200,0,0,Neha Jain,,72,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CIL2060,Geoinformatics,3-0-0,3,E,E,Civil and Infrastructure Engineering,CIL,200,0,0,Mayank Suman,,58,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CHL2060,Momentum Transfer Operations,3-1-0,4,E,E,Chemical Engineering,CHL,200,0,0,Praveenkumar Sappidi,,49,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+ECL2010,Physics of Semiconductor Devices,3-0-0,3,E,E,Electronics Engineering,ECL,200,0,0,Lavi Tyagi,,47,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MSL73600,Digital Platforms and Sharing Economy,3-0-0,3,E,E,School of Management and Entrepreneurship,MSL,700,0,0,,Jangam Bhushan Praveen,47,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL4220,Basics of Finite Element Analysis,3-0-0,3,E,E,Mechanical Engineering,MEL,400,0,1,Barun Pratiher,,45,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL7380,Immunotechnology,3-0-0,3,E,E,Bioscience and Bioengineering,BBL,700,0,0,Indranil Banerjee,,42,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CIL3050,Construction Technology and Practices,3-0-2,4,E,E,Civil and Infrastructure Engineering,CIL,300,0,0,Sreejith Krishnan Bhupendra Singh,,42,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+DSL7520,Studies in Form and Aesthetics,2-0-2,3,E,E,School of Design,DSL,700,0,0,Gaurav Vinodrao Vaidya,,28,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL6380,Chemistry of f-block Elements,3-0-0,3,E,E,Chemistry,CYL,600,0,1,Pragati Pandey,,26,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+PHL2110,Mathematical Methods For Engineering Physicists,3-1-0,4,E,E,Physics,PHL,200,0,0,Ambesh Dixit,,22,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL2140,Quantum Chemistry and Applications,3-0-0,3,E,E,Chemistry,CYL,200,0,0,Manikandan Paranjothy,,20,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL4210,Viral infection and antiviral drug development,3-0-0,3,E,E,Bioscience and Bioengineering,BBL,400,0,1,Sudipta Bhattacharyya,,18,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL7390,Introductory Chemical Biology,3-0-0,3,E,E,Bioscience and Bioengineering,BBL,700,0,0,Surajit Ghosh,,18,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL2110,Real Analysis (Tutorial),3-1-0,4,T,Thur (11 to 12 PM),Mathematics,MAL,200,0,0,Kiran Meena,,18,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+PHL4010,Fluids and Plasmas,2-0-2,3,E,E,Physics,PHL,400,0,1,Ram Prakash,,17,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+PHL3031,Solid State Physics,3-0-2,4,E,E,Physics,PHL,300,0,0,Shahab Ahmad,,13,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL4040,Anticancer Drug Discovery and Development,3-0-0,3,E,E,Bioscience and Bioengineering,BBL,400,0,1,Dinesh Kumar Ahirwar,,11,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+ETL7140,Resource Resilience,3-0-0,3,E,E,Center for Emerging Technologies for Sustainable Development,ETL,700,0,0,Kirti Sankhala,,11,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+ECL71610,Microwave Circuits,3-0-0,3,E,E,Electronics Engineering,ECL,700,0,0,Arani Ali Khan,,10,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EEL4330,Speech processing,3-0-0,3,E,E,Electrical Engineering,EEL,400,0,1,Manish Narwaria,,7,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+LAL6160,Sociology of Media,3-0-0,3,E,E,School of Liberal Arts (SoLA),LAL,600,1,1,Tonisha Guin,,7,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+LAL6110,Ethics for CSS,3-0-0,3,E,E,School of Liberal Arts (SoLA),LAL,600,1,1,George K. J.,,6,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+SHL7040,Physiology,3-0-2,4,E,E,Medical Technology Center,SHL,700,0,0,Siddharth Srivastava,,6,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+DSL7220,Principles of Game Design,1-0-4,3,E,E,School of Design,DSL,700,0,0,Kedar Umesh Dicholkar,,5,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL7220,Continuum Mechanics,3-0-0,3,E,E,Mechanical Engineering,MEL,700,0,0,Atul Kumar Sharma,,5,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EEL4370,Power System Operation and Control,3-0-0,3,E,E,Electrical Engineering,EEL,400,0,1,Vineeth V.,,3,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EEL4350,Microwave Engineering,3-0-0,3,E,E,Electrical Engineering,EEL,400,0,1,Manoj Gupta,,2,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CHL2010,Fluid Mechanics,3-1-0-0,4,E,E,Chemical Engineering,CHL,200,0,0,Praveenkumar Sappidi,,1,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CIL2010,Geoinformatics,3-0-2,4,E,E,Civil and Infrastructure Engineering,CIL,200,0,0,Mayank Suman,,1,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MSL73610,Quality Management,3-0-0,3,E,E,School of Management and Entrepreneurship,MSL,700,0,0,Monika Tanwar,,1,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EDL1010,EVOLUTION OF INDIAN EDUCATION,3-0-0,3,CE,CE,Center for Education Technology (CET),EDL,100,0,0,Soni,,46,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+PHL2030,Fundamentals of Optics,3-0-0,3,CE,CE,Physics,PHL,200,0,0,Sagar Kumar Verma,,21,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL3040,Statistics,3-1-0,4,CE,CE,Mathematics,MAL,300,0,0,Brahadeesh Sankarnarayanan,,20,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL3130,Main Group and Bioinorganic Chemistry,3-0-0,3,CE,CE,Chemistry,CYL,300,0,0,Ramesh Kashinath Metre,,7,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CSL1010,Introduction to Computer Science,3-0-2,4.00,AF,AF,Computer Science and Engineering,CSL,100,0,0,Anand Mishra,"Yashaswi Verma, Suchetana Chakraborty, Pratik Mazumder, (A Batch)",672,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL1110,Mathematics I (Non-English),2-1-0,3,AF,AF,Mathematics,MAL,100,0,0,Puneet Sharma,,0,LHC 306,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MSL73060,Fundamentals of Marketing,3-0-0,3,F,F,School of Management and Entrepreneurship,MSL,700,0,0,Neha,,82,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL7110,Foundations of Data Science,3-0-0,3,F,F,Mathematics,MAL,700,0,0,Md Abu Talhamainuddin Ansary,,37,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EEL7080,Introduction to Cyber Physical Systems,3-0-0,3,F,F,Electrical Engineering,EEL,700,0,0,Niladri Sekhar Tripathy,,34,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+LAL7620,Economic Challenges and Data Driven Approaches,3-0-0,3,F,F,School of Liberal Arts (SoLA),LAL,700,1,1,Gopakumar K. U.,,31,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL6080,Topology,3-0-0-0,3,F,F,Mathematics,MAL,600,0,0,Bimal Mandal,,29,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MAL6110,Linear Algebra,3-1-0,4,F,F,Mathematics,MAL,600,0,0,Kiran Meena,,28,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MTL7260,Characterization of Materials,2-0-2,3,F,F,Materials Engineering,MTL,700,0,0,"Saurabh Sanjay Nene Abhay Gupta, Shipra Bajpai",,26,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CSL7560,Advanced Data Structure and Algorithms,3-0-0,3,F,F,Computer Science and Engineering,CSL,700,0,0,Vimal Raj Sharma,,25,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+PHL7030,Fiber-Optical Communication,3-0-0,3,F,F,Physics,PHL,700,0,0,Sunil Kumar Khijwania,,25,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+BBL7650,Omics Technologies,3-0-0,3,F,F,Bioscience and Bioengineering,BBL,700,0,0,Balakumaran Chandrasekar,,24,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MSL73580,Industry 5.0,3-0-0,3,F,F,School of Management and Entrepreneurship,MSL,700,0,0,Deepak Srivastav,,24,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+AIL7240,Sensation and Perception,3-0-0,3,F,F,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE)Vignesh Muralidharan,,23,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL7010,Chemistry-I,3-0-0,3,F,F,Chemistry,CYL,700,0,0,Suresh Sarkar,,22,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL2120,"Thermodynamics, Kinetics and Engineering Applications",3-0-0,3,F,F,Chemistry,CYL,200,0,0,Ananya Debnath,,20,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CYL4020,Organic Reactions and Mechanisms,3-0-0,3,F,F,Chemistry,CYL,400,0,0,Koushambi Mitra,,19,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+EEL7300,Computational Methods in Power System Analysis,3-0-0,3,F,F,Electrical Engineering,EEL,700,0,0,Vineeth V.,,19,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+SHL7060,Immersion,0-1-6,4,F,F,Medical Technology Center,SHL,700,0,0,Siddharth Srivastava,,18,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CHL7020,Advanced Mathematical Methods in Chemical Engineering,3-0-0,3,F,F,Chemical Engineering,CHL,700,0,0,Parag Arvind Deshpande,,15,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+LAP6020,Statistics Lab,0-0-4,2,F,F,School of Liberal Arts (SoLA),LAP,600,1,1,Sherin Sabu Jai Narayan Tripathi,,15,,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL7250,Materials Design and Evaluation Techniques,3-0-0,3,F,F,Mechanical Engineering,MEL,700,0,0,Rahul Chhibber,,14,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL7280,Theory of Elasticity,3-0-0,3,F,F,Mechanical Engineering,MEL,700,0,0,Atul Kumar Sharma,,14,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL7960,Anti-Drone Technologies,3-0-0,3,F,F,Mechanical Engineering,MEL,700,0,0,Jayant Kumar Mohanta Riby Abraham Boby,,13,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+RML7050,Mathematics for Robotics,3-0-0,3,F,F,Robotics and Mobility Systems,RML,700,0,0,Suril Vijaykumar Shah,,12,ME 115,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+CIL7660,Advanced Geotechnical Engineering,3-0-0,3,F,F,Civil and Infrastructure Engineering,CIL,700,0,0,Pradeep Kumar Dammala,,10,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.3",3
+MEL7040,Incompressible Fluid Flow,3-0-0,3,F,F,Mechanical Engineering,MEL,700,0,0,Sudipto Mukhopadhyay,,9,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7290,Battery Materials Science,3-0-0,3,F,F,Materials Engineering,MTL,700,0,0,Srijan Sengupta Debasmita Dwibedi,,9,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL7870,Analysis of Bridge Structures,3-0-0,3,F,F,Civil and Infrastructure Engineering,CIL,700,0,0,Patnayakuni Ravi Prakash,,8,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7530,Introduction to Composite Materials,3-0-0,3,F,F,Materials Engineering,MTL,700,0,0,Vikramsingh Rajendrasingh Thakur,"Abir Bhattacharyya, Shipra Bajpai",8,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL7420,Traffic Flow Theory,3-0-0,3,F,F,Civil and Infrastructure Engineering,CIL,700,0,0,Ranju Mohan,,7,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+ECL7008,Digital Communications,3-0-0,3,F,F,Electronics Engineering,ECL,700,0,0,Aashish Mathur,,6,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CHL7370,Hydrogen and Methanol Economy,3-0-0,3,F,F,Chemical Engineering,CHL,700,0,0,Prashant Kumar Gupta,,6,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EDL7040,RESEARCH METHODS IN EDUCATION,3-0-0,3,F,F,Center for Education Technology (CET),EDL,700,0,0,Natasa Thoudam,,4,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EEL7008,Digital Communications,3-0-0,3,F,F,Electrical Engineering,EEL,700,0,0,Aashish Mathur,,3,,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+AIL7280,Introduction to Mechanism Design,3-0-0,3,F,F,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) Abhinaba Lahiri,,2,,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+BBL7640,Omics Technologies,2-0-2,3,F,F,Bioscience and Bioengineering,BBL,700,0,0,Balakumaran Chandrasekar,,2,,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EEL7007,Optimization Techniques for Signal Representation and Processing,3-0-0,3,F,F,Electrical Engineering,EEL,700,0,0,Sandeep Kumar Yadav,,1,,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL1000,Engineering Mechanics,3-0-0,3,AG,AG,Mechanical Engineering,MEL,100,0,0,Ravindra Brammajyosula (A Batch),,680,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL1000,Engineering Mechanics,3-0-0,3,AG,AG,Mechanical Engineering,MEL,100,0,0,Ravindra Brammajyosula (B Batch),,680,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+PHL1010,Physics (Non-English),3-0-0,3,AG,AG,Physics,PHL,100,0,0,Prabhat Kumar Jaiswal Jitendra Kumar,,0,LHC 306,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CYL1010,Chemistry (Non-English),3-0-0,3.00,AG,AG,Chemistry,CYL,100,0,0,"Dibyendu Kumar Sasmal Pragati Pandey, Swati Jindal",,0,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL7970,Engineering Mathamatics,3-0-0,3,G,G,Mechanical Engineering,MEL,700,0,0,Himanshu Dave Gagan Vikram Kewalramani,,64,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MSL73620,Introduction to Fintech,3-0-0,3,G,G,School of Management and Entrepreneurship,MSL,700,0,0,,Jangam Bhushan Praveen,46,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+QCL7320,Quantum cryptography and coding,3-0-0,3,G,G,Quantum Information and Computation,QCL,700,0,0,V. Narayanan,,41,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CSL7090,Software and Data Engineering,3-0-0,3,G,G,Computer Science and Engineering,CSL,700,0,0,Sumit Kalra,,30,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MAL6120,Real Analysis,3-1-0,4,G,G,Mathematics,MAL,600,0,0,Sahil Gehlawat,,28,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7250,Thermodynamics of Materials,2-0-2,3,G,G,Materials Engineering,MTL,700,0,0,Sumeet Rajesh Khanna Appala Naidu Gandi,,27,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL4360,Traffic system and ITS,3-0-0,3,G,G,Civil and Infrastructure Engineering,CIL,400,0,0,Akshay Gupta,,26,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CYL4060,Numerical Methods and Group Theory,3-0-0,3,G,G,Chemistry,CYL,400,0,0,Atul Kumar,,24,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EEL7700,Electric Drive Systems,3-0-0,3,G,G,Electrical Engineering,EEL,700,0,0,Nishant Kumar,,21,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+AIL7310,Machine Learning for Economics,3-0-0,3,G,G,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE),Dweepobotee Brahma,20,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MAL7560,Optimization,3-0-0,3,G,G,Mathematics,MAL,700,0,0,Md Abu Talhamainuddin Ansary,,19,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CHL7030,Advanced Transport Phenomena,3-0-0,3,G,G,Chemical Engineering,CHL,700,0,0,Gangawane Krunal Madhukar,,17,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+PHL6170,Quantum Materials and Devices,3-0-0,3,G,G,Physics,PHL,600,0,0,Dushyant Kumar,,17,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+LAL6360,Place and Identity in the Digital Age,3-0-0,3,G,G,School of Liberal Arts (SoLA),LAL,600,1,1,Sreedevi D.,,16,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL7850,Water Quality and Advanced Treatment Processes,3-0-0,3,G,G,Civil and Infrastructure Engineering,CIL,700,0,0,Trishikhi Raychaudhury,,12,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+RML7270,Estimation Navigation and Guidance,3-0-0,3,G,G,Robotics and Mobility Systems,RML,700,0,0,Jayant Kumar Mohanta Nidhi Sharma,,12,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7510,Battery Cell Fabrication and Manufacturing Technology,3-0-0,3,G,G,Materials Engineering,MTL,700,0,0,"Debasmita Dwibedi Abhay Gupta, Srijan Sengupta",,10,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL2011,Energy Materials,1-0-0,1,G,G,Materials Engineering,MTL,200,0,0,Debasmita Dwibedi,,9,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+PHL7040,Statistical Method of Data Analysis,3-0-0,3,G,G,Physics,PHL,700,0,0,Jitendra Kumar Prabhat Kumar Jaiswal,,9,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7570,Composite Processing and Fabrication Technology,3-0-0,3,G,G,Materials Engineering,MTL,700,0,0,Anurag Sharma,"Shipra Bajpai, Vikramsingh Rajendrasingh Thakur",7,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+DSL3030,Paper Engineering as Creative Exploration,1-0-4,3,G,G,School of Design,DSL,300,0,0,Sumana Som,,6,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MSL73210,Qualitative Research Methods for Management,3-0-0,3,G,G,School of Management and Entrepreneurship,MSL,700,0,0,Manu Kanchan,,6,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL7860,Wind Turbine and Field Design,3-0-0,3,G,G,Civil and Infrastructure Engineering,CIL,700,0,0,Amit Kumar Rathi,,4,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+LAL6240,Computational Methods for Social Sciences,3-0-0,3,G,G,School of Liberal Arts (SoLA),LAL,600,1,1,Gopakumar K. U. Prasenjeet Tribhuvan,,4,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+LAL7890,Historical and Social Anthropology,3-0-0,3,G,G,School of Liberal Arts (SoLA),LAL,700,1,1,Soni,,2,,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+PHL4130,Quantum Mechanics,3-0-0,3,G,G,Physics,PHL,400,0,0,Subhashish Banerjee,,13,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CSL7610,Artificial Intelligence,3-0-0,3,G,G,Computer Science and Engineering,CSL,700,0,0,Deeksha Varshney Pratik Mazumder,,83,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CSL3010,Design and Analysis of Algorithms (Tutorial),3-1-0-0,4,G,G (Tue 3 to 4 PM),Computer Science and Engineering,CSL,300,0,0,Tanmay Nitin Inamdar,,120,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+OAE1010,Engineering Design I,0-0-2,1,G,G (Wed),,OAE,100,0,0,,,0,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CSL7620,Machine Learning,3-0-0,3,H,H,Computer Science and Engineering,CSL,700,0,0,Richa Singh,,109,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MSL71040,Financial Accounting and Reporting,2-0-0,2,H,H,School of Management and Entrepreneurship,MSL,700,0,0,Deepak Kumar Saxena,,56,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+QCL7080,Introduction to Quantum Information,3-0-0,3,H,H,Physics,QCL,700,0,0,Amit Mukherjee,,45,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+LAL6150,New Forms of Social Oganisation,3-0-0,3,H,H,School of Liberal Arts (SoLA),LAL,600,1,1,Sherin Sabu,,37,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL7830,Advanced Solid and Fluid Mechanics,3-0-0,3,H,H,Civil and Infrastructure Engineering,CIL,700,0,0,Shuvajit Mukherjee Saran Aadhar,,36,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MAL6150,Probability and Statistics,3-1-0,4,H,H,Mathematics,MAL,600,0,0,Brahadeesh Sankarnarayanan,,31,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+BBL7660,Imaging Cell Biology,3-0-0,3,H,H,Bioscience and Bioengineering,BBL,700,0,0,Priyanka Singh,,24,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MAL7320,Dynamical Systems,3-0-0,3,H,H,Mathematics,MAL,700,0,0,Sukhendu Ghosh,,23,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL7060,Applied Heat and Mass Transfer,3-0-0,3,H,H,Mechanical Engineering,MEL,700,0,0,Shobhana Singh,,23,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL7240,"AI, ML, and Big Data for mechanics and design",3-0-0,3,H,H,Mechanical Engineering,MEL,700,0,0,Amrita Puri,,23,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MSL73590,Supply Chain Management,3-0-0,3,H,H,School of Management and Entrepreneurship,MSL,700,0,0,Vinod Vijay Kumar,,23,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MTL7170,Symmetry Structure and Tensor Properties,3-0-0,3,H,H,Materials Engineering,MTL,700,0,0,Amitava Banerjee,,23,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CIL4390,Highway Geometric Design,3-0-0,3,H,H,Civil and Infrastructure Engineering,CIL,400,0,0,Subham Jain,,22,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CYL7020,Chemistry-II,3-0-0,3,H,H,Chemistry,CYL,700,0,0,"Swati Jindal Milan Kumar Hazra, Pragati Pandey",,22,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EEL71720,Power Electronic Converters,3-0-0,3,H,H,Electrical Engineering,EEL,700,0,0,Kunwar Aditya,,19,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+LAL6320,Digital Economics,3-0-0,3,H,H,School of Liberal Arts (SoLA),LAL,600,1,1,Akanksha Choudhary,,17,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+CHL7070,Advanced Reaction Engineering,3-0-0,3,H,H,Chemical Engineering,CHL,700,0,0,Pradip Kumar Tewari,,16,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+AIL7060,Interaction and Experience Design for AR VR,2-0-2,3,H,H,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE)Pranjal Protim Borah,,15,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+MEL7950,Drone Technologies,2-0-2,3,H,H,Mechanical Engineering,MEL,700,0,0,Arun Kumar R,,13,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.4",4
+EEL7009,Applied Linear Algebra,3-0-0,3,H,H,Electrical Engineering,EEL,700,0,0,Rajendra Nagar,,12,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MEL7260,Advanced Material Processing,3-0-0,3,H,H,Mechanical Engineering,MEL,700,0,0,Ambuj Kumar Gautam,,12,ME 115,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+PHL4110,Mathematical Physics,3-0-0,3,H,H,Physics,PHL,400,0,0,Ambesh Dixit,,10,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7580,Characterization of Composite Materials,3-0-0,3,H,H,Materials Engineering,MTL,700,0,0,Anurag Sharma Ravi Prakash Srivastava,,9,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MSL73220,Paradigms and Philosophies of Management Research,3-0-0,3,H,H,School of Management and Entrepreneurship,MSL,700,0,0,Jitesh Mohnot,,4,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+DSL7410,Product Design and Development,2-0-2,3,H,H,School of Design,DSL,700,0,0,Priyabrata Rautray,,3,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+AIL7510,Neural Image Synthesis for VR AR,2-0-2,3,H,H,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) Dipanjan Roy,,1,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+BBL7620,Imaging Cell Biology,2-0-2,3,H,H,Bioscience and Bioengineering,BBL,700,0,0,Priyanka Singh,,1,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CYL4030,Physical Organic Chemistry,3-0-0,3,H,H,Chemistry,CYL,400,0,0,Vivek Chandrakant Wakchaure,,20,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+OAE1010,Engineering Design I,0-0-2,1,H,H (Wed),,OAE,100,0,0,,,0,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CSL7360,Computer Vision,3-0-0,3,I,I,Computer Science and Engineering,CSL,700,0,1,Deepak Mishra,,114,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+AIL4070,Fundamentals of Economics,3-0-0,3,I,I,School of Artificial Intelligence and Data Science,AIL,400,0,0,(AIDE),Souryabrata Mohapatra,61,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MSL73490,Nurturing and Managing Brands,3-0-0,3,I,I,School of Management and Entrepreneurship,MSL,700,0,1,Manu Kanchan,,38,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CIL7840,Mathematics for Civil Engineering,3-0-0,3,I,I,Civil and Infrastructure Engineering,CIL,700,0,1,Sanhita Das Shuvajit Mukherjee,,37,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7540,Functional 2D Materials,2-0-2,3,I,I,Materials Engineering,MTL,700,0,1,Pranay Ranjan,,32,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+DSL7310,Elements of Design,2-0-2,3,I,I,School of Design,DSL,700,0,1,Sumana Som,,29,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL6140,Abstract Algebra,3-1-0,4,I,I,Mathematics,MAL,600,0,0,Kriti Goel,,29,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+QCL7070,Quantum Computation,3-0-0,3,I,I,Quantum Information and Computation,QCL,700,0,1,Srivatsa N.S.,,29,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CYL7340,Frontiers in Organic Chemistry,3-0-0,3.00,I,I,Chemistry,CYL,700,0,1,Sandip Murarka,,28,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MSL73630,Strategic Leadership,3-0-0,3,I,I,School of Management and Entrepreneurship,MSL,700,0,1,Jitesh Mohnot,,26,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL7490,Wavelets analysis and Applications,3-0-0,3,I,I,Mathematics,MAL,700,0,1,Tuhina Mukherjee,,25,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CYL4040,Main Group and Bioinorganic Chemistry,3-0-0,3,I,I,Chemistry,CYL,400,0,0,Ramesh Kashinath Metre,,24,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+PHL7020,Review of Fundamental Physics,3-0-0,3,I,I,Physics,PHL,700,0,1,Naveen Kumar Tailor,,19,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL7530,Mathematical Analysis,3-0-0,3,I,I,Mathematics,MAL,700,0,1,Kirankumar Rajshekhar Hiremath,,18,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MEL7290,Finite Element Analysis,3-0-0,3,I,I,Mechanical Engineering,MEL,700,0,1,Hirshikesh,,18,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+RML6010,Introduction to Robotics,3-0-0,3,I,I,Robotics and Mobility Systems,RML,600,0,0,Riby Abraham Boby,,18,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MEL7080,Robotics,3-0-2,4,I,I,Mechanical Engineering,MEL,700,0,1,Riby Abraham Boby,,13,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MEL7190,Design of Heat Exchange Equipment,3-0-0,3,I,I,Mechanical Engineering,MEL,700,0,1,Kothadia Hardikkumar Bhupendra,,13,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EAL7010,Energy Conversion Technologies,3-0-0,3,I,I,Energy and Automotive Engineering,EAL,700,0,1,Srijit Biswas,,11,ME 115,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+ETL7060,Industrial Waste Management and Circular Economy,3-0-0,3,I,I,Environmental and Sustainability Engineering,ETL,700,0,1,Chandana N,,11,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CHL7710,Nanocomposite Membrane Technology,3-0-0,3,I,I,Chemical Engineering,CHL,700,0,1,Vikky Anand,,10,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CIL7690,Building Services,3-0-0,3,I,I,Civil and Infrastructure Engineering,CIL,700,0,1,Anusha S. B.,,10,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+ECL71550,Fiber Optic Devices and Components,3-0-0,3,I,I,Electronics Engineering,ECL,700,0,1,Nitin Bhatia,,10,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+LAL6430,Contemporary Debates in DH,3-0-0,3,I,I,School of Liberal Arts (SoLA),LAL,600,1,1,Parichay Patra,,10,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+ECL7010,Applied Linear Algebra,3-0-0,3,I,I,Electronics Engineering,ECL,700,0,1,Pradyumna Kumar Bishoyi,,8,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+AIL7290,Psychophysics,3-0-0,3,I,I,School of Artificial Intelligence and Data Science,AIL,700,0,1,(AIDE) Shilpa Dang,,7,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7690,AI/ML/Big data for composite materials,3-0-0,3,I,I,Materials Engineering,MTL,700,0,1,Lalit,,7,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EEL7770,Formal Verification,2-0-0,2,I,I,Electrical Engineering,EEL,700,0,1,Binod Kumar,,6,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+LAL7420,Politics of Water Governance,3-0-0,3,I,I,School of Liberal Arts (SoLA),LAL,700,1,1,Farhat Naz,,6,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MSL73200,Quantitative Research Methods for Management,3-0-0,3,I,I,School of Management and Entrepreneurship,MSL,700,0,1,Bhargab Chattopadhyay Deepak Srivastav,,5,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7270,Materials for Electrochemical Energy Conversion and Storage,3-0-0,3,I,I,Materials Engineering,MTL,700,0,1,Amitava Banerjee Srijan Sengupta,,5,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7410,Diffusion in Solids,3-0-0,3,I,I,Materials Engineering,MTL,700,0,1,Appala Naidu Gandi,,5,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+LAL6050,Fundamentals of Computational Social Sciences,3-0-0,3,I,I,School of Liberal Arts (SoLA),LAL,600,1,1,Alok Ranjan Suman Dhaka,,4,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+PHL4140,Electronics,3-0-0,3,I,I,Physics,PHL,400,0,0,Shahab Ahmad,,11,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EEL7010,Statistical Signal Analysis,3-0-0,3,I,I,Electrical Engineering,EEL,700,0,1,Amit Bhardwaj,,3,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7080,Plastic Deformation and Microstructure Evolution,3-0-0,3,I,I,Materials Engineering,MTL,700,0,1,Jaiveer Singh,,8,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CIL4380,Ground Improvement Techniques,3-0-0,3,I,I,Civil and Infrastructure Engineering,CIL,400,0,0,Sarath Chandra Reddy Nallala,,2,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EEL7220,Renewable Energy Systems,3-0-0,3,I,I,Electrical Engineering,EEL,700,0,1,Kunwar Aditya,,2,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+SHL7110,Electronic Nose for Health Monitoring,2-0-0,2,I,I,Medical Technology Center,SHL,700,0,1,Saakshi Dhanekar,,2,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CHL4370,Introductory principles in polymer engineering,3-0-0,3,I,I,Chemical Engineering,CHL,400,0,0,Sumit Popat Parvate,,1,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+DSL7560,Computer-Aided Design,1-0-4,3,I,I,School of Design,DSL,700,0,1,Gaurav Vinodrao Vaidya,,1,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EEL71560,Linear System Theory,3-0-0,3,I,I,Electrical Engineering,EEL,700,0,1,Saurav Kumar,,1,,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MSL73520,Human AI Collaboration at Work,2-0-2,3,J,J,School of Management and Entrepreneurship,MSL,700,0,1,,Venkat Ram Reddy Ganuthula,62,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MTL7550,Advanced Semiconductor Materials and Device Applications,2-0-2,3,J,J,Materials Engineering,MTL,700,0,1,Ravi Prakash Srivastava,,49,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL7400,Computational Game Theory,3-0-0,3,J,J,Mathematics,MAL,700,0,1,Puneet Sharma,,47,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CYL7420,Characterization Techniques in Inorganic Chemistry,3-0-0,3,J,J,Chemistry,CYL,700,0,1,Subrata Chakraborty,,38,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+LAL3020,Popular classics,3-0-0,3,J,J,School of Liberal Arts (SoLA),LAL,300,1,1,Anupama Mohan,,35,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CHL4380,Applications of Artificial Intelligence in Chemical Engineering,3-0-0,3,J,J,Chemical Engineering,CHL,400,0,0,Varanasi Santhosh Kumar,,32,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+EEL71570,Hardware Software Co-design,3-0-0,3,J,J,Electrical Engineering,EEL,700,0,1,Binod Kumar,,31,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+AIL4230,Basics of Computational Neuroscience,3-0-0,3,J,J,School of Artificial Intelligence and Data Science,AIL,400,0,0,(AIDE)Vignesh Muralidharan Dipanjan Roy,,30,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL7420,Statistical Models and Regression,3-0-0-0,3,J,J,Mathematics,MAL,700,0,1,Nil Kamal Hazra,,24,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+CIL4330,Thermal and Nuclear Power Infrastructure Engineering,3-0-0,3,J,J,Civil and Infrastructure Engineering,CIL,400,0,0,Bhupendra Singh Subham Jain,,23,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MEL7400,Computational Fluid Dynamics and Heat Transfer,3-1-0,4,J,J,Mechanical Engineering,MEL,700,0,1,Akolekar Harshal Deepak,,21,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+MAL7520,Algebra,3-0-0,3,J,J,Mathematics,MAL,700,0,1,Dilpreet Kaur,,18,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.5",5
+PHL7340,Quantum Field Theory,3-0-0,3,J,J,Physics,PHL,700,0,1,Lata Panwar,,18,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL7580,Introduction to Smart Grid,3-0-0,3,J,J,Electrical Engineering,EEL,700,0,1,Payal Vyankat Dahiwale,,17,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL7620,Engineering Design Innovation,3-0-0,3,J,J,Mechanical Engineering,MEL,700,0,1,Mrityunjay Rudrappa Doddamani,,15,ME 109,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+AIL7370,Deep Learning for Computer Vision,3-0-0,3,J,J,School of Artificial Intelligence and Data Science,AIL,700,0,1,(AIDE) Bikash Santra,,12,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL7700,Computational Fluid Dynamics and Heat Transfer,3-0-0,3,J,J,Mechanical Engineering,MEL,700,0,1,Akolekar Harshal Deepak,,12,ME 114,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+ETL7050,Water Sustainability,3-0-0,3,J,J,Center for Emerging Technologies for Sustainable Development,ETL,700,0,1,Kirti Sankhala,,11,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EAL7310,Internal Combustion Engine,3-0-0,3,J,J,Energy and Automotive Engineering,EAL,700,0,1,Srijit Biswas,,10,ME 115,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHL4150,Statistical Physics,3-0-0,3,J,J,Physics,PHL,400,0,0,Sunita,,10,PH 105,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTL7590,Batteries with Li and beyond Li chemistry,3-0-0,3,J,J,Materials Engineering,MTL,700,0,1,"Debasmita Dwibedi Ravi Prakash Srivastava, Srijan Sengupta",,8,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CSL7150,Cybersecurity,3-0-0,3,J,J,Computer Science and Engineering,CSL,700,0,1,Susil Kumar Mohanty,,6,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL7340,Power System Protection,3-0-0,3,J,J,Electrical Engineering,EEL,700,0,1,Bandi Ravi Kumar,,6,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CIL7920,Advanced Hydrology,2-0-2,3,J,J,Civil and Infrastructure Engineering,CIL,700,0,1,Saran Aadhar,,5,PH 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CSL3010,Design and Analysis of Algorithms (Tutorial),3-1-0-0,4,J,J (Tue 4 to 5 PM),Computer Science and Engineering,CSL,300,0,0,Tanmay Nitin Inamdar,,120,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+LAP6010,Computational Social Sciences Lab,0-0-2,1,J,J,School of Liberal Arts (SoLA),LAP,600,1,1,Ravi Yadav,,4,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CIL7900,Mechanics of Geomaterials,3-0-0,3,J,J,Civil and Infrastructure Engineering,CIL,700,0,1,Debanjan Guha Roy,,3,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+DHL7100,"Images, Imaginations, and Digital Cultures",3-0-0,3,J,J,Digital Humanities,DHL,700,1,1,Sunil Kumar Lohar,,3,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTL7470,Light Metals and Alloys,3-0-0,3,J,J,Materials Engineering,MTL,700,0,1,Saurabh Sanjay Nene,,10,PH 104,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EDL7030,Education and Social Systems,3-0-0,3,J,J,Center for Education Technology (CET),EDL,700,0,1,Tonisha Guin,,2,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTL7660,Sustainable composite,3-0-0,3,J,J,Materials Engineering,MTL,700,0,1,Vikramsingh Rajendrasingh Thakur,,6,SME L6,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+SHL7480,Point of care diagnostics,2-0-2,3,J,J,Medical Technology Center,SHL,700,0,1,Saakshi Dhanekar,,1,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHL1010,Physics,3-0-0,3,AK,AK,Physics,PHL,100,0,0,Prabhat Kumar Jaiswal Jitendra Kumar,,346,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL1010,Chemistry,3-0-0,3.00,AK,AK,Chemistry,CYL,100,0,0,"Dibyendu Kumar Sasmal Pragati Pandey, Swati Jindal",,328,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL1000,Engineering Mechanics (Non-English),3-0-0,3,AK,AK,Mechanical Engineering,MEL,100,0,0,Ravindra Brammajyosula,,0,LHC 305,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+LAL3060,Development and Environment,3-0-0,3,K,K,School of Liberal Arts (SoLA),LAL,300,1,1,Farhat Naz,,97,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+LAL3090,Social Stratification,3-0-0,3,K,K,School of Liberal Arts (SoLA),LAL,300,1,1,Sherin Sabu,,97,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+LAL3030,Introduction to Sociology,3-0-0,3,K,K,School of Liberal Arts (SoLA),LAL,300,1,1,Bhaskar Kumar Kakati,,87,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MSL73080,Fundamentals in Accounting,3-0-0,3,K,K,School of Management and Entrepreneurship,MSL,700,0,1,Manisha Yadav,,87,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+AIL7110,Introduction to Augmented Reality and Virtual Reality,3-0-0,3,K,K,School of Artificial Intelligence and Data Science,AIL,700,0,1,(AIDE) Bhivraj Suthar,,83,LHC 2 103,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MSL73560 Business,Storytelling with Data Visualization and Machine Learning,3-0-0,3,K,K,School of Management and Entrepreneurship,MSL,700,0,1,Magesh Nagarajan,,72,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL3320,VLSI Design,3-0-0,3,K,K,Electrical Engineering,EEL,300,0,1,Arpit Arvind Khandelwal,,58,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+DSL7360,Interaction Design,2-0-2,3,K,K,School of Design,DSL,700,0,1,Kedar Umesh Dicholkar,,57,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTL2010,Materials Science and Engineering,3-0-0,3,K,K,Materials Engineering,MTL,200,0,0,Abir Bhattacharyya,,49,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL1110,General Chemistry-I,3-0-2,4,CK,CK,Chemistry,CYL,100,0,0,Pritam Mahawar,,46,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MSL7060,Marketing Management-I,2-0-0,2,K,K,School of Management and Entrepreneurship,MSL,700,0,1,Manu Kanchan,,33,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL7450,Nanomaterials and Nanodevices,2-0-2,3,K,K,Chemistry,CYL,700,0,1,Suresh Sarkar,,31,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MAL6130,Ordinary Differential Equations,3-1-0,4,K,K,Mathematics,MAL,600,0,1,Anuj Kumar,,28,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL7230,Engineering Fracture Mechanics,3-0-0,3,K,K,Mechanical Engineering,MEL,700,0,1,Hirshikesh,,28,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL7150,Embedded System Design,3-0-0,3,K,K,Electrical Engineering,EEL,700,0,1,Deepakkumar Maganlal Fulwani,,27,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL4050,Coordination and Organometallic Chemistry,3-0-0,3,K,K,Chemistry,CYL,400,0,1,Ravindra Krushnaji Raut Amreen Kaur Bains,,19,CS 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CIL7910,Advanced Concrete Technology,3-0-0,3,K,K,Civil and Infrastructure Engineering,CIL,700,0,1,Sreejith Krishnan,,19,EE 109,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+BBL7500,Biophysics,3-0-0,3,K,K,Bioscience and Bioengineering,BBL,700,0,1,Sudipta Bhattacharyya,,17,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTL7520,Machine Learning for Materials Design,2-0-2,3,K,K,Materials Engineering,MTL,700,0,1,Lalit,,17,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHL3030,Solid State Physics,3-0-0,3,CK,CK,Physics,PHL,300,0,0,B M Krishna Mariserla,,16,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL3110,Organic Reactions and Mechanisms,3-0-0,3,CK,CK,Chemistry,CYL,300,0,0,Shyam Kumar Banjare,,7,CY 108,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CSL7860,Foundation Models and Generative AI,3-0-0,3,K,K,Computer Science and Engineering,CSL,700,0,1,Angshuman Paul,,15,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+LAL6350,"Civilizations, Cultures, and Technologies",3-0-0,3,K,K,School of Liberal Arts (SoLA),LAL,600,1,1,Kanak Yadav,,11,SOLA,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+BBL7470,Theranostic Systems,3-0-0,3,K,K,Bioscience and Bioengineering,BBL,700,0,1,Raviraj Vankayala,,8,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYL7440,Stereochemistry of Organic Compounds,3-0-0,3,K,K,Chemistry,CYL,700,0,1,Nirmal Kumar Rana,,7,BB 104,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+ECL7020,Statistical Signal Analysis,3-0-0,3,K,K,Electronics Engineering,ECL,700,0,1,Arun Kumar Singh,,7,EE 114,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL7640,Selected Topics in Distributed Generation,3-0-0,3,K,K,Electrical Engineering,EEL,700,0,1,Ravi Yadav,,6,EE 115,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+BBL7520,Biophysics,3-0-0,3,K,K,Bioscience and Bioengineering,BBL,700,0,1,Sudipta Bhattacharyya,,4,BB 105,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CHL7720,Computational Fluid Dynamics,3-0-0,3,K,K,Chemical Engineering,CHL,700,0,1,Gangawane Krunal Madhukar,,4,MT 113,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+AIP4010,Method and tools of Science of Intelligence,0-0-4,2,K,K,School of Artificial Intelligence and Data Science,AIP,400,0,1,(AIDE)Vignesh Muralidharan Dipanjan Roy,,2,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MAL7450,Module Theory,3-0-0,3,K,K,Mathematics,MAL,700,0,1,Kriti Goel,,2,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL4240,Micro nano Flows,3-0-0,3,K,K,Mechanical Engineering,MEL,400,0,1,Pratyaksh Karan,,2,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EEL7900,Physics and Modelling of MOS Transistors,3-0-0,3,K,K,Electrical Engineering,EEL,700,0,1,Harshit Agarwal,,1,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEL7270,MEMS and Microsystems Technology,3-0-0,3,K,K,Mechanical Engineering,MEL,700,0,1,Ankur Gupta,,1,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CIP7310,Environmental Engineering Laboratory,1-0-4,3,L,L,Civil and Infrastructure Engineering,CIP,700,0,0,Trishikhi Raychaudhury Monika Dubey,,9,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+EAP7010,Energy Engineering Laboratory -I,0-0-2,1,L2,L2,Energy and Automotive Engineering,EAP,700,0,0,Shobhana Singh,,10,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYQ6010,Seminar,0-0-1,0.50,L3,L3,Chemistry,CYQ,600,0,0,Amreen Kaur Bains,,38,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHQ6010,M Sc Seminar,0-0-1,0.5,L5,L5,Physics,PHQ,600,0,0,Santosh Mogurampelly,,34,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MTP7050,Composite Materials Processing and Characterization Lab,0-0-2,1,L5,L5,Materials Engineering,MTP,700,0,0,Vikramsingh Rajendrasingh Thakur,"Anurag Sharma, Shipra Bajpai",7,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYP6050,Hands on 2,0-0-3,1.5,L6,L6,Chemistry,CYP,600,0,0,Swati Jindal,,38,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYN3020,Design Practical Experience,0-0-2,2,L6,L6,Chemistry,CYN,300,0,0,Suresh Sarkar,,3,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHP6070,Computational Physics Lab,0-0-3,1.5,L7,L7,Physics,PHP,600,0,0,Santosh Mogurampelly,,34,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CYN4020,Design Practical Experience,0-0-2,2,L8,L8,Chemistry,CYN,400,0,0,Rohan Diliprao Erande,,9,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+BBP2030,Biochemistry and Bioinformatics Lab,0-0-4,2,M,M,Bioscience and Bioengineering,BBP,200,0,0,Neha Jain,,43,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+PHP1010,Physics Laboratory,0-0-2,1.00,M1,M1,Physics,PHP,100,0,0,Jitendra Kumar Prabhat Kumar Jaiswal,,336,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+MEP2000,Mechanics and Manufacturing Lab,0-0-6,3,M1,M1,Mechanical Engineering,MEP,200,0,0,Babu Ranjan Thakur,,87,,"Classroom Allocation AY 2026-27 Sem I, p.6",6
+CSP2030,CSE Lab 1,0-0-2,1,M1,M1,Computer Science and Engineering,CSP,200,0,0,Dip Sankar Banerjee,,78,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CIP2010,Civil Engineering Laboratory - I,0-0-4,2,M1,M1,Civil and Infrastructure Engineering,CIP,200,0,0,Anusha S. B.,,58,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEP4010,Thermofluids Lab,0-0-2,1,M1,M1,Mechanical Engineering,MEP,400,0,0,Srijit Biswas,,56,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHP2110,Physics Lab-1,0-0-6,3,M1,M1,Physics,PHP,200,0,0,Sagar Kumar Verma,,20,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+BBP7650,Next Generation Sequencing Laboratory,0-0-2,1,M1,M1,Bioscience and Bioengineering,BBP,700,0,0,Shankar Manoharan,,14,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CYP1010,Chemistry Laboratory,0-0-2,1.00,M2,M2,Chemistry,CYP,100,0,0,"Mayank Gupta Atul Kumar, Vivek Chandrakant Wakchaure",,325,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CSP2130,AIDE Lab 1,0-0-4,2,M2,M2,Computer Science and Engineering,CSP,200,0,0,Anushka Joshi,,67,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEP3020,Manufacturing Processes and Systems lab,0-0-2,1,M2,M2,Mechanical Engineering,MEP,300,0,0,Chandan Pandey,,62,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP3030,Energy Materials Lab,0-0-3,1.5,M2,M2,Materials Engineering,MTP,300,0,0,Srijan Sengupta,,35,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEP3010,Heat Transfer Lab,0-0-2,1,M3,M3,Mechanical Engineering,MEP,300,0,0,Shrutidhara Sarma Tara Chand Kumawat,,98,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHP3010,Electronics Lab,0-0-3,1.5,M3,M3,Physics,PHP,300,0,0,Satyajit Sahu,,13,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP7040,Battery Material Synthesis and Device Testing Laboratory,0-0-6,3,M3,M3,Materials Engineering,MTP,700,0,0,Srijan Sengupta,"Ravi Prakash Srivastava, Debasmita Dwibedi",9,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEP1000,Engineering Drawing,0-0-2,1,M3,M3,"Anil Kumar, Mechanical Arun Kumar Engineering R, Ashish Pathak,",MEP,100,0,0,Anand Krishnan Plappally,"Gagan Vikram Kewalramani, Nipun Arora, Pratyaksh Karan, Prodyut Ranjan Chakraborty",1,"Shrutidhara Sarma, Sudipto Mukhopadhyay","Classroom Allocation AY 2026-27 Sem I, p.7",7
+QCP7030,Quantum Computation and Communication Laboratory,0-0-4,2,M4,M4,Quantum Information and Computation,QCP,700,0,0,V. Narayanan,,17,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CYP3010,Organic Chemistry Lab 2,0-0-3,1.5,M4,M4,Chemistry,CYP,300,0,0,Shyam Kumar Banjare,,14,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHP3020,Thin Film and Material Characterization Lab,0-0-3,1.5,M4,M4,Physics,PHP,300,0,0,Dushyant Kumar,,13,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+ECP71610,Microwave Circuits Lab,0-0-2,1,M4,M4,Electronics Engineering,ECP,700,0,0,Abhishek Sharma,,10,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHP3030,Applied Computational Lab,0-0-3,1.5,M5,M5,Physics,PHP,300,0,0,Milan Kumar Hazra,,27,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP3010,Electronic Materials Lab,0-0-3,1.5,M6,M6,Materials Engineering,MTP,300,0,0,Ravi Prakash Srivastava,,35,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHP3070,Physics Lab-2,0-0-6,3,M6,M6,Physics,PHP,300,0,0,Satyajit Sahu,,18,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+EEP7140,Integrated Power and Drives Laboratory,0-0-2,1,M6,M6,Electrical Engineering,EEP,700,0,0,Ravi Yadav,,16,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP2030,Numerical Methods and Materials Engineering Lab,0-0-4,2,M7,M7,Materials Engineering 00155-Abir,MTP,200,0,0,Sumeet Rajesh Khanna,"Bhattacharyya, Devendra Singh Negi, Abhay Gupta, Vikramsingh Rajendrasingh",800,Thakur,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP3070,Materials Charaterization Lab,0-0-2,1,M7,M7,Materials Engineering,MTP,300,0,0,"Debasmita Dwibedi Nitin Kumar Sharma, Shipra Bajpai",,48,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+BBP7660,Bioimaging Laboratory,0-0-2,1,M7,M7,Bioscience and Bioengineering,BBP,700,0,0,Priyanka Singh,,14,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP3050,Materials Charaterization Lab,0-0-3,1.5,M7,M7,Materials Engineering,MTP,300,0,0,"Debasmita Dwibedi Nitin Kumar Sharma, Shipra Bajpai",,1,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTP3020,Physical Metallurgy Lab,0-0-3,1.5,M8,M8,Materials Engineering,MTP,300,0,0,Jaiveer Singh,,35,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CYP2130,Organic Chemistry Lab,0-0-6,3,M8,M8,Chemistry,CYP,200,0,0,Rohan Diliprao Erande,,20,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MAL1110,Mathematics I,2-1-0,3,AN,AN,Mathematics,MAL,100,0,0,Puneet Sharma (A Batch),,683,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MAL1110,Mathematics I,2-1-0,3,AN,AN,Mathematics,MAL,100,0,0,Puneet Sharma (B Batch),,683,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CSL1010,Introduction to Computer Science (Non-English),3-0-2,4.00,AN,AN,Computer Science and Engineering,CSL,100,0,0,Anand Mishra,"Yashaswi Verma, Suchetana Chakraborty, Pratik Mazumder",0,LHC 306,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MSL73090,Corporate Finance,3-0-0,3,N,N,School of Management and Entrepreneurship,MSL,700,0,1,Manisha Yadav,,97,LHC 2 101,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+LAL3130,Gender and Society,3-0-0,3,N,N,School of Liberal Arts (SoLA),LAL,300,1,1,Soni,,96,LHC 2 102,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+LAL3080,Digital Society,3-0-0,3,N,N,School of Liberal Arts (SoLA),LAL,300,1,1,Rachel Philip,,95,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+LAL3040,Law and Society,3-0-0,3,N,N,School of Liberal Arts (SoLA),LAL,300,1,1,Prasenjeet Tribhuvan,,83,LHC 106,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+EDL3010 Content,Cum Pedagogy of Mathematics at the Secondary Stage-II,1-0-2,2,CN,CN,Center for Education Technology (CET),EDL,300,0,0,Sheriya Sareen,,49,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CHN2040,Introduction to Profession,0-0-2,1,N,N,Chemical Engineering,CHN,200,0,0,Angan Sengupta,,47,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MSL73540,Big Data and Cloud Computing,3-,3,N,N,School of Management and Entrepreneurship,MSL,700,0,1,Aman Pathak,,29,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CHL7310,Chemometrics,3-0-0,3,N,N,Chemical Engineering,CHL,700,0,1,Varanasi Santhosh Kumar,,28,MT 110,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MSP7030,Business Plan Phase I,0-0-8,4,N,N,School of Management and Entrepreneurship,MSP,700,0,1,,Venkat Ram Reddy Ganuthula,14,SME L2,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+BBL7080,Plant Genetic Engineering and functional genomics,3-0-0,3,N,N,Bioscience and Bioengineering,BBL,700,0,1,Ayan Sadhukhan,,13,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEL6060,Computer Integrated Manufacturing,3-0-0,3,N,N,Mechanical Engineering,MEL,600,0,1,Kaushalkumar Ashokbhai Desai,,9,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTL7110,Solidification of Metals and Alloys,3-0-0,3,N,N,Materials Engineering,MTL,700,0,1,Sk Md Hasan,,9,MT 112,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CSL7460,Mobile and Pervasive Computing,3-0-0,3,N,N,Computer Science and Engineering,CSL,700,0,1,Suchetana Chakraborty,,7,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+BBL7460,Synthetic Biology,3-0-0,3,N,N,Bioscience and Bioengineering,BBL,700,0,1,Shankar Manoharan,,6,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CYL7550,Advanced Spectroscopic Methods,3-0-0,3,N,N,Chemistry,CYL,700,0,1,Samanwita Pal,,5,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEL4040,Turbomachinery,3-0-0,3,N,N,Mechanical Engineering,MEL,400,0,1,Ashish Pathak,,4,ME 108,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+BBL7580,Computational Genomics,2-0-2,3,N,N,Bioscience and Bioengineering,BBL,700,0,1,Pankaj Yadav,,3,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MEL7140,Mechanical Vibrations,3-0-0,3,N,N,Mechanical Engineering,MEL,700,0,1,Nitesh Arora,,2,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+CSL7350,Selected Topics in AI,3-0-0,3,N,N,Computer Science and Engineering,CSL,700,0,1,Navchetan Awasthi,,1,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+PHL2031,Magnetic Materials,1-0-0,1,N,N,Physics,PHL,200,0,0,Durgamadhab Mishra,,1,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+LAN7010,Technical Communication,1-0-0,1,NG,NG (Wed 5 - 6 PM),School of Liberal Arts (SoLA),LAN,700,1,0,Kanak Yadav Chandana N,,437,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MSN7030,Business Communication,1-0-0,1,NG,NG,School of Management and Entrepreneurship,MSN,700,0,0,Gurujegan M.,,89,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MSN7100,MBA Summer Internship,0-0-3,3,NG,NG,School of Management and Entrepreneurship,MSN,700,0,0,,Venkat Ram Reddy Ganuthula,83,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTN1010,Design Practical Experience,0-0-4,2,NG,NG,Materials Engineering,MTN,100,0,0,Lalit,,51,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTN3010,Design Practical Experience,0-0-4,2,NG,NG,Materials Engineering,MTN,300,0,0,Amitava Banerjee,,29,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+MTN2020,Design Practical Experience,0-0-4,2,NG,NG,Materials Engineering,MTN,200,0,0,Sk Md Hasan,,10,,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+LAN3010,Professional Ethics I,1-0-0,1,NG1,NG1 (Tue 5-6 PM),School of Liberal Arts (SoLA),LAN,300,1,0,Prasenjeet Tribhuvan,,557,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+EEL2010,Signals and Systems (Tutorial),3-1-0,4,T,Thu (5 to 6 PM),Electrical Engineering,EEL,200,0,0,Himanshu Kumar,"Amit Bhardwaj, Manish Narwaria, Rajendra Nagar",0,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.7",7
+OAN7010,System Engineering and Project Management,1-0-0,1,NG1,NG1 (Thu 5-6 PM),School of Management and Entrepreneurship,OAN,700,0,0,Vinod Vijay Kumar,,66,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+BBN2010,Introduction to Profession,0-0-2,1,NG1,NG1,Bioscience and Bioengineering,BBN,200,0,0,Shankar Manoharan,,42,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CHN1010,Design Practical Experience,0-0-4,2,NG1,NG1,Chemical Engineering,CHN,100,0,0,Angan Sengupta,,39,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+PHN1010,Design Practical Experience,0-0-4,2,NG1,NG1,Physics,PHN,100,0,0,Jitendra Kumar,,14,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+PHN2020,Design Practical Experience,0-0-4,2,NG1,NG1,Physics,PHN,200,0,0,Jitendra Kumar,,2,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+OAL7010,Innovation and IP Management,1-0-0,1,NG1,"NG1, YR2 (Tue 5-6 PM)",School of Artificial Intelligence and Data Science,OAL,700,0,0,(AIDE) Manu Kanchan,,65,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EEN3010,Design Practical Experience,0-0-4,2,NG2,NG2,Electrical Engineering,EEN,300,0,0,Himanshu Kumar,,71,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MEN1010,Design Practical Experience,0-0-4,2,NG2,NG2,Mechanical Engineering,MEN,100,0,0,Rajit Ranjan,,56,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MEN3010,Design Practical Experience,0-0-4,2,NG2,NG2,Mechanical Engineering,MEN,300,0,0,Kothadia Hardikkumar Bhupendra,,49,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EEN2020,Design Practical Experience,0-0-4,2,NG2,NG2,Electrical Engineering,EEN,200,0,0,Bandi Ravi Kumar,,26,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EEN1010,Design Practical Experience,0-0-4,2,NG2,NG2,Electrical Engineering,EEN,100,0,0,Shaik Abdul Gafoor,,24,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ECN2001,Design Practical Experience,0-0-4,2,NG2,NG2,Electronics Engineering,ECN,200,0,0,Manoj Gupta,,17,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MEN2020,Design Practical Experience,0-0-4,2,NG2,NG2,Mechanical Engineering,MEN,200,0,0,Amrita Puri,,16,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+OSN1020,Performing Arts 1,0-0-1,0.50,NG2,NG2,Office of Student,OSN,100,0,0,Sunil Kumar Lohar,,12,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CHN2010,Design Practical Experience,0-0-4,2,NG2,NG2,Chemical Engineering,CHN,200,0,0,Vikky Anand,,8,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+OSN1030,Sports 1,0-0-1,0.50,NG2,NG2,Office of Student,OSN,100,0,0,Rohan Diliprao Erande,,8,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+PHN2030,Design Practical Experience,0-0-4,2,NG2,NG2,Physics,PHN,200,0,0,Amit Mukherjee,,7,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSN3020,Design Practical Experience,0-0-4,2,NG3,NG3,Computer Science and Engineering,CSN,300,0,0,Tanmay Nitin Inamdar,,157,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSN1020,Design Practical Experience,0-0-4,2,NG3,NG3,Computer Science and Engineering,CSN,100,0,0,Mohit Kumar Jangid,,123,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MEN2010,Introduction to Profession,0-0-2,1,NG3,NG3,Mechanical Engineering,MEN,200,0,0,Nipun Arora,,88,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CIN3010,Design Practical Experience,0-0-4,2,NG3,NG3,Civil and Infrastructure Engineering,CIN,300,0,0,Tekcham Gishan Singh,,49,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSN2020,Design Practical Experience,0-0-4,2,NG3,NG3,Computer Science and Engineering,CSN,200,0,0,Palash Das,,49,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EEN2010,Introduction to Profession,0-0-2,1,NG3,NG3 (Thu 5 to 6 PM),Electrical Engineering,EEN,200,0,0,Payal Vyankat Dahiwale,,43,MT 109,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+BBN3020,Design Practical Experience,0-0-4,2,NG3,NG3,Bioscience and Bioengineering,BBN,300,0,0,Sucharita Dey,,33,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+BBN1010,Design Practical Experience,0-0-4,2,NG3,NG3,Bioscience and Bioengineering,BBN,100,0,0,Sucharita Dey,,31,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ESN3010,Design Practical Experience,0-0-4,2,NG3,NG3,Electrical Engineering,ESN,300,0,0,Ankur Gupta,,21,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+PHN3010,Design Practical Experience,0-0-4,2,NG3,NG3,Physics,PHN,300,0,0,Naveen Kumar Tailor,,14,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CHN3010,Design Practical Experience,0-0-4,2,NG3,NG3,Chemical Engineering,CHN,300,0,0,Varanasi Santhosh Kumar,,11,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CIN2030,Design Practical Experience,0-0-4,2,NG3,NG3,Civil and Infrastructure Engineering,CIN,200,0,0,Trishikhi Raychaudhury,,11,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CIN1010,Design Practical Experience,0-0-4,2,NG3,NG3,Civil and Infrastructure Engineering,CIN,100,0,0,Falak Vats,,9,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+BBN2020,Design Practical Experience,0-0-4,2,NG3,NG3,Bioscience and Bioengineering,BBN,200,0,0,Sucharita Dey,,2,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ESN2010,Design Practical Experience,0-0-4,2,NG3,NG3,Electrical Engineering,ESN,200,0,0,Prasenjeet Tribhuvan,,2,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ESN1010,Design Practical Experience,0-0-4,2,NG3,NG3,Electrical Engineering,ESN,100,0,0,Dip Sankar Banerjee,,1,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSL2010,Introduction to Machine Learning,3-0-2,4,O,O,Computer Science and Engineering,CSL,200,0,0,Divya Saxena Hardik Jain,,381,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ECL71580,Solid State Devices,3-0-0,3,O,O,Electronics Engineering,ECL,700,0,0,Akshay,,20,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+QCL7350,Quantum Inspired Optimization,2-0-2,3,P,P,Quantum Information and Computation,QCL,700,0,0,Kirankumar Rajshekhar Hiremath,,15,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSL2010,Introduction to Machine Learning,3-0-2,4,Q,Q,Computer Science and Engineering,CSL,200,0,0,Divya Saxena Hardik Jain,,381,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ECL7320,Digital VLSI Design,3-0-0,3,Q,Q,Electronics Engineering,ECL,700,0,0,Bhupendra Reniwal,,32,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EEL7320,Digital VLSI Design,3-0-0,3,Q,Q,Electrical Engineering,EEL,700,0,0,Bhupendra Reniwal,,12,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+CSL7810,Systems for Machine Learning,3-0-0,3,Q,Q,Computer Science and Engineering,CSL,700,0,0,Sidharth Sharma,,2,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+OSN1010,Social Connect and Responsibilities I,0-0-1,0.50,R,R (Thu 6 - 7 PM),Office of Student,OSN,100,0,0,Pranay Ranjan,,682,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ECL7980,Analog IC Design,3-0-2,4,R,R,Electronics Engineering,ECL,700,0,0,Amandeep Kaur,,21,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MAT8020,Thesis,0-0-16,16,RP,RP,Mathematics,MAT,800,0,0,Subhash Bhagat,,48,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MAT8990,Thesis,0-0-12,12,RP,RP,Mathematics,MAT,800,0,0,Subhash Bhagat,,4,,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MSL7190,Entrepreneurial Experiences,2-0-0,2,S,S,School of Management and Entrepreneurship,MSL,700,0,0,Deepak Kumar Saxena,,30,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+AIL7260,Foundations of Vision and Language,3-0-0,3,S,S,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) Deeksha Varshney Divya Saxena,,23,CS 101,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+ECL7940,Signal and Power Integrity,3-0-0,3,S,S,Electronics Engineering,ECL,700,0,0,Jai Narayan Tripathi,,9,EE 108,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+MAL1110,Mathematics I (Tutorial),2-1-0,3,S,S (Fri 6-7 PM),Mathematics,MAL,100,0,0,Puneet Sharma,,0,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.8",8
+EED4010,B Tech Project,0-0-6,3,T,T,Electrical Engineering,EED,400,0,0,Himanshu Kumar,,88,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AID7720,M.Tech Project 2,0-0-0-5,5,T,T,School of Artificial Intelligence and Data Science,AID,700,0,0,(AIDE) Subhash Bhagat,,84,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+LAT8970,Thesis,0-0-16,16,T,T,School of Liberal Arts (SoLA),LAT,800,1,1,Bhaskar Kumar Kakati,,66,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MAT7210,M.Tech. Thesis -I,0-0-16,16,T,T,Mathematics,MAT,700,0,0,Sahil Gehlawat,,61,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+PHT8990,Thesis,0-0-12,12,T,T,Physics,PHT,800,0,0,Monika Sinha,,59,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MED4010,B Tech Project,0-0-6,3,T,T,Mechanical Engineering,MED,400,0,0,Kothadia Hardikkumar Bhupendra,,57,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CST8990,Thesis,0-0-12,12,T,T,Computer Science and Engineering,CST,800,0,0,Vimal Raj Sharma,,51,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CYT8990,Thesis,0-0-12,12,T,T,Chemistry,CYT,800,0,0,Suresh Sarkar,,49,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+ECT8950,Thesis,0-0-16,16,T,T,Electronics Engineering,ECT,800,0,0,Amandeep Kaur,,40,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+EET7950,M.Tech Thesis Part 1,0-0-16,16,T,T,Electrical Engineering,EET,700,0,0,Bharat Singh Rajpurohit,,40,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CYD6040,Major Project I,0-0-0-5,5,T,T,Chemistry,CYD,600,0,0,Vivek Chandrakant Wakchaure,,38,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+EET8970,Thesis,0-0-16,16,T,T,Electrical Engineering,EET,800,0,0,Niladri Sekhar Tripathy,,38,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CID4010,B Tech Project,0-0-6,3,T,T,Civil and Infrastructure Engineering,CID,400,0,0,Tekcham Gishan Singh,,36,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+BBT8990,Thesis,0-0-32,16,T,T,Bioscience and Bioengineering,BBT,800,0,0,Indranil Banerjee,,35,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHD4010,B Tech Project,0-0-6,3,T,T,Chemical Engineering,CHD,400,0,0,Varanasi Santhosh Kumar,,34,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MET7010,M.Tech. Thesis,0-0-16,16,T,T,Mechanical Engineering,MET,700,0,0,Roshan Kumar Hota,,34,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+PHD6040,M Sc Project I,0-0-10,5,T,T,Physics,PHD,600,0,0,Shahab Ahmad,,34,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTD4010,B Tech Project,0-0-6,3,T,T,Materials Engineering,MTD,400,0,0,Amitava Banerjee,,33,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MAD7040,M Sc Project,0-0-0-5,5,T,T,Mathematics,MAD,700,0,0,Kiran Meena,,28,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+ESP4070,B Tech Project,0-0-6,3,T,T,Electrical Engineering,ESP,400,0,0,Ankur Gupta,,27,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CIT8990,Thesis,0-0-12,12,T,T,Civil and Infrastructure Engineering,CIT,800,0,0,Bhupendra Singh,,26,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DSL7380,XR Design Thesis Phase I,0-0-16,16,T,T,School of Design,DSL,700,0,0,Sumana Som,,24,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MET8970,Thesis,0-0-16,16,T,T,Mechanical Engineering,MET,800,0,0,Gopal Dnyanba Gote,,24,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT8970,Thesis,0-0-16,16,T,T,Materials Engineering,MTT,800,0,0,Saurabh Sanjay Nene,,24,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST7710,SPD Thesis Phase I,0-0-16,16,T,T,School of Design,DST,700,0,0,Priyabrata Rautray,,22,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CIT7010,MTech Thesis Part-1,0-0-16,16,T,T,Civil and Infrastructure Engineering,CIT,700,0,0,Akshay Gupta,,21,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT7010,M.Tech. Thesis Part 1,0-0-16,16,T,T,Materials Engineering,MTT,700,0,0,Nitin Kumar Sharma,,20,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+SHT8990,Thesis,0-0-24,12,T,T,Medical Technology Center,SHT,800,0,0,Kothadia Hardikkumar Bhupendra,,20,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+PHD6300,Specialization Core Project,0-0-6,3,T,T,Physics,PHD,600,0,0,Ram Prakash,,17,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AIT8970,PhD Thesis,0-0-16,16,T,T,School of Artificial Intelligence and Data Science,AIT,800,0,0,(AIDE) Anil Kumar Tiwari,,16,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CIT8960,Thesis,0-0-16,16,T,T,Civil and Infrastructure Engineering,CIT,800,0,0,Bhupendra Singh,,15,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+ECOT8910,Thesis,0-0-16,16,T,T,Economics,ECOT,800,1,1,Jangam Bhushan Praveen,,15,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MAT8110,M.Tech Thesis-I,0-0-16,16,T,T,Mathematics,MAT,800,0,0,Sahil Gehlawat,,15,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHT8970,Thesis,0-0-16,16,T,T,Chemical Engineering,CHT,800,0,0,Sumit Kamal,,14,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHT8990,Thesis,0-0-12,12,T,T,Chemical Engineering,CHT,800,0,0,Sumit Kamal,,14,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+ETT8970,Thesis,0-0-16,16,T,T,Center for Emerging Technologies for Sustainable Development,ETT,800,0,0,Kirti Sankhala,,14,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHT7010,Thesis,0-0-16,16,T,T,Chemical Engineering,CHT,700,0,0,Tara Chand Kumawat,,12,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+SHD7020,Project,0-0-30,15,T,T,Medical Technology Center,SHD,700,0,0,Siddharth Srivastava,,12,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+QCT7020,M. Tech. Thesis I,0-0-0-16,16,T,T,Quantum Information and Computation,QCT,700,0,0,Srivatsa N.S.,,11,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CYD3020,Specialized Project-I,0-0-3,3,T,T,Chemistry,CYD,300,0,0,Rohan Diliprao Erande,,10,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+EDT8900,Thesis,0-0-16,16,T,T,Center for Education Technology (CET),EDT,800,0,0,Sumit Kalra,,10,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AIT7010,M.Tech Thesis Part-1,0-0-16,16,T,T,School of Artificial Intelligence and Data Science,AIT,700,0,0,(AIDE) Anil Kumar Tiwari,,9,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AIT8990,PhD Thesis,0-0-12,12,T,T,School of Artificial Intelligence and Data Science,AIT,800,0,0,(AIDE) Anil Kumar Tiwari,,9,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DHD7010,DH Project 1,0-0-5,5,T,T,Digital Humanities,DHD,700,1,1,Tonisha Guin,,9,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+EET8990,Thesis,0-0-12,12,T,T,Electrical Engineering,EET,800,0,0,Niladri Sekhar Tripathy,,5,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+SST8995,Thesis,0-0-16,16,T,T,Space Science and Technology,SST,800,0,0,Anurag Sharma,,5,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AID4110,Minor Project 1,0-0-3,3,T,T,School of Artificial Intelligence and Data Science,AID,400,0,0,(AIDE) Anil Kumar Tiwari,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AIT8010,Thesis,0-0-16,16,T,T,School of Artificial Intelligence and Data Science,AIT,800,0,0,(AIDE) Anil Kumar Tiwari,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST8010,Thesis,0-0-12,12,T,T,School of Design,DST,800,0,0,Gaurav Vinodrao Vaidya,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST8070,Thesis,0-0-12,12,T,T,School of Design,DST,800,0,0,Priyabrata Rautray,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+EET8950,Thesis,0-0-16,16,T,T,Electrical Engineering,EET,800,0,0,Bharat Singh Rajpurohit,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MET8010,M.Tech. Thesis,0-0-16,16,T,T,Mechanical Engineering,MET,800,0,0,Roshan Kumar Hota,,3,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+AID7642,M Tech Project 2,0-0-10,10,T,T,School of Artificial Intelligence and Data Science,AID,700,0,0,(AIDE) Rajendra Nagar,,2,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHD7020,M Tech Project,0-0-22,11,T,T,Chemical Engineering,CHD,700,0,0,Tara Chand Kumawat,,2,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CHT8980,Thesis,0-0-6,6,T,T,Chemical Engineering,CHT,800,0,0,Sumit Kamal,,2,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST8030,Thesis,0-0-14,14,T,T,School of Design,DST,800,0,0,Sumana Som,,2,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT8010,M.Tech. Thesis Part 1,0-0-16,16,T,T,Materials Engineering,MTT,800,0,0,Nitin Kumar Sharma,,2,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CIT8980,Thesis,0-0-6,6,T,T,Civil and Infrastructure Engineering,CIT,800,0,0,Bhupendra Singh,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST8050,Thesis,0-0-12,12,T,T,School of Design,DST,800,0,0,Pranjal Protim Borah,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+DST8060,Thesis,0-0-16,16,T,T,School of Design,DST,800,0,0,Pranjal Protim Borah,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+ETT8960,Thesis,0-0-16,16,T,T,Environmental and Sustainability Engineering,ETT,800,0,0,Kirti Sankhala,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTO8990,Research Proposal,0-0-32,16,T,T,Materials Engineering,MTO,800,0,0,Saurabh Sanjay Nene,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT7030,M.Tech. Thesis - Part Time,0-0-6,6,T,T,Materials Engineering,MTT,700,0,0,Nitin Kumar Sharma,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT8980,Thesis,0-0-6,6,T,T,Materials Engineering,MTT,800,0,0,Saurabh Sanjay Nene,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+MTT8990,Thesis,0-0-12,12,T,T,Materials Engineering,MTT,800,0,0,Saurabh Sanjay Nene,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+QCT8990,Thesis,0-0-12,12,T,T,Quantum Information and Computation,QCT,800,0,0,Srivatsa N.S.,,1,,"Classroom Allocation AY 2026-27 Sem I, p.9",9
+CSD4030,B Tech Project,0-0-6,3,T1,T1,Computer Science and Engineering,CSD,400,0,0,Tanmay Nitin Inamdar,,164,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+BBD7030,B tech Project,0-0-6,3,T1,T1,Bioscience and Bioengineering,BBD,700,0,0,Ayan Sadhukhan,,33,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+BBT7040,MTech Thesis 1,0-0-16,16,T1,T1,Bioscience and Bioengineering,BBT,700,0,0,Sudipta Bhattacharyya,,14,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MET8990,Thesis,0-0-12,12,T1,T1,Mechanical Engineering,MET,800,0,0,Gopal Dnyanba Gote,,14,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8060,Thesis,0-0-24,12,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,10,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8030,Thesis,0-0-32,16,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,5,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8050,Thesis,0-0-24,12,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,5,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8010,Thesis,0-0-24,12,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,4,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8040,Thesis,0-0-32,16,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,3,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8080,Thesis,0-0-16,8,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,2,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MST8020,Thesis,0-0-24,12,T1,T1,School of Management and Entrepreneurship,MST,800,0,0,,Venkat Ram Reddy Ganuthula,1,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CST8940,Thesis,0-0-4,4,T2,T2,Computer Science and Engineering,CST,800,0,0,Vimal Raj Sharma,,13,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CST7010,MTech Thesis Part-1,0-0-16,16,T3,T3,Computer Science and Engineering,CST,700,0,0,Hardik Jain,,60,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSD4020,AI Specialization Project,0-0-6,3,T3,T3,Computer Science and Engineering,CSD,400,0,0,Pratik Mazumder,,14,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CST8010,MTech Thesis Part-1,0-0-16,16,T3,T3,Computer Science and Engineering,CST,800,0,0,Hardik Jain,,6,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSL3130,Computer Organization and Architecture,3-0-2,4,U,U,Computer Science and Engineering,CSL,300,0,0,Palash Das,,234,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MSL4010,Introduction to Business and Management,3-0-0,3,U,U,School of Management and Entrepreneurship,MSL,400,0,0,Deepak Kumar Saxena,,194,LHC 308,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSL7130,Mathematical Foundations for Computer Science,3-0-0,3,U,U,Computer Science and Engineering,CSL,700,0,0,Mohit Kumar Jangid,,64,LHC 105,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CYL7360,Spectroscopic Determination of Organic Compounds,3-0-0,3,U,U,Chemistry,CYL,700,0,0,Rohan Diliprao Erande,,49,CY 107,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+EDL3020 Content,Cum Pedagogy of the Physical Sciences at the Secondary,Stage-II1-0-2,2,CU,CU,Center for Education Technology (CET),EDL,300,0,0,Sheriya Sareen,,49,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+PHL1110,General Physics I,3-1-2000,4,CU,CU,Physics,PHL,100,0,0,Durgamadhab Mishra,,46,LHC 307,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAL2220,Child Development and Educational Psychology,3-0-2,4,CU,CU,School of Liberal Arts (SoLA),LAL,200,1,0,Ankita Sharma,,42,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAL2180,Child Development and Educational Psychology,4-0-0,4,CU,CU,School of Liberal Arts (SoLA),LAL,200,1,0,Ankita Sharma,,4,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+BBL7350,Bioenergy Systems,3-0-0,3,U,U,Bioscience and Bioengineering,BBL,700,0,0,Meenu Chhabra,,29,BB 101,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MSL73550,Artificial Intelligence in Business,3-0-0,3,U,U,School of Management and Entrepreneurship,MSL,700,0,0,Bhargab Chattopadhyay Aman Pathak,,28,SME L1,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+PHL7010,Review of Quantum and Condensed Matter Physics,3-0-0,3,U,U,Physics,PHL,700,0,0,Subhashish Banerjee,,20,PH 101,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAL6210,Sociology of Science and Technology,3-0-0,3,U,U,School of Liberal Arts (SoLA),LAL,600,1,1,Bhaskar Kumar Kakati,,18,SME L5,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+AIL7430,Python Programming for Data Engineering,2-0-2,3,U,U,School of Artificial Intelligence and Data Science,AIL,700,0,0,(AIDE) Manish Aggarwal,,12,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+BBL4300,Microbes in food and sustainable agriculture,3-0-0,3,U,U,Bioscience and Bioengineering,BBL,400,0,0,Balakumaran Chandrasekar,,6,BB 102,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+BBL7450,Fundamentals of Neuroscience,3-0-0,3,U,U,Bioscience and Bioengineering,BBL,700,0,0,Amit Kumar Mishra,,3,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAL7960,Indian Knowledge Systems,3-0-0,3,U,U,School of Liberal Arts (SoLA),LAL,700,1,1,Dinesh Mohan Joshi,,2,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MTL2014,Computational Material Design,1-0-0,1,U,U,Materials Engineering,MTL,200,0,0,Amitava Banerjee,,2,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+OAE1010,Engineering Design I,0-0-2,1,U,U (Wed),,OAE,100,0,0,,,0,LHC 304,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CIL4010,Environmental Science,2-0-0,2,V,V,Civil and Infrastructure Engineering,CIL,400,0,0,Amit Sharma Debanjan Guha Roy,,494,LHC 110,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+EDL3030,Pre-Internship Practice,1-0-4,3,CV,CV,Center for Education Technology (CET),EDL,300,0,0,Rachel Philip,,49,LHC 204,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+EDL2040,Mathematical and Quantitative Reasoning,2-0-0,2,CV,CV,Center for Education Technology (CET),EDL,200,0,0,Dilpreet Kaur,,46,LHC 205,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+EDL7010,Education Technology,2-0-2-0,3,V,V,Center for Education Technology (CET),EDL,700,0,0,Pankaj Sheshrao Chavan,,10,LHC 206,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAL7120,Data Analytics,2-0-2,3,V,V,Mathematics,MAL,700,0,0,Sukhendu Ghosh,,27,LHC 207,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSD7030,MTech Project Executive 1,0-0-8,4,XP,XP,Computer Science and Engineering,CSD,700,0,0,Pallavi Jain,,2,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSL7610,Artificial Intelligence,3-0-0,3,YO,YO,Computer Science and Engineering,CSL,700,0,0,Deeksha Varshney Pratik Mazumder,,88,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSL7620,Machine Learning,3-0-0,3,YP,YP,Computer Science and Engineering,CSL,700,0,0,Subhash Bhagat,,109,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSD7090,MTech Project Executive 3,0-0-16,8,YP,YP,Computer Science and Engineering,CSD,700,0,0,Angshuman Paul,,15,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAL7070,Optimization for Data Science,2-0-0-0,2,YP,YP,Mathematics,MAL,700,0,0,Puneet Sharma,,10,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+EEL71010,Mobile AR and VR,2-0-4,4,YP,YP,Electrical Engineering,EEL,700,0,0,Himanshu Kumar,,3,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAN7020,Ethics and Professional Life,1-0-0,1,YQ,YQ,School of Liberal Arts (SoLA),LAN,700,1,0,Dinesh Mohan Joshi,,81,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+OAN7010,System Engineering and Project Management,1-0-0,1,YQ,YQ,School of Management and Entrepreneurship,OAN,700,0,0,Deepak Srivastav,,66,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAL7110,Foundations of Data Science,3-0-0,3,YQ,YQ,Mathematics,MAL,700,0,0,Ambesh Dixit,,37,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAL7060,Statistics for Data Science,2-0-0-0,2,YQ,YQ,Mathematics,MAL,700,0,0,Brahadeesh Sankarnarayanan,,5,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+CSD7060,MTech Project Executive 2,0-0-8,4,YQ,YQ,Computer Science and Engineering,CSD,700,0,0,Pallavi Jain,,3,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+LAN7010,Technical Communication,1-0-0,1,YR2,YR2,School of Liberal Arts (SoLA),LAN,700,1,0,Tonisha Guin,,437,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAL7120,Data Analytics,2-0-2,3,YS,YS,Mathematics,MAL,700,0,0,Sukhendu Ghosh,,74,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAT7210,M.Tech. Thesis -I,0-0-16,16,YT,YT,Mathematics,MAT,700,0,0,Bimal Mandal,,61,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAT8110,M.Tech Thesis-I,0-0-16,16,YT,YT,Mathematics,MAT,800,0,0,Bimal Mandal,,15,,"Classroom Allocation AY 2026-27 Sem I, p.10",10
+MAD7060,M Tech Project,0-0-0-5,5,YT,YT,Mathematics,MAD,700,0,0,Bimal Mandal,,12,,"Classroom Allocation AY 2026-27 Sem I, p.10",10

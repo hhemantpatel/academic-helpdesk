@@ -1,0 +1,270 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx,booktabs,amsmath,amssymb,xcolor,microtype,longtable,array}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,backgrounds}
+\usepackage[colorlinks=true,linkcolor=blue!60!black,citecolor=blue!60!black,urlcolor=blue!60!black]{hyperref}
+\graphicspath{{../results/figures/}}
+
+% Every number below is generated from results/*.csv by eval/plots.py ("TBD" = not run yet).
+\input{numbers.tex}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+
+\title{\textbf{A Multi-Agent Academic Helpdesk for IIT Jodhpur}\\[2pt]
+\large CSL7650 Autonomous Systems --- Assignment 2}
+\author{\todo{team names and roll numbers}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We build a local, laptop-runnable academic helpdesk that answers questions about IIT Jodhpur programmes,
+rules and regulations, course slots and the timetable, drafts (but never sends) e-mails to instructors,
+cites the document every answer comes from, and refuses and logs questions it cannot answer.
+The system uses Google ADK with 8B models served by Ollama (Qwen3-8B, Llama-3.1-8B) through LiteLLM,
+retrieval-augmented generation over \numCorpusDocs{} institute documents (\numCorpusChunks{} chunks,
+\texttt{nomic-embed-text} + ChromaDB) and deterministic tools over tables extracted from the official
+slot-system and classroom-allocation PDFs. A single-agent baseline is compared with a multi-agent
+organisation (an orchestrator delegating to Policy, Schedule and Email agents) on \numEvalQuestions{}
+questions with repeated runs. The multi-agent system with Qwen3-8B reaches \accMultiQwen{} accuracy
+(single agent: \accSingleQwen{}) and a refusal F1 of \refFMultiQwen{}.
+\todo{one sentence on the main finding once the full evaluation has been run}
+\end{abstract}
+
+%======================================================================
+\section{Problem and environment}
+The helpdesk must answer questions such as ``What is the attendance requirement to sit in the Major
+exam?'', ``What is the slot for Autonomous Systems?'', ``How many 400-level electives has the Humanities
+department floated this semester?'', ``How many Open Elective credits do I need for a B.Tech.?'' and
+``Write an e-mail to the instructor of CSL7570 that I need leave for 2 days'', and must say it does not
+know for questions such as ``What are the dining options on campus?''.
+
+Using the environment properties from the course, the helpdesk's environment is
+\emph{inaccessible} (the model sees only the retrieved passages, never the whole corpus),
+\emph{non-deterministic} (sampling makes answers vary between runs --- ``from an agent's perspective even a
+deterministic environment is non-deterministic'', which is why every question is run several times),
+\emph{episodic} (questions are independent), \emph{dynamic} (rules, slots and office orders change outside
+the agent; re-ingestion is how the system adapts) and \emph{discrete} (a finite set of routes and tools).
+
+%======================================================================
+\section{Design principles from the course}
+Table~\ref{tab:principles} maps the concepts taught in class to concrete design decisions; the
+subsections expand the most important ones.
+
+\begin{table}[h]
+\centering\small
+\caption{Course concepts and where they appear in the system.}
+\label{tab:principles}
+\begin{tabular}{>{\raggedright\arraybackslash}p{5.2cm}>{\raggedright\arraybackslash}p{10.6cm}}
+\toprule
+Concept & Realisation in the helpdesk \\
+\midrule
+No full autonomy: constraints and guardrails & Scope governor, citation check, draft-only e-mail, escalation log \\
+Effectoric capability; action pre-conditions & Each agent's tool set is its effectoric capability; an e-mail is drafted only after the instructor is resolved; an answer only after retrieval succeeds \\
+Reactive vs.\ proactive balance; subsumption & A reactive keyword governor (highest-priority layer) subsumes deliberation for clearly off-topic questions; goal-directed agents handle the rest \\
+BDI: \texttt{brf}, \texttt{options}, \texttt{filter}, \texttt{execute} & Retrieval updates beliefs; candidate routes are desires; the orchestrator's delegation is the intention; tool calls execute it; the pending e-mail persists across turns \\
+Horizontal layering (mediator, $m^n$ bottleneck) vs.\ vertical two-pass & Delegation to one specialist instead of asking every agent and merging answers \\
+Organisation-centric MAS: social, interaction, normative, communication structure & Roles (Table~\ref{tab:roles}); routing graph; norms (cite, do not guess, refuse and log); structured tool results and shared session state \\
+Institutions: obligations, permissions, power; normative system $\langle E,F,G,C,\Delta\rangle$ & Per-role tool permissions; obligation to cite and to log; only humans close escalations (Sec.~\ref{sec:institution}) \\
+Scenes, scene scripts, landmarks; trace & Query and e-mail scenes (Fig.~\ref{fig:arch}); every run is saved as an event trace \\
+Coordination: blackboard, limited communication, scepticism, locally complete results & ADK session state is the blackboard; specialists only talk to the orchestrator; the citation guardrail does not trust uncited answers; specialists return final cited answers \\
+Organisation adaptation (``emergent patterns become norms'') & The unanswered-question log is reviewed by humans, who add documents or rules \\
+POMDP belief state; tiger problem (``listen'' before acting) & Retrieval scores are evidence; below the threshold the agent ``listens'' (asks, or refuses) rather than ``opens a door'' \\
+ReAct / tool use & ADK's reason--act--observe loop with typed function tools \\
+RAG and grounding & Chunked corpus, embeddings, threshold $\tau$, mandatory citations \\
+Agent communication (speech acts, Contract-Net) & Delegation = \emph{request}, tool result = \emph{inform}, refusal = \emph{refuse}; Contract-Net bidding discussed as an alternative router \\
+Argumentation & Resolving conflicting regulations by recency (Sec.~\ref{sec:argumentation}) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The helpdesk as an organisation}
+We follow the organisation-centric view: the helpdesk is an entity whose heterogeneous agents together
+fulfil one goal (correct, cited help), so no agent pursues a private goal. Roles are written in the
+\emph{role description} format from class (objective, rights, norms), Table~\ref{tab:roles}. The
+dependency type between orchestrator and specialists is \emph{delegate}.
+
+\begin{table}[h]
+\centering\small
+\caption{Role descriptions (social structure).}
+\label{tab:roles}
+\begin{tabular}{>{\raggedright\arraybackslash}p{2.2cm}>{\raggedright\arraybackslash}p{4.0cm}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.2cm}}
+\toprule
+Role & Objective & Rights (tools) & Norms \\
+\midrule
+Orchestrator & Route each question to the right specialist & \texttt{transfer\_to\_agent}, \texttt{log\_unanswered} & Never answer academic questions itself; refuse and log non-academic ones \\
+Policy agent & Answer questions on rules, regulations and curricula & \texttt{search\_documents}, \texttt{log\_unanswered} & Search first; cite every fact; prefer the most recent circular \\
+Schedule agent & Answer slot, room, instructor and course-count questions & \texttt{get\_course\_info}, \texttt{get\_slot\_timing}, \texttt{list\_courses}, \texttt{search\_documents} & Never count by hand; cite the allocation/slot documents \\
+Email agent & Draft e-mails to instructors & \texttt{get\_instructor\_email}, \texttt{draft\_email} & Never send; never invent reasons, dates or an instructor \\
+Human (academic office) & Answer escalated questions & Reads \texttt{logs/unanswered.jsonl} & Closes escalations; adds documents \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Institution and norms}\label{sec:institution}
+The guardrails implement the institution's ``rules of the game''. With the normative system
+$N=\langle E,F,G,C,\Delta\rangle$ from class: exogenous events are student messages; the generation
+relation $G$ maps a message in state $X$ to institutional events --- \emph{answer}, \emph{refuse},
+\emph{escalate}, or a violation $e\in E_{\mathit{violation}}$ (an off-topic request, or an answer that cites a
+document never retrieved). The consequence relation $C$ adds fluents: a refusal adds the obligation fluent
+\textit{obliged(human, answer(q))} (a line in \texttt{unanswered.jsonl}); a successful tool call adds the
+domain fluent \textit{retrieved(doc)}, which the citation check later reads. Permissions are the per-role
+tool sets (only the Email agent may create drafts); power to close an escalation belongs to humans only.
+The ADK session state (``$s'$'') runs alongside the conversation (``$s$'').
+
+\subsection{Conflicting documents as argumentation}\label{sec:argumentation}
+The corpus contains a real conflict. The UG regulations (2019) say a student below 75\% attendance may
+still sit the exams but needs at least a C grade; the Senate circular of 8 July 2024 says examination
+performance is \emph{no longer linked} to attendance and ``supersedes the earlier policy in totality''.
+As an abstract argumentation framework $\langle A,R\rangle$ with $A=\{a_{2019},a_{2024}\}$ and
+$R=\{(a_{2024},a_{2019})\}$, the grounded extension is $\{a_{2024}\}$. The attack relation is stored
+explicitly (a \texttt{supersedes} column in the manifest). When an amending circular and a regulation it
+supersedes are retrieved together, \texttt{search\_documents} ranks the circular first and marks the older
+passages as superseded. Without this, the first test run answered the attendance question from the 2019 rule,
+even though the newer circular was among the retrieved passages and the prompt asked for the most recent document.
+
+%======================================================================
+\section{System}
+\begin{figure}[h]
+\centering
+\begin{tikzpicture}[font=\small, node distance=6mm and 9mm,
+  box/.style={draw, rounded corners=3pt, align=center, minimum height=8mm, inner sep=3pt},
+  agent/.style={box, fill=blue!8}, store/.style={box, fill=orange!10}, gov/.style={box, fill=red!8},
+  arr/.style={-{Latex}, thick}]
+\node[box] (q) {Student question};
+\node[gov, right=of q] (g) {Scope governor\\(before-agent callback)};
+\node[agent, right=of g] (o) {Orchestrator\\(LLM, \texttt{transfer\_to\_agent})};
+\node[agent, below left=14mm and 4mm of o] (p) {Policy agent};
+\node[agent, below=14mm of o] (s) {Schedule agent};
+\node[agent, below right=14mm and 4mm of o] (e) {Email agent};
+\node[store, below=7mm of p] (c) {ChromaDB\\\numCorpusDocs{} docs};
+\node[store, below=7mm of s] (t) {courses / slots\\faculty tables};
+\node[store, below=7mm of e] (d) {\texttt{logs/drafts}\\(never sent)};
+\node[gov, below=7mm of t] (cg) {Citation guardrail (after-model callback)};
+\node[box, below=14mm of q] (log) {\texttt{unanswered.jsonl}\\(human review)};
+\draw[arr] (q)--(g); \draw[arr] (g)--node[below,font=\scriptsize]{in scope}(o);
+\draw[arr,dashed,red!70!black] (g.south)--node[right,font=\scriptsize,pos=0.3]{off-topic}(log.north east);
+\draw[arr] (o)--(p); \draw[arr] (o)--(s); \draw[arr] (o)--(e);
+\draw[arr,<->] (p)--(c); \draw[arr,<->] (s)--(t); \draw[arr] (e)--(d);
+\draw[arr] (c)--(cg); \draw[arr] (t)--(cg);
+\draw[arr,dashed,red!70!black] (p.west) -- node[below,font=\scriptsize]{nothing relevant}(log.east);
+\end{tikzpicture}
+\caption{Architecture. Dashed red arrows are refusals that are logged for a human.}
+\label{fig:arch}
+\end{figure}
+
+\paragraph{Corpus.} \numCorpusDocs{} documents (listed in \texttt{ingest/manifest.csv}): UG, PG, M.Tech.,
+M.S.\ (Research), Ph.D.\ and joint-programme regulations; the 2024 attendance and examination circulars
+(scanned, OCR'd with Tesseract); continuation norms; the academic calendar AY 2026-27; the institute
+statutes; curriculum pages for B.Tech.\ CSE/AIDE/EE; registration, minor/specialisation and programme-list
+pages; the slot system and classroom allocation for Semester I 2026-27; a transcription of the slot
+system's rules; and a faculty directory derived from the allocation with \emph{dummy} e-mail addresses
+(personal data replaced, as allowed). PDFs are chunked per page, HTML/Markdown per section
+(800 characters, 150 overlap) and embedded with \texttt{nomic-embed-text}.
+
+\paragraph{Tables.} The classroom allocation PDF is parsed into \numCourses{} course offerings
+(code, title, L-T-P, credits, slot, department, instructors, room, registrations, page) by reading words in
+content-stream order (overflowing cells otherwise interleave characters) and splitting instructor cells at
+backward jumps in $x$. The slot grid gives \numSlotRows{} (slot, day, time) rows and the faculty table
+\numFaculty{} instructors. Because the PDF has no elective column, electives are \emph{inferred} from the
+slot system's programme-wise allocation table (HSS courses at level $\ge$300 and courses in the elective
+slots of their level); this is a documented heuristic.
+
+\paragraph{Tools.} \texttt{search\_documents} (cosine distance threshold $\tau=0.35$, top-5, returns
+\texttt{cite\_as} strings and document dates), \texttt{get\_course\_info}, \texttt{list\_courses} (exact
+counts so the LLM never counts), \texttt{get\_slot\_timing}, \texttt{get\_instructor\_email},
+\texttt{draft\_email} (saves a Markdown draft; never sends; only uses what the student said) and
+\texttt{log\_unanswered}. Every tool records the documents it read in the session state.
+
+\paragraph{Guardrails.} (1) The scope governor refuses clearly off-topic questions (dining, cab, weather,
+cricket, \dots) before any LLM call; it is deliberately narrow, and anything it misses (e.g.\ ``best way to
+reach the campus from the city'') must be refused by the agents themselves when retrieval finds nothing.
+(2) The citation guardrail replaces an answer that cites a document no tool retrieved, or that was produced
+without any tool, by a refusal and logs it; if the model used tools but forgot to cite, the retrieved
+sources are attached and the run is flagged (``auto-attached'').
+
+\paragraph{Threshold $\tau$.} On probe questions the best in-scope passage had cosine distance
+$\le 0.26$ and out-of-scope questions $\ge 0.30$, but short keyword queries written by the agents reach
+about $0.32$; we use $\tau=0.35$ and study 0.28 and 0.45 in the ablation.
+
+%======================================================================
+\section{Evaluation setup}
+\numEvalQuestions{} questions (Appendix~\ref{app:questions}): 8 policy, 8 schedule, 5 e-mail, 6 out of scope
+and 3 that sound academic but are not covered by the corpus; all five example questions from the
+assignment are included. Gold answers were written from the documents and checked against them.
+Configurations: \{multi-agent with LLM orchestrator, single agent\} $\times$ \{Qwen3-8B, Llama-3.1-8B\},
+3 runs each at the models' default temperature, on an Intel i5-12450H laptop (CPU only, 16\,GB RAM).
+
+Metrics: \emph{accuracy} (required facts present and no refusal; for questions that should be refused, a
+refusal; automatic checks were verified by hand in \texttt{eval/human\_labels.csv});
+\emph{refusal} precision/recall/F1 and false-refusal rate; over answered in-scope questions,
+\emph{cited} (the model cited by itself), \emph{correct source} (a cited or attached document is a gold
+source) and \emph{fabricated} (cites a document never retrieved); \emph{routing accuracy} (first specialist
+the orchestrator delegated to); latency; and \emph{stability} --- questions whose outcome differs between runs.
+
+%======================================================================
+\section{Results}
+\input{tables.tex}
+
+\begin{figure}[h]
+\centering
+\IfFileExists{../results/figures/accuracy_by_category.pdf}{\includegraphics[width=0.75\linewidth]{accuracy_by_category.pdf}}{\fbox{figure generated after the evaluation run}}
+\caption{Accuracy by question category.}
+\end{figure}
+
+Table~\ref{tab:main_results} gives the main comparison, Table~\ref{tab:category} the per-category accuracy,
+Table~\ref{tab:stability} the questions whose answers changed across runs and Table~\ref{tab:ablation} the
+ablation. \todo{Describe the findings from the generated tables: single vs.\ multi agent, Qwen vs.\ Llama,
+which questions changed across runs and why, effect of each guardrail and of $\tau$. Write only what the
+numbers show.}
+
+\subsection{Example transcripts}
+The following are verbatim outputs of the first multi-agent run.
+\input{case_studies.tex}
+
+%======================================================================
+\section{Limitations}
+\begin{itemize}
+\item Retrieval-distance thresholds overlap between in-scope and out-of-scope questions; the final refusal
+      decision relies on the LLM for borderline cases.
+\item Elective status is inferred from slot rules; two of \numCourses{} allocation rows still contain
+      merged text from overflowing PDF cells.
+\item E-mail addresses are dummies; lab-slot durations are inferred from the grid layout.
+\item CPU-only inference makes each question take on the order of a minute or more, which limits the
+      number of runs.
+\item \todo{limitations observed in the evaluation}
+\end{itemize}
+
+\section{Group contributions}
+\todo{who did what}
+
+\begin{thebibliography}{9}
+\bibitem{weiss} G.~Weiss (ed.). \emph{Multiagent Systems}, 2nd ed. MIT Press, 2013.
+\bibitem{wooldridge} M.~Wooldridge. \emph{An Introduction to MultiAgent Systems}, 2nd ed. Wiley, 2009.
+\bibitem{brooks} R.~Brooks. A robust layered control system for a mobile robot. \emph{IEEE J.\ Robotics and Automation}, 2(1), 1986.
+\bibitem{bratman} M.~E.~Bratman. \emph{Intentions, Plans, and Practical Reason}. Harvard University Press, 1987.
+\bibitem{dung} P.~M.~Dung. On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games. \emph{Artificial Intelligence}, 77(2), 1995.
+\bibitem{react} S.~Yao et al. ReAct: Synergizing reasoning and acting in language models. ICLR 2023.
+\bibitem{rag} P.~Lewis et al. Retrieval-augmented generation for knowledge-intensive NLP tasks. NeurIPS 2020.
+\bibitem{fipa} FIPA. \emph{FIPA ACL Message Structure Specification} (SC00061G), 2002.
+\end{thebibliography}
+
+\appendix
+\section{Question set}\label{app:questions}
+\input{questions.tex}
+
+\section{Reproduction}
+\begin{verbatim}
+uv venv --python 3.12 && uv pip install -r requirements.txt
+ollama pull qwen3:8b && ollama pull llama3.1:8b && ollama pull nomic-embed-text
+python main.py ingest --rebuild
+python -m pytest -q
+python eval/run_eval.py                      # full grid
+python eval/run_eval.py --ablation --model qwen3:8b
+python eval/run_eval.py --score-only         # after editing eval/human_labels.csv
+cd report && pdflatex report.tex && pdflatex report.tex
+\end{verbatim}
+\end{document}

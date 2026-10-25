@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+.pytest_cache/
+.env
+
+# Chroma DB and vector storage
+data/chroma/
+
+# Logs and traces
+logs/traces/*.jsonl
+logs/drafts/*.md
+
+# LaTeX compilation artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Old development logs (pre-review)
+logs/dev_archive/

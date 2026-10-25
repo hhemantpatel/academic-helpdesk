@@ -1,0 +1,16 @@
+program,degree,dept,duration_years,min_credits,oe_credits
+B.Tech. in AI and Data Science,B.Tech.,School of AIDE,4,150,15
+B.Tech. in Computer Science and Engineering,B.Tech.,Computer Science and Engineering,4,150,15
+B.Tech. in Electrical Engineering,B.Tech.,Electrical Engineering,4,150,15
+B.Tech. in Mechanical Engineering,B.Tech.,Mechanical Engineering,4,150,15
+B.Tech. in Bioengineering,B.Tech.,Bioscience and Bioengineering,4,150,15
+B.Tech. in Chemical Engineering,B.Tech.,Chemical Engineering,4,150,15
+B.Tech. in Civil and Infrastructure Engineering,B.Tech.,Civil and Infrastructure Engineering,4,150,15
+B.Tech. in Materials Engineering,B.Tech.,Materials Engineering,4,150,15
+M.Tech. in Computer Science and Engineering,M.Tech.,Computer Science and Engineering,2,64,6
+M.Tech. in AI,M.Tech.,School of AIDE,2,64,6
+M.Sc. in Chemistry,M.Sc.,Chemistry,2,64,6
+M.Sc. in Mathematics,M.Sc.,Mathematics,2,64,6
+M.Sc. in Physics,M.Sc.,Physics,2,64,6
+Ph.D. in Engineering,Ph.D.,Engineering Departments,3,12,0
+Ph.D. in Sciences,Ph.D.,Science Departments,3,12,0
