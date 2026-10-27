@@ -132,6 +132,11 @@ def list_courses(
     Returns:
         The count, the matching courses (distinct course codes) and the source to cite.
     """
+    # Some models (Llama) send the string 'null'/'none' for an argument they mean to leave unset.
+    unset = lambda v: isinstance(v, str) and v.strip().lower() in ("", "null", "none")  # noqa: E731
+    department, slot = (None if unset(v) else v for v in (department, slot))
+    level, elective = (None if unset(v) else v for v in (level, elective))
+
     df = get_courses_df()
     filtered = df
 

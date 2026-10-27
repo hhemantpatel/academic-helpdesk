@@ -31,7 +31,10 @@ slot-system and classroom-allocation PDFs. A single-agent baseline is compared w
 organisation (an orchestrator delegating to Policy, Schedule and Email agents) on \numEvalQuestions{}
 questions with repeated runs. The multi-agent system with Qwen3-8B reaches \accMultiQwen{} accuracy
 (single agent: \accSingleQwen{}) and a refusal F1 of \refFMultiQwen{}.
-\todo{one sentence on the main finding once the full evaluation has been run}
+The multi-agent organisation beats the single agent for both models, most strongly for the weaker
+Llama-3.1-8B (\accMultiLlama{} vs.\ \accSingleLlama{}), and every configuration refuses all
+out-of-scope questions; the remaining errors are concentrated in policy questions where an older
+regulation conflicts with a later Senate circular.
 \end{abstract}
 
 %======================================================================
@@ -217,9 +220,42 @@ the orchestrator delegated to); latency; and \emph{stability} --- questions whos
 
 Table~\ref{tab:main_results} gives the main comparison, Table~\ref{tab:category} the per-category accuracy,
 Table~\ref{tab:stability} the questions whose answers changed across runs and Table~\ref{tab:ablation} the
-ablation. \todo{Describe the findings from the generated tables: single vs.\ multi agent, Qwen vs.\ Llama,
-which questions changed across runs and why, effect of each guardrail and of $\tau$. Write only what the
-numbers show.}
+ablation.
+
+\paragraph{Single vs.\ multi agent.} With Qwen3-8B the two designs are close (\accMultiQwen{} vs.\
+\accSingleQwen{}); the multi-agent system is better on citations (every cited document correct, against
+\correctSrcSingleQwen{} for the single agent) and on false refusals. With Llama-3.1-8B the gap is large
+(\accMultiLlama{} vs.\ \accSingleLlama{}); the single agent is weakest on the e-mail questions
+(26.7\% against 53.3\% for the multi-agent system) and also lower on schedule and policy questions. We did not
+test why; one plausible reason is that a specialist sees fewer tools and shorter instructions. Routing by the LLM orchestrator was almost always correct (\routingMultiQwen{} for Qwen,
+\routingMultiLlama{} for Llama).
+
+\paragraph{Qwen vs.\ Llama.} Qwen3-8B is more accurate and cites more reliably, but it is about six times
+slower per question (113\,s against 18\,s for the multi-agent system), partly because it generates
+reasoning before answering. Both models refuse every out-of-scope question in every run
+(Table~\ref{tab:category}).
+
+\paragraph{Where the systems fail.} The attendance question Q01 is answered incorrectly by all four
+configurations. Qwen quotes the older rule from the 2019 regulations (a minimum C grade is needed below
+75\%), although the 2024 Senate circular states that examination performance is no longer linked to
+attendance. Llama gives the 75\% figure but does not say that the link was removed. This is exactly the
+conflicting-regulations case that the system is meant to resolve: retrieval returns both documents and the
+model does not prefer the later one. Q08 (credits for a minor) is another policy failure: Qwen's multi-agent
+system answers 20 credits in two runs and 56 credits, citing the regulations portal, in the third.
+
+\paragraph{Stability across runs.} Table~\ref{tab:stability} lists the questions whose outcome changed
+between the three runs. Most are policy and schedule questions on Llama (for example Q04, Q08, Q10, Q15),
+where the same question sometimes gets a correct answer and sometimes ``I don't know''. Qwen changed less:
+Q03 and Q08 (multi-agent) and Q17 (both systems). Q17 asks for an e-mail to the instructor of CSL7570, a code
+that is not in this semester's allocation; in some runs the system refuses with ``I don't know'' and in others it
+asks the student to confirm the course code.
+
+\paragraph{Ablation.} The ablation uses one run per question, so one question is 3.3 points and the
+differences below are small. Removing the scope governor lowered accuracy from 96.7\% to 93.3\% and
+correct-source rate to 94.7\%. Setting $\tau=0.28$ (stricter retrieval) lowered accuracy to 86.7\%, $\tau=0.45$ (looser)
+gave 90.0\% and reduced refusal F1 from 0.95 to 0.82. We did not inspect individual runs to explain either change. Switching off the citation guardrail did
+\emph{not} change accuracy, and the fabricated-citation rate was 0\% without it against 5.3\% with it, so
+in this sample we cannot show that this guardrail helps; with so few questions that difference is one run.
 
 \subsection{Example transcripts}
 The following are verbatim outputs of the first multi-agent run.
@@ -233,9 +269,14 @@ The following are verbatim outputs of the first multi-agent run.
 \item Elective status is inferred from slot rules; two of \numCourses{} allocation rows still contain
       merged text from overflowing PDF cells.
 \item E-mail addresses are dummies; lab-slot durations are inferred from the grid layout.
-\item CPU-only inference makes each question take on the order of a minute or more, which limits the
-      number of runs.
-\item \todo{limitations observed in the evaluation}
+\item Inference is slow for 8B models on a laptop (about 18\,s to 2\,min per question, run on an Apple M4
+      with 16\,GB), which limits the number of runs to three per question and the ablation to one.
+\item Correctness is labelled automatically with regular expressions against gold answers; we read a sample
+      of borderline answers, but not all 360, so accuracy may be slightly misestimated.
+\item With 30 questions and three runs, differences of a few points between configurations (especially in the
+      ablation) are within noise.
+\item The system cannot yet decide which of two conflicting regulations is newer and so should apply
+      (Q01), and the weaker model sometimes refuses valid schedule questions.
 \end{itemize}
 
 \section{Group contributions}

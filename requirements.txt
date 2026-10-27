@@ -1,6 +1,7 @@
 # Versions this project was developed and tested with (Python 3.12)
 google-adk==2.12.0
 litellm==1.106.2
+mcp==2.3.0   # imported by litellm 1.106.2 on every Ollama call
 chromadb==1.5.9
 ollama==0.6.3
 pdfplumber==0.11.10

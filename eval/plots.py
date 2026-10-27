@@ -27,8 +27,8 @@ MODEL_MACRO = {"qwen3:8b": "Qwen", "llama3.1:8b": "Llama"}
 SYSTEM_LABEL = {"multi": "Multi-agent", "single": "Single-agent"}
 
 
-def _pct(x):
-    return "TBD" if x is None or (isinstance(x, float) and math.isnan(x)) else f"{100 * x:.1f}\\%"
+def _pct(x, na="TBD"):
+    return na if x is None or (isinstance(x, float) and math.isnan(x)) else f"{100 * x:.1f}\\%"
 
 
 def _num(x, fmt="{:.1f}"):
@@ -125,7 +125,7 @@ def write_numbers(summary: dict, stability: pd.DataFrame, scored: pd.DataFrame):
                 f"\\newcommand{{\\citeRate{p}}}{{{_pct(s.get('citation_rate'))}}}",
                 f"\\newcommand{{\\correctSrc{p}}}{{{_pct(s.get('correct_source_rate'))}}}",
                 f"\\newcommand{{\\fabricated{p}}}{{{_pct(s.get('fabricated_rate'))}}}",
-                f"\\newcommand{{\\routing{p}}}{{{_pct(s.get('routing_accuracy'))}}}",
+                f"\\newcommand{{\\routing{p}}}{{{_pct(s.get('routing_accuracy'), na='n/a')}}}",
                 f"\\newcommand{{\\latency{p}}}{{{_num(s.get('mean_latency'))}}}",
             ]
     changed = int(stability.loc[stability["outcome_changed"], "question_id"].nunique()) if not stability.empty else None
@@ -148,7 +148,7 @@ def write_tables(scored, summary, stability, ablation_summary):
 
     rows = [f"{SYSTEM_LABEL[s['system']]} & {s['model']} & {s['router']} & {s['runs']} & {_pct(s['accuracy'])} & "
             f"{_num(s['refusal_f1'], '{:.2f}')} & {_pct(s['false_refusal_rate'])} & {_pct(s['citation_rate'])} & "
-            f"{_pct(s['correct_source_rate'])} & {_pct(s['fabricated_rate'])} & {_pct(s['routing_accuracy'])} & "
+            f"{_pct(s['correct_source_rate'])} & {_pct(s['fabricated_rate'])} & {_pct(s['routing_accuracy'], na='n/a')} & "
             f"{_num(s['mean_latency'])} \\\\" for s in summary.values()]
     out.append(_table(
         "Main results (all runs). Citation columns are over answered in-scope questions; routing is the first "

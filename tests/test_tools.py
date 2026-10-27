@@ -73,6 +73,12 @@ def test_list_courses_counts_distinct_codes():
     assert res["count"] >= 20
 
 
+def test_list_courses_treats_string_null_as_unset():
+    # Llama sends 'null' for arguments it leaves out; this used to crash on int('null').
+    res = list_courses(department="Computer Science", level="null", elective="none", slot="")
+    assert res["count"] == list_courses(department="Computer Science")["count"]
+
+
 def test_slot_timing():
     res = get_slot_timing("E")
     assert res["status"] == "success"
