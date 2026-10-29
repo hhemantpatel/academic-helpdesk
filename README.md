@@ -6,7 +6,7 @@ slots and the timetable. It can draft (but never send) e-mails to course instruc
 the document it came from, and anything it cannot answer is refused with "I don't know" and logged to
 `logs/unanswered.jsonl` for a human to follow up.
 
-It runs locally on a 16 GB laptop with no GPU:
+It runs locally on a 16 GB laptop (CPU-only works; a GPU or Apple Silicon is much faster):
 - **Agents:** Google ADK, using Ollama 8B models (`qwen3:8b`, `llama3.1:8b`) through LiteLLM.
 - **Retrieval:** RAG over 24 institute documents, embedded with `nomic-embed-text` and stored in ChromaDB.
 - **Tables:** deterministic tools over tables extracted from the official Slot System and Classroom
@@ -39,8 +39,9 @@ python main.py ingest --rebuild  # tables + Chroma index (~3 min on CPU; scanned
 | `python eval/run_eval.py --score-only` | Re-score after checking answers in `eval/human_labels.csv`. This regenerates the figures, `report/tables.tex`, `numbers.tex`, `case_studies.tex` and `questions.tex`. |
 | `cd report && pdflatex report.tex && pdflatex report.tex` | Build the report |
 
-Each question takes roughly 1–4 minutes on an i5-12450H CPU. The first call also includes loading the
-model.
+Each question takes roughly 1–4 minutes on a CPU-only i5-12450H. On an Apple M4 (Metal GPU) it took about
+18 s per question for Llama and about 110 s for Qwen3, which reasons before answering. The first call also
+includes loading the model.
 
 ## Example (real output)
 ```
@@ -114,8 +115,21 @@ tests/                      pytest suite
 report/report.tex           report; all numbers come from the generated numbers.tex/tables.tex
 ```
 
-## Evaluation status
-`results/` contains only runs that were actually executed. Until the full grid has been run, the report
-shows "TBD" or "Not run yet". Before quoting accuracy, check the automatic labels in
-`results/scored_runs.csv` and record corrections in `eval/human_labels.csv`, using the columns
-`question_id,system,model,router,run_idx,is_correct,notes`.
+## Evaluation results
+The full grid (30 questions x {multi, single} x {qwen3:8b, llama3.1:8b} x 3 runs = 360 runs) and the
+ablation (5 configurations x 30 questions, multi-agent, qwen3:8b) were run on an Apple M4 with 16 GB.
+Raw runs and scores are in `results/`; the analysis is in `report/report.pdf`.
+
+| System | Model | Accuracy | Refusal F1 | Correct source | Latency |
+|---|---|---|---|---|---|
+| multi | qwen3:8b | 94.4% | 0.95 | 100% | 113 s |
+| single | qwen3:8b | 92.2% | 0.90 | 91.2% | 96 s |
+| multi | llama3.1:8b | 82.2% | 0.93 | 87.3% | 18 s |
+| single | llama3.1:8b | 70.0% | 0.86 | 88.2% | 20 s |
+
+All out-of-scope questions were refused in every run. Correctness uses automatic regex labels against the
+gold answers (`eval/questions.jsonl`); `eval/human_labels.csv` takes manual overrides and is empty.
+Questions whose outcome changed between runs are in `results/stability.csv`.
+
+## Team
+Sahilpreet Singh (B23CS1061), Hemant Patel (B23CH1018), Kartik Gehlot (B23EE1088), Rudra Thakar (B23EE1100).

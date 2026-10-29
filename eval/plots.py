@@ -192,9 +192,10 @@ _TEX_ESCAPES = {"\\": r"\textbackslash{}", "&": r"\&", "%": r"\%", "$": r"\$", "
 def _tex(text: str) -> str:
     """Escape LaTeX special characters in one pass (and drop markdown bold)."""
     import re
-    text = str(text).replace("**", "")
+    text = str(text).replace("**", "").replace(str(BASE_DIR) + "/", "")
     text = re.sub(r"[\\&%$#_{}~^]", lambda m: _TEX_ESCAPES[m.group(0)], text)
-    for u, t in (("≥", r"$\geq$"), ("≤", r"$\leq$"), ("→", r"$\rightarrow$"), ("•", "-"), ("×", r"$\times$")):
+    for u, t in (("≥", r"$\geq$"), ("≤", r"$\leq$"), ("→", r"$\rightarrow$"), ("•", "-"), ("×", r"$\times$"),
+                 ("—", "---"), ("⚠", "(!)"), ("️", "")):
         text = text.replace(u, t)
     return text
 
