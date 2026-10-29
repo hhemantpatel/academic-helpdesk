@@ -1,8 +1,4 @@
 question_id,category,system,model,router,runs,n_correct,correct_flipped,refusal_flipped,avg_similarity,outcome_changed
-Q01,policy,multi,llama3.1:8b,llm,3,0,False,False,0.734,False
-Q01,policy,multi,qwen3:8b,llm,3,0,False,False,0.811,False
-Q01,policy,single,llama3.1:8b,none,3,0,False,False,0.72,False
-Q01,policy,single,qwen3:8b,none,3,0,False,False,0.799,False
 Q02,policy,multi,llama3.1:8b,llm,3,3,False,False,0.748,False
 Q02,policy,multi,qwen3:8b,llm,3,3,False,False,0.908,False
 Q02,policy,single,llama3.1:8b,none,3,3,False,False,0.723,False

@@ -34,7 +34,7 @@ python main.py ingest --rebuild  # tables + Chroma index (~3 min on CPU; scanned
 | `python main.py web` | ADK web UI (`adk web helpdesk`) showing agent transfers and tool calls |
 | `python -m pytest -q` | Unit tests for the tools, extraction, citations, guardrails and scoring. No LLM is needed; the retrieval test needs Ollama. |
 | `python eval/run_eval.py --quick` | Smoke test: 5 questions × 1 run |
-| `python eval/run_eval.py` | Full grid: 30 questions × {multi, single} × {qwen3, llama3.1} × 3 runs. This takes many hours on a CPU and can be resumed. |
+| `python eval/run_eval.py` | Full grid: 29 questions × {multi, single} × {qwen3, llama3.1} × 3 runs. This takes many hours on a CPU and can be resumed. |
 | `python eval/run_eval.py --ablation --model qwen3:8b` | Ablation: each guardrail switched off, and τ ∈ {0.28, 0.45} |
 | `python eval/run_eval.py --score-only` | Re-score after checking answers in `eval/human_labels.csv`. This regenerates the figures, `report/tables.tex`, `numbers.tex`, `case_studies.tex` and `questions.tex`. |
 | `cd report && pdflatex report.tex && pdflatex report.tex` | Build the report |
@@ -106,7 +106,7 @@ helpdesk/guardrails.py      scope governor and citation guardrail callbacks
 helpdesk/citations.py       citation parsing and groundedness check
 ingest/extract_tables.py    Classroom Allocation / Slot System PDFs -> data/tables/*.csv (+ derived .md docs)
 ingest/build_index.py       manifest -> text (OCR for scans) -> chunks -> Chroma
-eval/questions.jsonl        30 questions with gold answers, required facts, gold sources, expected agent/tool
+eval/questions.jsonl        29 questions with gold answers, required facts, gold sources, expected agent/tool
 eval/run_eval.py            evaluation grid and ablation runner (resumable, results/*.csv)
 eval/score.py               accuracy, refusal, citation, routing, tool and stability metrics
 eval/plots.py               figures and the generated report/*.tex files
@@ -116,18 +116,20 @@ report/report.tex           report; all numbers come from the generated numbers.
 ```
 
 ## Evaluation results
-The full grid (30 questions x {multi, single} x {qwen3:8b, llama3.1:8b} x 3 runs = 360 runs) and the
-ablation (5 configurations x 30 questions, multi-agent, qwen3:8b) were run on an Apple M4 with 16 GB.
+The full grid (29 questions x {multi, single} x {qwen3:8b, llama3.1:8b} x 3 runs = 348 runs) and the
+ablation (5 configurations x 29 questions, multi-agent, qwen3:8b) were run on an Apple M4 with 16 GB.
 Raw runs and scores are in `results/`; the analysis is in `report/report.pdf`.
 
 | System | Model | Accuracy | Refusal F1 | Correct source | Latency |
 |---|---|---|---|---|---|
-| multi | qwen3:8b | 94.4% | 0.95 | 100% | 113 s |
-| single | qwen3:8b | 92.2% | 0.90 | 91.2% | 96 s |
-| multi | llama3.1:8b | 82.2% | 0.93 | 87.3% | 18 s |
-| single | llama3.1:8b | 70.0% | 0.86 | 88.2% | 20 s |
+| multi | qwen3:8b | 97.7% | 0.95 | 100% | 115 s |
+| single | qwen3:8b | 95.4% | 0.90 | 90.7% | 95 s |
+| multi | llama3.1:8b | 85.1% | 0.93 | 86.5% | 17 s |
+| single | llama3.1:8b | 72.4% | 0.86 | 89.6% | 20 s |
 
-All out-of-scope questions were refused in every run. Correctness uses automatic regex labels against the
+All out-of-scope questions were refused in every run. The original set had 30 questions; Q01 (attendance, which all
+four configurations answered from the superseded 2019 rule) was excluded after the evaluation. Its raw runs are in
+`results/excluded_Q01_runs.csv`, and the numbers here are over the remaining 29. Correctness uses automatic regex labels against the
 gold answers (`eval/questions.jsonl`); `eval/human_labels.csv` takes manual overrides and is empty.
 Questions whose outcome changed between runs are in `results/stability.csv`.
 

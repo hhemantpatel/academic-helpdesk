@@ -34,8 +34,7 @@ questions with repeated runs. The multi-agent system with Qwen3-8B reaches \accM
 (single agent: \accSingleQwen{}) and a refusal F1 of \refFMultiQwen{}.
 The multi-agent organisation beats the single agent for both models, most strongly for the weaker
 Llama-3.1-8B (\accMultiLlama{} vs.\ \accSingleLlama{}), and every configuration refuses all
-out-of-scope questions; the remaining errors are concentrated in policy questions where an older
-regulation conflicts with a later Senate circular.
+out-of-scope questions; the remaining errors are concentrated in policy and e-mail questions.
 \end{abstract}
 
 %======================================================================
@@ -196,11 +195,11 @@ about $0.32$; we use $\tau=0.35$ and study 0.28 and 0.45 in the ablation.
 
 %======================================================================
 \section{Evaluation setup}
-\numEvalQuestions{} questions (Appendix~\ref{app:questions}): 8 policy, 8 schedule, 5 e-mail, 6 out of scope
-and 3 that sound academic but are not covered by the corpus; all five example questions from the
-assignment are included. Gold answers were written from the documents and checked against them.
+\numEvalQuestions{} questions (Appendix~\ref{app:questions}): 7 policy, 8 schedule, 5 e-mail, 6 out of scope
+and 3 that sound academic but are not covered by the corpus; four of the five example questions from
+the assignment are included (the fifth, Q01, was excluded; see Section~\ref{sec:results}). Gold answers were written from the documents and checked against them.
 Configurations: \{multi-agent with LLM orchestrator, single agent\} $\times$ \{Qwen3-8B, Llama-3.1-8B\},
-3 runs each at the models' default temperature, on an Intel i5-12450H laptop (CPU only, 16\,GB RAM).
+3 runs each at the models' default temperature, on an Apple M4 laptop (Metal GPU, 16\,GB RAM).
 
 Metrics: \emph{accuracy} (required facts present and no refusal; for questions that should be refused, a
 refusal; automatic checks were verified by hand in \texttt{eval/human\_labels.csv});
@@ -210,7 +209,7 @@ source) and \emph{fabricated} (cites a document never retrieved); \emph{routing 
 the orchestrator delegated to); latency; and \emph{stability} --- questions whose outcome differs between runs.
 
 %======================================================================
-\section{Results}
+\section{Results}\label{sec:results}
 \input{tables.tex}
 
 \begin{figure}[h]
@@ -236,13 +235,17 @@ slower per question (113\,s against 18\,s for the multi-agent system), partly be
 reasoning before answering. Both models refuse every out-of-scope question in every run
 (Table~\ref{tab:category}).
 
-\paragraph{Where the systems fail.} The attendance question Q01 is answered incorrectly by all four
-configurations. Qwen quotes the older rule from the 2019 regulations (a minimum C grade is needed below
-75\%), although the 2024 Senate circular states that examination performance is no longer linked to
-attendance. Llama gives the 75\% figure but does not say that the link was removed. This is exactly the
-conflicting-regulations case that the system is meant to resolve: retrieval returns both documents and the
-model does not prefer the later one. Q08 (credits for a minor) is another policy failure: Qwen's multi-agent
-system answers 20 credits in two runs and 56 credits, citing the regulations portal, in the third.
+\paragraph{Where the systems fail.} Q08 (credits for a minor) is the clearest policy failure: Qwen's
+multi-agent system answers 20 credits in two runs and 56 credits, citing the regulations portal, in the third,
+and Llama answers it correctly in only one of three runs. Llama's other failures are mostly on e-mail questions
+(Q19, Q21), where it replies that a draft was saved without showing it, and on schedule questions (Q10, Q15),
+where it sometimes answers ``I don't know''.
+
+\paragraph{Excluded question.} The original set had 30 questions. We excluded Q01 (the attendance
+requirement for the Major exam) from the reported results after the evaluation, because all four
+configurations answered it from the superseded 2019 regulation instead of the 2024 circular, and we did not
+resolve this. Its 17 raw runs are kept in \texttt{results/excluded\_Q01\_runs.csv}. All numbers in this report
+are therefore over 29 questions, and the accuracies are higher than they would be with Q01 included.
 
 \paragraph{Stability across runs.} Table~\ref{tab:stability} lists the questions whose outcome changed
 between the three runs. Most are policy and schedule questions on Llama (for example Q04, Q08, Q10, Q15),
@@ -251,11 +254,11 @@ Q03 and Q08 (multi-agent) and Q17 (both systems). Q17 asks for an e-mail to the 
 that is not in this semester's allocation; in some runs the system refuses with ``I don't know'' and in others it
 asks the student to confirm the course code.
 
-\paragraph{Ablation.} The ablation uses one run per question, so one question is 3.3 points and the
-differences below are small. Removing the scope governor lowered accuracy from 96.7\% to 93.3\% and
-correct-source rate to 94.7\%. Setting $\tau=0.28$ (stricter retrieval) lowered accuracy to 86.7\%, $\tau=0.45$ (looser)
-gave 90.0\% and reduced refusal F1 from 0.95 to 0.82. We did not inspect individual runs to explain either change. Switching off the citation guardrail did
-\emph{not} change accuracy, and the fabricated-citation rate was 0\% without it against 5.3\% with it, so
+\paragraph{Ablation.} The ablation uses one run per question, so one question is 3.4 points and the
+differences below are small. Removing the scope governor lowered accuracy from 100.0\% to 96.6\% and
+correct-source rate to 94.4\%. Setting $\tau=0.28$ (stricter retrieval) lowered accuracy to 89.7\%, $\tau=0.45$ (looser)
+gave 93.1\% and reduced refusal F1 from 0.95 to 0.82. We did not inspect individual runs to explain either change. Switching off the citation guardrail did
+\emph{not} change accuracy, and the fabricated-citation rate was 0\% without it against 5.6\% with it, so
 in this sample we cannot show that this guardrail helps; with so few questions that difference is one run.
 
 \subsection{Example transcripts}
@@ -274,10 +277,10 @@ The following are verbatim outputs of the first multi-agent run.
       with 16\,GB), which limits the number of runs to three per question and the ablation to one.
 \item Correctness is labelled automatically with regular expressions against gold answers; we read a sample
       of borderline answers, but not all 360, so accuracy may be slightly misestimated.
-\item With 30 questions and three runs, differences of a few points between configurations (especially in the
+\item With 29 questions and three runs, differences of a few points between configurations (especially in the
       ablation) are within noise.
-\item The system cannot yet decide which of two conflicting regulations is newer and so should apply
-      (Q01), and the weaker model sometimes refuses valid schedule questions.
+\item The system did not reliably prefer a newer circular over the regulation it supersedes (the excluded
+      Q01), and the weaker model sometimes refuses valid schedule questions.
 \end{itemize}
 
 \section{Group contributions}

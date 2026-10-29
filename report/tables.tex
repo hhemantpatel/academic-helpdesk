@@ -10,10 +10,10 @@
 \toprule
 System & Model & Router & Runs & Acc. & Ref.\ F1 & False ref. & Cited & Correct src. & Fabric. & Routing & Lat.\ (s) \\
 \midrule
-Multi-agent & llama3.1:8b & llm & 90 & 82.2\% & 0.93 & 4.8\% & 83.6\% & 87.3\% & 0.0\% & 98.9\% & 17.9 \\
-Multi-agent & qwen3:8b & llm & 90 & 94.4\% & 0.95 & 4.8\% & 100.0\% & 100.0\% & 3.6\% & 100.0\% & 113.2 \\
-Single-agent & llama3.1:8b & none & 90 & 70.0\% & 0.86 & 14.3\% & 68.6\% & 88.2\% & 0.0\% & n/a & 20.4 \\
-Single-agent & qwen3:8b & none & 90 & 92.2\% & 0.90 & 9.5\% & 91.2\% & 91.2\% & 1.8\% & n/a & 96.0 \\
+Multi-agent & llama3.1:8b & llm & 87 & 85.1\% & 0.93 & 5.0\% & 82.7\% & 86.5\% & 0.0\% & 98.9\% & 17.1 \\
+Multi-agent & qwen3:8b & llm & 87 & 97.7\% & 0.95 & 5.0\% & 100.0\% & 100.0\% & 3.8\% & 100.0\% & 114.5 \\
+Single-agent & llama3.1:8b & none & 87 & 72.4\% & 0.86 & 15.0\% & 66.7\% & 89.6\% & 0.0\% & n/a & 19.8 \\
+Single-agent & qwen3:8b & none & 87 & 95.4\% & 0.90 & 10.0\% & 90.7\% & 90.7\% & 1.9\% & n/a & 95.1 \\
 \bottomrule
 \end{tabular}}
 \end{table}
@@ -28,10 +28,10 @@ Single-agent & qwen3:8b & none & 90 & 92.2\% & 0.90 & 9.5\% & 91.2\% & 91.2\% & 
 \toprule
 System & Model & Policy & Schedule & Email & Out of scope & Uncovered \\
 \midrule
-Multi-agent & llama3.1:8b & 75.0\% & 91.7\% & 53.3\% & 100.0\% & 88.9\% \\
-Multi-agent & qwen3:8b & 79.2\% & 100.0\% & 100.0\% & 100.0\% & 100.0\% \\
-Single-agent & llama3.1:8b & 62.5\% & 70.8\% & 26.7\% & 100.0\% & 100.0\% \\
-Single-agent & qwen3:8b & 87.5\% & 100.0\% & 73.3\% & 100.0\% & 100.0\% \\
+Multi-agent & llama3.1:8b & 85.7\% & 91.7\% & 53.3\% & 100.0\% & 88.9\% \\
+Multi-agent & qwen3:8b & 90.5\% & 100.0\% & 100.0\% & 100.0\% & 100.0\% \\
+Single-agent & llama3.1:8b & 71.4\% & 70.8\% & 26.7\% & 100.0\% & 100.0\% \\
+Single-agent & qwen3:8b & 100.0\% & 100.0\% & 73.3\% & 100.0\% & 100.0\% \\
 \bottomrule
 \end{tabular}}
 \end{table}
@@ -74,11 +74,11 @@ Q29 & uncovered & Multi-agent & llama3.1:8b & 2/3 & yes & 0.56 \\
 \toprule
 Configuration & Acc. & Ref.\ F1 & False ref. & Correct src. & Fabric. \\
 \midrule
-full & 96.7\% & 0.95 & 4.8\% & 100.0\% & 5.3\% \\
-no citation guardrail & 96.7\% & 0.95 & 4.8\% & 100.0\% & 0.0\% \\
-no scope guardrail & 93.3\% & 0.95 & 4.8\% & 94.7\% & 0.0\% \\
-tau 0.28 & 86.7\% & 0.95 & 4.8\% & 100.0\% & 0.0\% \\
-tau 0.45 & 90.0\% & 0.82 & 4.8\% & 94.7\% & 5.3\% \\
+full & 100.0\% & 0.95 & 5.0\% & 100.0\% & 5.6\% \\
+no citation guardrail & 100.0\% & 0.95 & 5.0\% & 100.0\% & 0.0\% \\
+no scope guardrail & 96.6\% & 0.95 & 5.0\% & 94.4\% & 0.0\% \\
+tau 0.28 & 89.7\% & 0.95 & 5.0\% & 100.0\% & 0.0\% \\
+tau 0.45 & 93.1\% & 0.82 & 5.0\% & 94.4\% & 5.6\% \\
 \bottomrule
 \end{tabular}}
 \end{table}
