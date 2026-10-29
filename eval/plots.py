@@ -216,7 +216,7 @@ def write_questions():
         f"{body}\n\\bottomrule\n\\end{{longtable}}\n\\end{{small}}\n", encoding="utf-8")
 
 
-CASE_QUESTIONS = ["Q01", "Q09", "Q10", "Q17", "Q18", "Q23"]
+CASE_QUESTIONS = ["Q08", "Q09", "Q16", "Q17", "Q22"]
 
 
 def write_case_studies(runs: pd.DataFrame):

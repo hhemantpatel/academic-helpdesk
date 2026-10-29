@@ -127,9 +127,9 @@ Raw runs and scores are in `results/`; the analysis is in `report/report.pdf`.
 | multi | llama3.1:8b | 85.1% | 0.93 | 86.5% | 17 s |
 | single | llama3.1:8b | 72.4% | 0.86 | 89.6% | 20 s |
 
-All out-of-scope questions were refused in every run. The original set had 30 questions; Q01 (attendance, which all
+All out-of-scope questions were refused in every run. The original set had 30 questions; the attendance question, originally Q01 (which all
 four configurations answered from the superseded 2019 rule) was excluded after the evaluation. Its raw runs are in
-`results/excluded_Q01_runs.csv`, and the numbers here are over the remaining 29. Correctness uses automatic regex labels against the
+`results/excluded_attendance_question_runs.csv`, and the numbers here are over the remaining 29. Correctness uses automatic regex labels against the
 gold answers (`eval/questions.jsonl`); `eval/human_labels.csv` takes manual overrides and is empty.
 Questions whose outcome changed between runs are in `results/stability.csv`.
 

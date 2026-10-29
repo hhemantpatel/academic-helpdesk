@@ -197,7 +197,7 @@ about $0.32$; we use $\tau=0.35$ and study 0.28 and 0.45 in the ablation.
 \section{Evaluation setup}
 \numEvalQuestions{} questions (Appendix~\ref{app:questions}): 7 policy, 8 schedule, 5 e-mail, 6 out of scope
 and 3 that sound academic but are not covered by the corpus; four of the five example questions from
-the assignment are included (the fifth, Q01, was excluded; see Section~\ref{sec:results}). Gold answers were written from the documents and checked against them.
+the assignment are included (the fifth, the Major-exam attendance question, was excluded; see Section~\ref{sec:results}). Gold answers were written from the documents and checked against them.
 Configurations: \{multi-agent with LLM orchestrator, single agent\} $\times$ \{Qwen3-8B, Llama-3.1-8B\},
 3 runs each at the models' default temperature, on an Apple M4 laptop (Metal GPU, 16\,GB RAM).
 
@@ -235,22 +235,22 @@ slower per question (113\,s against 18\,s for the multi-agent system), partly be
 reasoning before answering. Both models refuse every out-of-scope question in every run
 (Table~\ref{tab:category}).
 
-\paragraph{Where the systems fail.} Q08 (credits for a minor) is the clearest policy failure: Qwen's
+\paragraph{Where the systems fail.} Q07 (credits for a minor) is the clearest policy failure: Qwen's
 multi-agent system answers 20 credits in two runs and 56 credits, citing the regulations portal, in the third,
 and Llama answers it correctly in only one of three runs. Llama's other failures are mostly on e-mail questions
-(Q19, Q21), where it replies that a draft was saved without showing it, and on schedule questions (Q10, Q15),
+(Q18, Q20), where it replies that a draft was saved without showing it, and on schedule questions (Q09, Q14),
 where it sometimes answers ``I don't know''.
 
-\paragraph{Excluded question.} The original set had 30 questions. We excluded Q01 (the attendance
+\paragraph{Excluded question.} The original set had 30 questions. We excluded the attendance question (originally Q01: the attendance
 requirement for the Major exam) from the reported results after the evaluation, because all four
 configurations answered it from the superseded 2019 regulation instead of the 2024 circular, and we did not
-resolve this. Its 17 raw runs are kept in \texttt{results/excluded\_Q01\_runs.csv}. All numbers in this report
-are therefore over 29 questions, and the accuracies are higher than they would be with Q01 included.
+resolve this. Its 17 raw runs are kept in \texttt{results/excluded\_attendance\_question\_runs.csv}. All numbers in this report
+are therefore over 29 questions, and the accuracies are higher than they would be with it included.
 
 \paragraph{Stability across runs.} Table~\ref{tab:stability} lists the questions whose outcome changed
-between the three runs. Most are policy and schedule questions on Llama (for example Q04, Q08, Q10, Q15),
+between the three runs. Most are policy and schedule questions on Llama (for example Q03, Q07, Q09, Q14),
 where the same question sometimes gets a correct answer and sometimes ``I don't know''. Qwen changed less:
-Q03 and Q08 (multi-agent) and Q17 (both systems). Q17 asks for an e-mail to the instructor of CSL7570, a code
+Q02 and Q07 (multi-agent) and Q16 (both systems). Q16 asks for an e-mail to the instructor of CSL7570, a code
 that is not in this semester's allocation; in some runs the system refuses with ``I don't know'' and in others it
 asks the student to confirm the course code.
 
@@ -280,7 +280,7 @@ The following are verbatim outputs of the first multi-agent run.
 \item With 29 questions and three runs, differences of a few points between configurations (especially in the
       ablation) are within noise.
 \item The system did not reliably prefer a newer circular over the regulation it supersedes (the excluded
-      Q01), and the weaker model sometimes refuses valid schedule questions.
+      attendance question), and the weaker model sometimes refuses valid schedule questions.
 \end{itemize}
 
 \section{Group contributions}

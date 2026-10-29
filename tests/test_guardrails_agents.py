@@ -122,12 +122,12 @@ def test_scoring_rules():
     base = {"system": "multi", "model": "m", "router": "llm", "run_idx": 1, "error": "", "latency": 1, "llm_calls": 2,
             "citation_autofilled": False}
     runs = pd.DataFrame([
-        {**base, "question_id": "Q09", "answer": "It is in slot E [CLASS_ALLOC_2026, p.3].",
+        {**base, "question_id": "Q08", "answer": "It is in slot E [CLASS_ALLOC_2026, p.3].",
          "route": '["HelpdeskOrchestrator", "schedule_agent"]', "tools_called": '[["get_course_info", {}]]',
          "cited_doc_ids": '["CLASS_ALLOC_2026"]', "retrieved": '["CLASS_ALLOC_2026"]'},
-        {**base, "question_id": "Q22", "answer": REFUSAL_MESSAGE, "route": '["HelpdeskOrchestrator"]',
+        {**base, "question_id": "Q21", "answer": REFUSAL_MESSAGE, "route": '["HelpdeskOrchestrator"]',
          "tools_called": "[]", "cited_doc_ids": "[]", "retrieved": "[]"},
-        {**base, "question_id": "Q17", "answer": "CSL7570 was not found; please confirm the course code.",
+        {**base, "question_id": "Q16", "answer": "CSL7570 was not found; please confirm the course code.",
          "route": '["HelpdeskOrchestrator", "email_agent"]', "tools_called": '[["get_instructor_email", {}]]',
          "cited_doc_ids": "[]", "retrieved": "[]"},
     ])
